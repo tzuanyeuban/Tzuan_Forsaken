@@ -19,7 +19,6 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 30)
 MainFrame.BorderSizePixel = 0
 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
--- Đã tăng chiều cao lên 335 để vừa 4 nút
 MainFrame.Size = UDim2.new(0, 300, 0, 335)
 MainFrame.ClipsDescendants = false
 
@@ -84,9 +83,8 @@ local function CreateButton(name, text, pos, color1, color2, callback)
 	end)
 end
 
--- [MỚI] Nút V2.0 (Forsaken V2.0) - Nằm ở trên cùng
 CreateButton("BtnV2.0", "ForsakenV2.0", UDim2.new(0.5, 0, 0, 60), 
-	Color3.fromRGB(0, 200, 100), -- Màu xanh lá
+	Color3.fromRGB(0, 200, 100), 
 	Color3.fromRGB(0, 150, 80), 
 	function()
 		ScreenGui:Destroy()
@@ -94,7 +92,6 @@ CreateButton("BtnV2.0", "ForsakenV2.0", UDim2.new(0.5, 0, 0, 60),
 	end
 )
 
--- Nút V2.1 (Cũ) - Dời xuống vị trí 125
 CreateButton("BtnV2.1", "ForsakenV2.1", UDim2.new(0.5, 0, 0, 125), 
 	Color3.fromRGB(0, 170, 255), 
 	Color3.fromRGB(0, 100, 200), 
@@ -104,7 +101,6 @@ CreateButton("BtnV2.1", "ForsakenV2.1", UDim2.new(0.5, 0, 0, 125),
 	end
 )
 
--- Nút V2.5 (Cũ) - Dời xuống vị trí 190
 CreateButton("BtnV2.5", "ForsakenV2.5", UDim2.new(0.5, 0, 0, 190), 
 	Color3.fromRGB(255, 60, 100), 
 	Color3.fromRGB(200, 30, 60), 
@@ -114,7 +110,6 @@ CreateButton("BtnV2.5", "ForsakenV2.5", UDim2.new(0.5, 0, 0, 190),
 	end
 )
 
--- Nút Discord (Cũ) - Dời xuống vị trí 255
 CreateButton("BtnDiscord", "Discord", UDim2.new(0.5, 0, 0, 255), 
 	Color3.fromRGB(130, 100, 255), 
 	Color3.fromRGB(90, 60, 200), 
@@ -125,7 +120,6 @@ CreateButton("BtnDiscord", "Discord", UDim2.new(0.5, 0, 0, 255),
 	end
 )
 
--- Hiệu ứng mở bảng (cập nhật kích thước cuối cùng là 335)
 MainFrame.Size = UDim2.new(0,0,0,0)
 TweenService:Create(MainFrame, TweenInfo.new(0.5, Enum.EasingStyle.Back), {Size = UDim2.new(0, 300, 0, 335)}):Play()
 
