@@ -1,2 +1,8757 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local Fc,Aa,eb,kc,H,wb=getmetatable,bit32.bxor,pairs,type local A,za,Ea,p,q,db,fb,f_,c,qc,tb,J,Ta,va,Eb,Gb,x,Ec,Q,ta,Kb;fb={};db=(getfenv());Eb,Gb,A=(string.char),(string.byte),(bit32 .bxor);za=function(mb,ib)local vc,La,N,Ac;N={};La,vc=function(Qb,Cc,Xb)vc[Cc]=Aa(Qb,34883)-Aa(Xb,37389)return vc[Cc]end,{};Ac=vc[-9542]or La(62290,-9542,41597)while Ac~=36334 do if Ac<49523 then if Ac<=32742 then if Ac<=19105 then N[1]='';N[2],N[3],N[4],Ac=152,(#mb-1)+152,1,vc[27676]or La(9203,27676,47559)else N[5]=N[2]if N[3]~=N[3]then Ac=57816 else Ac=vc[-28213]or La(76166,-28213,29279)end end else N[1],Ac=N[1]..Eb(A(Gb(mb,(N[5]-152)+1),Gb(ib,(N[5]-152)%#ib+1))),vc[-20674]or La(125526,-20674,1526)end elseif Ac<51738 then if(N[4]>=0 and N[2]>N[3])or((N[4]<0 or N[4]~=N[4])and N[2]<N[3])then Ac=vc[11050]or La(73691,11050,10189)else Ac=vc[-25845]or La(27050,-25845,54634)end elseif Ac<=51738 then N[2]=N[2]+N[4];N[5]=N[2]if N[2]~=N[2]then Ac=vc[30555]or La(73911,30555,21777)else Ac=vc[17260]or La(67698,17260,11443)end else return N[1]end end end;f_=(select);c=(function(...)return{[1]={...},[2]=f_('#',...)}end);x=((function()local function Cb(Wb,wa,sb)if wa>sb then return end return Wb[wa],Cb(Wb,wa+1,sb)end return Cb end)());p,Kb=(string.gsub),(string.char);qc=(function(Zb)Zb=p(Zb,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(Zb:gsub('.',function(s_)if(s_=='=')then return''end local Pa,sc='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(s_)-1)for L=6,1,-1 do Pa=Pa..(sc%2^L-sc%2^(L-1)>0 and'1'or'0')end return Pa end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(pa)if(#pa~=8)then return''end local t_=0 for W=1,8 do t_=t_+(pa:sub(W,W)=='1'and 2^(8-W)or 0)end return Kb(t_)end))end);va,Ea,ta,J,Ta,tb,q,Ec=db[za('Xg\233B}\252','+\19\155')][za('QO\136EB\147','$!\248')],db[za('\2\212\21\24\206\0','q\160g')][za('\169\175\184','\218')],db[za('5WN/M[','F#<')][za('\222\30\200\2','\188g')],db[za("\28}\n\'L",'~\20')][za('\226\200\191\231\221\163','\142\187\215')],db[za('\21\252\3\166E','w\149')][za('kl\133py\153','\25\31\237')],db[za('<\132*\222l','^\237')][za('\218z\214\127','\184\27')],db[za('\158\234\136\231\143','\234\139')][za('\\M\153\\C\131','?\"\247')],{};Q=(function(Pb)local Ja=Ec[Pb]if Ja then return Ja end local ec,O,Ca,ja,jc=J(1,11),J(1,5),1,{},''while Ca<=#Pb do local ic=ta(Pb,Ca);Ca=Ca+1 for wc=54,(8)+53 do local R=nil if tb(ic,1)~=0 then if not(Ca<=#Pb)then else R=Ea(Pb,Ca,Ca);Ca=Ca+1 end else if Ca+1<=#Pb then local F=va(za('\247\128\251','\201'),Pb,Ca);Ca=Ca+2 local gb,Bb=#jc-Ta(F,5),tb(F,(O-1))+3;R=Ea(jc,gb,gb+Bb-1)end end ic=Ta(ic,1)if not(R)then else ja[#ja+1]=R;jc=Ea(jc..R,-ec)end end end local yb=q(ja);Ec[Pb]=yb return yb end)local I,Ka,P,u_,Sb,g,nc,lc,C,Ha,Ia,Y,Rb,ac,lb,Wa,kb,Ba,qb,ca,la,da,Qa,l_,V,e_,ha,b_,K,rb=db[za('\207j\203v','\187\19')],db[za('j\146{\157v','\26\241')],db[za('\170C\189^\189','\207\49')],db[za('\179\252\149\"\170\241\158%','\199\147\251W')],db[za('+\16</\17;','JcO')],db[za('\241\200j\231\206r','\130\173\6')],db[za('pt\163\140!\185be\182\131(\168','\3\17\215\225D\205')],db[za('\140\17\212\150\v\193','\255e\166')][za('yf\219rh\221','\31\t\169')],db[za('\28\215\168\6\205\189','o\163\218')][za('\146:\96\134\55{','\231T\16')],db[za('\182\163\205\172\185\216','\197\215\191')][za('\229\227\244','\150')],db[za('\127\182\141e\172\152','\f\194\255')][za('\24\51\14/','zJ')],db[za('\184\1\180\162\27\161','\203u\198')][za('6\145\52\139','U\249')],db[za('\148\181\130\184\133','\224\212')][za('5\230.\236','X\137')],db[za('0T&Y!','D5')][za('D\218W\208','4\187')],db[za('\151\212\129\217\134','\227\181')][za('2\19f0\21f','Qa\3')],db[za('<\15*\2-','Hn')][za('\143b\220\131~\219','\230\f\175')],db[za('\191\191\169\178\174','\203\222')][za('65t6;n','UZ\26')],db[za('\2D\20\191\20_\15\190\4','a+f\208')][za('\219\223\242\217\217\242','\184\173\151')],db[za('\155/\191\f\141\52\164\r\157','\248@\205c')][za('\96\241|\244}','\25\152')],db[za('I\248\52\216_\227/\217O','*\151F\183')][za('\170\166\228\173\174\242','\216\195\151')],db[za('-,c\211;7x\210+','NC\17\188')][za('8G4X>','[+')],db[za('\252\1R\253\1H\237','\155d&')],db[za("\193\'\215}\145",'\163N')][za('q|a','\19')],db[za('\168\210\190\136\248','\202\187')][za('r\23\127\29','\16o')],db[za('\5\250\19\160U','g\147')][za('\198v\202s','\164\23')],db[za('\200\210\222\136\152','\170\187')][za('$\195#\196\50','F\183')],db[za('\232\3\254Y\184','\138j')][za('\164\249/\191\236\51','\214\138G')],db[za('I]_\a\25','+4')][za('64*3!6','ZGB')],db[za('e\199s\157\53','\a\174')][za('\137L\230\158U\241\152','\236\52\146')],{[30767]={{6,10,false},{5,7,true},{8,0,false},{10,5,true},{8,1,false},{2,6,true},{2,6,false},{4,6,true},{4,7,true},{4,4,false},{5,0,true},{5,5,false},{4,7,true},{2,6,false},{8,1,false},{4,1,false},{10,6,true},{5,7,true},{4,3,false},{4,6,false},{2,6,false},{4,8,false},{8,9,false},{4,6,false},{2,6,true},{10,0,true},{4,7,true},{2,10,true},{4,0,false},{4,6,false},{6,3,true},{4,7,true},{4,10,false},{8,7,false},{4,7,true},{4,6,true},{8,9,false},{4,6,false},{5,7,false},{8,6,true},{6,5,true},{8,1,false},{2,6,true},{4,5,true},{4,6,false},{4,6,false},{4,0,true},{2,10,false},{4,8,false},{2,6,false},{6,1,true},{5,1,true},{6,5,false},{8,7,false},{2,7,true},{2,6,true},{2,10,true},{8,9,true},{8,1,true},{5,0,false},{5,3,true},{5,0,true},{6,6,true},{6,3,false},{2,5,true},{6,7,false},{2,4,false},{2,6,true},{4,1,false},{5,1,false},{10,0,true},{4,4,true},{4,6,false},{5,6,false},{8,0,false},{4,6,false},{4,7,true},{6,0,true},{6,0,false},{8,6,true},{8,9,false},{4,7,false},{8,6,false},{4,6,false},{8,0,false},{4,10,false},{2,6,false},{10,1,false},{2,0,false},{2,6,false},{6,3,false},{4,6,false},{2,4,false},{4,3,false},{2,0,false},{8,4,true},{2,5,false},{5,4,false},{4,6,true},{4,6,false},{10,6,false},{10,6,false},{5,4,false},{6,0,true},{10,6,true},{2,9,true},{5,1,true},{4,5,true},{5,0,false},{6,1,false},{8,4,true},{5,4,true},{4,4,true},{6,5,true},{2,3,false},{4,4,false},{4,6,false},{5,5,true},{4,6,false},{6,6,true},{2,6,false},{10,5,true},{4,6,false},{10,9,true},{4,6,false},{4,6,false},{4,9,true},{4,6,false},{10,7,true},{8,5,false},{2,4,true},{2,9,false},{10,0,true},{10,1,false},{4,7,true},{10,7,true},{6,9,false},{4,6,false},{4,6,false},{4,7,true},{4,6,false},{6,4,true},{4,6,true},{4,6,true},{2,4,true},{4,0,true},{8,0,true},{5,0,true},{4,6,false},{8,4,true},{4,7,true},{4,6,false},{10,10,false},{8,9,true},{8,0,true},{6,6,true},{8,6,true},{10,10,true},{2,9,false},{10,9,true},{4,8,false},{2,3,true},{4,0,false},{8,0,true},{4,6,false},{6,10,true},{6,7,true},{4,9,true},{4,1,true},{4,6,false},{2,5,true},{2,3,false},{4,6,false},{2,0,true},{4,6,false},{4,6,false},{4,7,true},{5,10,true},{4,6,false},{4,6,false},{8,1,false},{2,1,true},{4,3,false},{8,3,false},{8,3,false},{2,6,false},{10,3,true},{4,4,false},{6,7,true},{4,7,true},{10,6,false},{8,1,true},{2,1,false},{5,3,true},{2,1,true},{10,5,true},{5,4,true},{8,6,true},{10,4,true},{5,0,false},{8,5,false},{6,2,false},{4,10,true},{4,6,false},{2,6,false},{10,6,true},{2,5,true},{4,8,false},{8,6,false},{10,3,true},{2,6,true},{4,6,false},{8,5,false},{2,5,false},{5,6,false},{6,6,false},{5,1,false},{8,7,false},{4,6,false},{10,0,true},{5,6,false},{2,1,false},{6,10,true},{6,10,false},{4,6,false},{2,6,false},{4,4,false},{2,9,false},{5,1,false},{5,9,false},{8,5,true},{6,6,false},{4,6,false},{5,9,false},{6,5,true},{5,6,false},{2,6,true},{10,6,false},{5,9,false},{4,10,false},{2,9,false},{2,6,false},{2,9,true},{5,7,true},{5,4,false},{4,10,false},{5,3,false},{4,6,false},{2,6,false},{6,1,true},{2,9,true},{8,4,true},{4,3,false},{10,10,true},{5,9,false},{2,6,true}},[10400]={},[27674]={}}local rc=(function(qa)local ea=rb[27674][qa]if ea then return ea end local n_=1 local function _c()local Yb,Dc,B,tc,nb,xa,pc,Bc,d_,S,Ga,oa,ra,h,z,E,Va,T,gc,Ub,Fa,Da,cb,Ab,aa,mc,oc,v,Vb,xb,Db,y;Ab,d_={},function(U,Ib,Xa)Ab[Ib]=Aa(Xa,57231)-Aa(U,65300)return Ab[Ib]end;Va=Ab[-31576]or d_(9924,-31576,327)while Va~=41011 do if Va>=32812 then if Va<51737 then if Va<42056 then if Va<=38407 then if Va<=34355 then if Va>=33239 then if Va>=34272 then if Va>34272 then if(Vb==3)then Va=Ab[-19142]or d_(9038,-19142,130513)continue else Va=Ab[-4518]or d_(25420,-4518,87072)continue end Va=Ab[18819]or d_(16701,18819,85767)else Va,tc=62621,l_(T,86)continue end else aa,E,Va=B,nil,13189 end elseif Va<=32812 then Dc[31716]=mc[K(Dc[33417],0,24)+1];Dc[28012],Va=K(Dc[33417],31,1)==1,Ab[29598]or d_(37255,29598,106365)else Va,Yb,B=Ab[2572]or d_(8615,2572,121566),Fa,nil end elseif Va>=36955 then if Va<=36955 then Va,mc=Ab[9214]or d_(7078,9214,69266),l_(y,86)continue else Va=Ab[8389]or d_(30907,8389,107482)continue end elseif Va>36196 then Ga,Va=c(nil),11719 else pc[35057]=V(ha(Ub,8),255);pc[62082]=V(ha(Ub,16),255);Va,pc[41628]=Ab[13105]or d_(129,13105,121858),V(ha(Ub,24),255)end elseif Va<39322 then if Va<=38580 then if Va<38566 then z=Ub if Dc~=Dc then Va=Ab[-3823]or d_(62797,-3823,35108)else Va=Ab[24178]or d_(10604,24178,90920)end elseif Va>38566 then if(cb>=0 and h>Db)or((cb<0 or cb~=cb)and h<Db)then Va=Ab[16698]or d_(58352,16698,46563)else Va=65165 end else if z==6 then Va=Ab[8159]or d_(54900,8159,59853)continue elseif z==4 then Va=Ab[11654]or d_(57711,11654,29776)continue end Va=Ab[-17134]or d_(21101,-17134,28414)end else Va,y=60365,nil end elseif Va>40866 then Dc,Va=l_(Vb,86),24013 continue elseif Va<=40337 then if Va>39322 then Ga,Va=c'',Ab[-23358]or d_(39590,-23358,101107)continue else Ub=Bc;Dc=V(Ub,255);Vb=rb[30767][Dc+1];z,Ga,oc=Vb[1],Vb[2],Vb[3];pc={[62082]=0,[50122]=0,[40435]=0,[9966]=0,[39563]=0,[31716]=0,[2803]=0,[35057]=0,[57145]=nil,[28012]=0,[36065]=Dc,[13628]=Ga,[59599]=0,[33417]=0,[41628]=0};Wa(oa,pc)if(z==2)then Va=Ab[-11153]or d_(48737,-11153,119559)continue else Va=Ab[22867]or d_(21814,22867,106311)continue end Va=1016 end else if v then Va=Ab[-18702]or d_(25001,-18702,102511)continue else Va=Ab[-25864]or d_(8985,-25864,96235)continue end Va=Ab[31902]or d_(37530,31902,23939)end elseif Va>45697 then if Va<=50585 then if Va>49731 then if Va>50288 then Dc=Ub;xb=Qa(xb,b_(V(Dc,127),(Bc-189)*7))if not e_(Dc,128)then Va=Ab[26111]or d_(42087,26111,125012)continue end Va=Ab[-18269]or d_(10014,-18269,95991)else Vb=C(za('\3','A'),qa,n_);Va,n_=41148,n_+1 end elseif Va>=46979 then if Va<=46979 then Va=Ab[-25310]or d_(15805,-25310,124026)continue else pc,h=V(ha(z,10),1023),V(ha(z,0),1023);Dc[2803]=mc[pc+1];Va,Dc[9966]=Ab[-14214]or d_(22831,-14214,108309),mc[h+1]end else y=y+Bc;Ub=y if y~=y then Va=Ab[-7862]or d_(8320,-7862,94027)else Va=30314 end end elseif Va>50808 then Dc=oa[(Ub-65)];Vb=Dc[13628]if Vb==7 then Va=Ab[31962]or d_(21373,31962,82070)continue elseif(Vb==8)then Va=Ab[-27379]or d_(47565,-27379,21770)continue else Va=Ab[-2272]or d_(40758,-2272,100618)continue end Va=Ab[-30656]or d_(34980,-30656,103808)elseif Va>50665 then ra,Va=nil,Ab[28884]or d_(54426,28884,122073)else cb=pc if h~=h then Va=Ab[-23694]or d_(11400,-23694,82417)else Va=16928 end end elseif Va<=45083 then if Va>=43384 then if Va>=44252 then if Va>44252 then if(Bc>=0 and y>Da)or((Bc<0 or Bc~=Bc)and y<Da)then Va=Ab[-5276]or d_(50669,-5276,3153)else Va=Ab[3390]or d_(63320,3390,4029)end else Va,Ub=Ab[-30421]or d_(42117,-30421,17526),nil end else z,Va=nil,Ab[-6697]or d_(23222,-6697,110497)end elseif Va<42179 then y=ra if xb~=xb then Va=Ab[32309]or d_(22910,32309,111469)else Va=12820 end elseif Va<=42179 then Va,oc=30048,nil else Va,h=Ab[31369]or d_(46930,31369,38856),nil end elseif Va>45347 then Db=C(za('M','.')..pc,qa,n_);Va,n_=Ab[19478]or d_(15095,19478,83509),n_+pc elseif Va>=45326 then if Va<=45326 then Va,Dc[31716]=Ab[15312]or d_(48270,15312,117366),K(Dc[33417],0,16)else Va,v=Ab[8130]or d_(53408,8130,39869),false end else Va=Ab[13903]or d_(10672,13903,129955)continue end elseif Va<=56424 then if Va>53614 then if Va<55240 then if Va<54231 then if Va>53616 then y=y+Bc;Ub=y if y~=y then Va=39141 else Va=45083 end else z,Va=l_(Ga,86),23152 continue end elseif Va<=54231 then h,Va=Db,Ab[-7050]or d_(41478,-7050,17529)continue else xa,nb,Va=E,nil,Ab[-6405]or d_(6183,-6405,9535)end elseif Va>56185 then Va=Ab[-27781]or d_(19590,-27781,129985)continue elseif Va<=55833 then if Va<=55240 then xb=0;y,mc,Da,Va=193,189,1,11544 else z=Dc[33417];Ga,oc=ha(z,30),V(ha(z,20),1023);Dc[31716]=mc[oc+1];Dc[39563]=Ga if(Ga==2)then Va=Ab[5006]or d_(38895,5006,103620)continue else Va=Ab[279]or d_(12816,279,127058)continue end Va=Ab[16650]or d_(51845,16650,120959)end else Va,h=Ab[3]or d_(60734,3,6948),nil end elseif Va>=52357 then if Va>=52700 then if Va<53552 then Va,z=Ab[-46]or d_(36132,-46,14131),x(Ga[1],1,Ga[2])elseif Va>53552 then mc=mc+Da;Bc=mc if mc~=mc then Va=Ab[8759]or d_(7312,8759,101327)else Va=Ab[18714]or d_(1023,18714,108339)end else Bc,Da,y,Va=1,(S)+65,66,Ab[-4472]or d_(2457,-4472,116177)end elseif Va<=52357 then oc=C(za('\184\224','\132'),qa,n_);n_,Va=n_+8,Ab[-4124]or d_(1782,-4124,129662)else pc=pc+Db;cb=pc if pc~=pc then Va=Ab[26739]or d_(59853,26739,15924)else Va=16928 end end elseif Va<=51938 then if Va>=51852 then if Va<=51852 then Ga=C(za('\167','\229'),qa,n_);Va,n_=53616,n_+1 else Ga,Va=c(l_(oc,1229456484)),52700 continue end else Vb=Bc if Ub~=Ub then Va=Ab[-30894]or d_(15697,-30894,92516)else Va=30181 end end elseif Va>51987 then Va,Da=19091,nil else pc[35057]=V(ha(Ub,8),255);h=V(ha(Ub,16),65535);pc[59599]=h;Db=nil;Db=if h<32768 then h else h-65536;pc[50122],Va=Db,Ab[8500]or d_(42846,8500,33741)end elseif Va<=62128 then if Va<60523 then if Va<=59660 then if Va>58927 then Db=h;pc[33417]=Db;Wa(oa,{});Va=Ab[4406]or d_(22791,4406,122550)elseif Va>57936 then if(Vb>=0 and Ub>Dc)or((Vb<0 or Vb~=Vb)and Ub<Dc)then Va=19538 else Va=25818 end else pc=V(ha(z,10),1023);Dc[2803],Va=mc[pc+1],Ab[4536]or d_(13398,4536,82478)end else Da=0;Bc,Va,Dc,Ub=27,51737,1,31 end elseif Va<61386 then if Va<=60523 then y=mc;S=Qa(S,b_(V(y,127),(xb-168)*7))if not e_(y,128)then Va=Ab[-23084]or d_(11826,-23084,87846)continue end Va=Ab[-6505]or d_(63140,-6505,48353)else if(Vb==9)then Va=Ab[13129]or d_(23426,13129,29279)continue else Va=Ab[30381]or d_(46750,30381,29092)continue end Va=Ab[3212]or d_(53375,3212,122437)end elseif Va>61923 then Va,Dc[31716]=Ab[8118]or d_(47041,8118,115899),mc[Dc[33417]+1]elseif Va>61386 then gc=C(za('\245','\183'),qa,n_);Va,n_=Ab[29443]or d_(56264,29443,60411),n_+1 else z,Va=x(Ga[1],1,Ga[2]),Ab[-6036]or d_(8370,-6036,100797)end elseif Va<63050 then if Va>62621 then y,Va=l_(Da,1229456484),30850 continue elseif Va>=62473 then if Va>62473 then T=tc;oc=Qa(oc,b_(V(T,127),(cb-92)*7))if not e_(T,128)then Va=Ab[-4209]or d_(24193,-4209,820)continue end Va=Ab[4235]or d_(35932,4235,106381)else S=nb;oa,v=lb(S),false;ra,mc,xb,Va=31,1,(S)+30,Ab[27830]or d_(61991,27830,28404)end else pc=oc if pc==0 then Va=Ab[-19759]or d_(39006,-19759,121684)continue else Va=Ab[-21296]or d_(50622,-21296,117164)continue end Va=Ab[15926]or d_(51128,15926,736)end elseif Va<=64135 then if Va>=63075 then if Va<=63075 then if(Vb==1)then Va=Ab[-19561]or d_(54271,-19561,29336)continue else Va=Ab[-26393]or d_(57412,-26393,37621)continue end Va=Ab[25477]or d_(18123,25477,86961)else tc=h if Db~=Db then Va=Ab[-28998]or d_(37552,-28998,25763)else Va=38580 end end else Ub=C(za('\"W*','\30'),qa,n_);n_,Va=n_+4,29784 end else Va,T=Ab[-9776]or d_(10722,-9776,71510),nil end elseif Va>=16928 then if Va>=24013 then if Va<=30048 then if Va<25818 then if Va<25078 then if Va>24013 then if(ra>=0 and oa>v)or((ra<0 or ra~=ra)and oa<v)then Va=Ab[3908]or d_(48013,3908,25194)else Va=30457 end else Vb=Dc if Vb==3 then Va=Ab[-103]or d_(2848,-103,126829)continue elseif(Vb==0)then Va=Ab[11596]or d_(43612,11596,15432)continue else Va=Ab[-3258]or d_(8815,-3258,119156)continue end Va=30348 end elseif Va<25305 then z,Va=Ga,Ab[-1455]or d_(7862,-1455,100257)elseif Va<=25305 then if(Ga==3)then Va=Ab[8089]or d_(51219,8089,9925)continue else Va=Ab[-22942]or d_(13523,-22942,82345)continue end Va=Ab[-19358]or d_(48753,-19358,117835)else if Vb==4 then Va=Ab[14486]or d_(20207,14486,113798)continue end Va=Ab[26318]or d_(1099,26318,70193)end elseif Va<29784 then if Va>25818 then ra,Va=l_(xb,1229456484),14988 continue else Va,Bc[(z-92)]=Ab[-26901]or d_(30593,-26901,26570),_c()end elseif Va>30014 then pc=0;Db,Va,cb,h=35,64135,1,31 elseif Va>29784 then Va,h=Ab[15539]or d_(49244,15539,128987),l_(Db,826031194)continue else Bc,Va=l_(Ub,826031194),39322 continue end elseif Va>=30850 then if Va>=31697 then if Va<=31697 then if(Da>=0 and mc>y)or((Da<0 or Da~=Da)and mc<y)then Va=Ab[-29618]or d_(25923,-29618,119964)else Va=44252 end else Va,tc=5957,nil end elseif Va>30850 then nb,Va=l_(S,1229456484),Ab[24541]or d_(47705,24541,124633)continue else Da=y;Bc=lb(Da);Ub,Va,Vb,Dc=93,38500,1,(Da)+92 end elseif Va>30348 then mc,Va=nil,Ab[-31016]or d_(62838,-31016,40828)elseif Va>30314 then mc[(Ub-121)],Va=z,Ab[561]or d_(11534,561,88606)elseif Va>30181 then if(Bc>=0 and y>Da)or((Bc<0 or Bc~=Bc)and y<Da)then Va=53552 else Va=Ab[25803]or d_(39029,25803,29270)end else if(Dc>=0 and Bc>Ub)or((Dc<0 or Dc~=Dc)and Bc<Ub)then Va=Ab[-11368]or d_(20545,-11368,97396)else Va=43384 end end elseif Va>=19848 then if Va>22974 then if Va>=23334 then if Va<=23334 then Va,Da=Ab[7897]or d_(1188,7897,116284),oc continue else Ub=y if Da~=Da then Va=53552 else Va=30314 end end elseif Va<=23043 then xb=oa if v~=v then Va=Ab[-12124]or d_(38683,-12124,16084)else Va=25015 end else Ga=z;Da=Qa(Da,b_(V(Ga,127),(Vb-27)*7))if not e_(Ga,128)then Va=Ab[27610]or d_(15654,27610,100278)continue end Va=Ab[-31874]or d_(19780,-31874,27097)end elseif Va<=20494 then if Va>19995 then Ga,Va=c(nil),42179 elseif Va>19848 then h=h+cb;tc=h if h~=h then Va=Ab[-19977]or d_(8420,-19977,127735)else Va=Ab[-16624]or d_(48746,-16624,1981)end else oc,Va=l_(pc,1229456484),Ab[21212]or d_(9030,21212,69754)continue end elseif Va<=22149 then Va,B=33239,l_(aa,86)continue else oa=oa+ra;xb=oa if oa~=oa then Va=Ab[29663]or d_(50958,29663,28393)else Va=25015 end end elseif Va<=18040 then if Va>=17924 then if Va<=17951 then if Va<=17924 then Dc[31716],Va=mc[Dc[62082]+1],Ab[-32035]or d_(18694,-32035,88062)else Va,Fa=Ab[29366]or d_(20046,29366,126541),l_(Yb,86)continue end else Va,Dc=Ab[-32647]or d_(5747,-32647,94808),nil end elseif Va<=16928 then if(Db>=0 and pc>h)or((Db<0 or Db~=Db)and pc<h)then Va=Ab[-28486]or d_(8721,-28486,96360)else Va=31943 end else Va,Dc[31716]=Ab[-5345]or d_(47902,-5345,117222),mc[Dc[35057]+1]end elseif Va>19202 then return{[13282]='',[18941]=Bc,[20698]=Yb,[20916]=xa,[50435]=oa,[45646]=aa}elseif Va>19091 then Va,z=Ab[3388]or d_(50676,3388,28387),nil else Bc,Va=nil,Ab[-10239]or d_(25959,-10239,85810)end elseif Va>=9886 then if Va>=12672 then if Va<=14988 then if Va>=13189 then if Va<=13969 then if Va<=13189 then xa=C(za('\193','\131'),qa,n_);n_,Va=n_+1,Ab[-4913]or d_(24849,-4913,26071)else y=C(za(']','\31'),qa,n_);Va,n_=Ab[11624]or d_(32949,11624,118899),n_+1 end else xb=ra;mc=lb(xb);Va,Bc,Da,y=Ab[8064]or d_(39562,8064,7733),1,(xb)+121,122 end elseif Va<=12672 then if(Vb==5)then Va=Ab[-29694]or d_(54948,-29694,43837)continue else Va=Ab[10208]or d_(25189,10208,31884)continue end Va=Ab[-20071]or d_(28389,-20071,120818)else if(mc>=0 and ra>xb)or((mc<0 or mc~=mc)and ra<xb)then Va=50808 else Va=40866 end end elseif Va<16100 then if Va>15142 then Va,Ga=52357,nil else Va=Ab[-1008]or d_(11318,-1008,82315)continue end elseif Va<=16100 then Ga,Va=c(h),61386 continue else Dc=C(za('\169','\235'),qa,n_);n_,Va=n_+1,Ab[29775]or d_(37149,29775,17596)end elseif Va>=11562 then if Va>11818 then Ub=Ub+Vb;z=Ub if Ub~=Ub then Va=Ab[6047]or d_(25783,6047,14458)else Va=Ab[-30445]or d_(31174,-30445,111246)end elseif Va<=11719 then if Va<=11562 then Ub,Va=l_(Dc,86),Ab[-18312]or d_(20806,-18312,109668)continue else oc=0;pc,h,Va,Db=92,96,Ab[12472]or d_(59184,12472,386),1 end else if(Vb==0)then Va=Ab[-4108]or d_(47277,-4108,130653)continue else Va=Ab[-30759]or d_(37131,-30759,45370)continue end Va=Ab[27384]or d_(23338,27384,108818)end elseif Va<=11279 then if Va>=10547 then if Va>10547 then Ga,Va=oc,Ab[-31622]or d_(1813,-31622,99960)continue else Yb=C(za('5','w'),qa,n_);n_,Va=n_+1,17951 end else aa=C(za('f','$'),qa,n_);n_,Va=n_+1,22149 end else Bc=mc if y~=y then Va=Ab[-21798]or d_(3046,-21798,113185)else Va=31697 end end elseif Va<=3992 then if Va>1272 then if Va>3298 then T,Va=l_(gc,86),4343 continue elseif Va<=2362 then if Va>1426 then Dc[31716],Va=mc[Dc[50122]+1],Ab[27097]or d_(26381,27097,112119)else if(Vb==6)then Va=Ab[5657]or d_(55406,5657,43015)continue else Va=Ab[13345]or d_(59617,13345,20750)continue end Va=Ab[-19792]or d_(59726,-19792,21353)end else h,Db=V(ha(Ub,8),16777215),nil;Db=if h<8388608 then h else h-16777216;Va,pc[40435]=Ab[-10114]or d_(4644,-10114,11943),Db end elseif Va<1016 then if Va>1 then if(Vb==2)then Va=Ab[12251]or d_(62199,12251,62273)continue else Va=Ab[28374]or d_(40264,28374,14080)continue end Va=Ab[-608]or d_(65393,-608,3403)else Db=C(za('\17d\25','-'),qa,n_);n_,Va=n_+4,30014 end elseif Va>=1030 then if Va<=1030 then Bc=Bc+Dc;Vb=Bc if Bc~=Bc then Va=Ab[27629]or d_(37232,27629,113797)else Va=30181 end else Va,Fa=10547,nil end else if(oc)then Va=Ab[-15607]or d_(9360,-15607,89781)continue else Va=Ab[-11552]or d_(31194,-11552,15995)continue end Va=Ab[-14521]or d_(37445,-14521,6136)end elseif Va<=7251 then if Va>5246 then if Va>5957 then Va,E=55173,l_(xa,86)continue else T=C(za('\145','\211'),qa,n_);n_,Va=n_+1,Ab[-13267]or d_(32263,-13267,121212)end elseif Va>4989 then ra=ra+mc;y=ra if ra~=ra then Va=50808 else Va=Ab[-27086]or d_(59613,-27086,38482)end elseif Va<=4343 then gc=T;pc=Qa(pc,b_(V(gc,127),(tc-31)*7))if not e_(gc,128)then Va=Ab[776]or d_(41745,776,119760)continue end Va=Ab[17347]or d_(62159,17347,33913)else S=0;v,ra,Va,oa=172,1,Ab[-28483]or d_(49395,-28483,18021),168 end elseif Va<7915 then Va,v=Ab[27036]or d_(6922,27036,10003),Da elseif Va<=7915 then Va,Dc[31716]=Ab[-28321]or d_(4712,-28321,90196),mc[Dc[40435]+1]else Ub=y if Da~=Da then Va=39141 else Va=45083 end end end end local cc=_c();rb[27674][qa]=cc return cc end)local jb=(function(Za,ga)Za=rc(Za)local Hb=da()local function Ra(fa_,Ua)local ub=(function(...)return{...},g('#',...)end)local sa;sa=(function(bc,ia,Na)if ia>Na then return end return bc[ia],sa(bc,ia+1,Na)end)local function ma(w_,Nb,ob,zc)local ba,fc,Mb,Fb,hb,bb,m,ya,_b,G,Ma,Oa,k,ab,Sa,D,o_,na,Jb,Ob,Ya,ua,pb,uc;Ma,Mb={},function(X,i_,Tb)Ma[X]=Aa(i_,22863)-Aa(Tb,30232)return Ma[X]end;na=Ma[28406]or Mb(28406,82826,19682)repeat if na<=33905 then if na<19015 then if na>=10558 then if na>=13984 then if na<=15878 then if na<=14682 then if na>=14379 then if na<=14559 then if na<=14379 then if(Sa==2)then na=Ma[-15619]or Mb(-15619,32974,64199)continue else na=Ma[23994]or Mb(23994,50927,29478)continue end na=Ma[10883]or Mb(10883,34522,13099)else P(o_);na=Ma[-5113]or Mb(-5113,28890,28708)end else if k>173 then na=Ma[-27925]or Mb(-27925,346,14374)continue else na=Ma[-653]or Mb(-653,97348,47801)continue end na=Ma[23518]or Mb(23518,87822,41532)end elseif na<=13984 then ab+=ua[50122];na=Ma[-19560]or Mb(-19560,12133,18965)else if k>49 then na=Ma[18186]or Mb(18186,35933,1324)continue else na=Ma[10449]or Mb(10449,44800,56056)continue end na=Ma[2628]or Mb(2628,85425,44281)end elseif na<15849 then if not m then na=Ma[20738]or Mb(20738,105651,32795)continue end na=Ma[-18916]or Mb(-18916,57401,54111)elseif na<=15849 then ba=ya if Ob~=Ob then na=Ma[-21072]or Mb(-21072,43974,52852)else na=Ma[-31377]or Mb(-31377,119164,55907)end else ab-=1;na,ob[ab]=Ma[-27708]or Mb(-27708,41555,46823),{[36065]=127,[35057]=l_(ua[35057],152),[62082]=l_(ua[62082],2),[41628]=0}end elseif na<=18377 then if na<17940 then if na<=16156 then ya=ya+o_;ba=ya if ya~=ya then na=Ma[-13139]or Mb(-13139,46415,51195)else na=Ma[11254]or Mb(11254,85626,19813)end else ab-=1;na,ob[ab]=Ma[-26870]or Mb(-26870,33934,54716),{[36065]=169,[35057]=l_(ua[35057],130),[62082]=l_(ua[62082],33),[41628]=0}end elseif na>17940 then if(k>142)then na=Ma[1990]or Mb(1990,6303,27100)continue else na=Ma[-31047]or Mb(-31047,118182,55345)continue end na=Ma[-11694]or Mb(-11694,62927,1147)else na,w_[ua[35057]]=Ma[31891]or Mb(31891,52555,12287),w_[ua[41628]]%ua[31716]end elseif na>18799 then na,o_[(fc-85)]=Ma[-9347]or Mb(-9347,96098,58835),pb else if(k>19)then na=Ma[6511]or Mb(6511,15206,13300)continue else na=Ma[-29701]or Mb(-29701,85054,2853)continue end na=Ma[-22037]or Mb(-22037,87361,42985)end elseif na<=12113 then if na<11879 then if na>=11638 then if na<=11638 then if(Ob>0)then na=Ma[22970]or Mb(22970,66624,50411)continue else na=Ma[27898]or Mb(27898,10126,23762)continue end na=Ma[-10093]or Mb(-10093,39557,65461)else o_[2]=o_[3][o_[1]];o_[3]=o_;o_[1]=2;na,Jb[Ob]=Ma[1913]or Mb(1913,70334,1344),nil end elseif na<=10558 then if k>18 then na=Ma[-6521]or Mb(-6521,43046,62746)continue else na=Ma[-6630]or Mb(-6630,44330,55369)continue end na=Ma[26660]or Mb(26660,1472,21610)else Ob,o_=Fb(_b,ya);ya=Ob if ya==nil then na=Ma[-29576]or Mb(-29576,71160,34114)else na=4814 end end elseif na<12043 then if na<=11879 then if(k>116)then na=Ma[-28138]or Mb(-28138,91347,49739)continue else na=Ma[-27599]or Mb(-27599,68955,10442)continue end na=Ma[-21274]or Mb(-21274,94854,34740)else ab+=ua[50122];na=Ma[-15559]or Mb(-15559,1766,21396)end elseif na>12043 then w_[D+2]=w_[D+3];ab+=ua[50122];na=Ma[-23786]or Mb(-23786,1088,21738)else na,D,Fb,_b=36162,ua[39563],ob[ab+1],nil end elseif na>=13148 then if na<13159 then P'';na=Ma[19820]or Mb(19820,115660,41522)elseif na<=13159 then Fb,_b,ya=eb(Fb);na=Ma[-26051]or Mb(-26051,8270,1154)else if(G>=0 and ba>uc)or((G<0 or G~=G)and ba<uc)then na=Ma[22112]or Mb(22112,65697,48597)else na=Ma[-976]or Mb(-976,84113,56053)end end elseif na>12965 then D=Fc(Fb)if D~=nil and D[za('+\200C\0\242X','t\151*')]~=nil then na=Ma[17934]or Mb(17934,40699,22209)continue elseif kc(Fb)==za('PHFEA','$)')then na=Ma[-102]or Mb(-102,12696,30304)continue end na=Ma[21695]or Mb(21695,71246,112)elseif na<=12711 then if k>29 then na=Ma[10172]or Mb(10172,87165,56587)continue else na=Ma[29779]or Mb(29779,120697,60832)continue end na=Ma[-24315]or Mb(-24315,47665,57209)else fc=ba if uc~=uc then na=Ma[27280]or Mb(27280,35517,61389)else na=19015 end end elseif na<=5034 then if na<=2637 then if na<=1639 then if na<=1407 then if na<=1160 then if na<=1007 then Fb,_b,ya=D[za('\251U\164\208o\191','\164\n\205')](Fb);na=Ma[-12501]or Mb(-12501,43447,45706)else ab-=1;ob[ab],na={[36065]=44,[35057]=l_(ua[35057],130),[62082]=l_(ua[62082],58),[41628]=0},Ma[24555]or Mb(24555,94739,34599)end else if ua[41628]==100 then na=Ma[-472]or Mb(-472,37830,61891)continue else na=Ma[21477]or Mb(21477,72812,57102)continue end na=Ma[25568]or Mb(25568,62446,1692)end elseif na<=1446 then Ob,o_=w_[D+1],nil;ba=Ob;o_=I(ba)==za('\190h\243\178x\236','\208\29\158')if not o_ then na=Ma[-23934]or Mb(-23934,120217,37176)continue end na=Ma[-25418]or Mb(-25418,15885,14608)else Ob,o_=Fb(_b,ya);ya=Ob if ya==nil then na=Ma[-2720]or Mb(-2720,2518,24676)else na=Ma[-23952]or Mb(-23952,117246,45889)end end elseif na<=2519 then if na<=2347 then fc={[2]=w_[uc[62082]],[1]=2};fc[3]=fc;na,_b[(ba-25)]=Ma[13444]or Mb(13444,64078,5629),fc else if k>214 then na=Ma[17919]or Mb(17919,961,9817)continue else na=Ma[-30159]or Mb(-30159,15306,32261)continue end na=Ma[-8875]or Mb(-8875,51449,8577)end else if k>225 then na=Ma[5465]or Mb(5465,42224,14143)continue else na=Ma[-16859]or Mb(-16859,79168,53514)continue end na=Ma[25956]or Mb(25956,62358,1700)end elseif na>4494 then if na>4814 then if k>160 then na=Ma[-10848]or Mb(-10848,86265,8258)continue else na=Ma[-32151]or Mb(-32151,90247,61493)continue end na=Ma[-15161]or Mb(-15161,49186,10568)else la(o_);Ya[Ob],na=nil,Ma[25604]or Mb(25604,25128,31001)end elseif na<3335 then if na>2906 then D,Fb=ua[35057],ua[62082];_b,ya=Ka(kb,w_,'',D,Fb)if(not _b)then na=Ma[22634]or Mb(22634,79542,52243)continue else na=Ma[19270]or Mb(19270,44355,21601)continue end na=Ma[-24982]or Mb(-24982,127988,44848)else w_[ua[35057]],na=_b[ua[2803]][ua[9966]],Ma[-26026]or Mb(-26026,80304,2983)end elseif na<=3335 then na,w_[ua[35057]]=Ma[11806]or Mb(11806,14211,17079),nil else Ob=u_(Fb)if(Ob==nil)then na=Ma[30541]or Mb(30541,82951,17971)continue else na=Ma[-5479]or Mb(-5479,42864,18386)continue end na=52341 end elseif na<=7229 then if na>6160 then if na<=6600 then if na<=6202 then uc,G=w_[D+2],nil;fc=uc;G=I(fc)==za(',\t\139 \25\148','B|\230')if not G then na=Ma[-11361]or Mb(-11361,91025,15496)continue end na=11638 else D=ua[31716];w_[ua[41628]]=w_[ua[35057]][D];ab+=1;na=Ma[29612]or Mb(29612,26083,29847)end else if(k>44)then na=Ma[-26501]or Mb(-26501,80487,48694)continue else na=Ma[9948]or Mb(9948,84101,38459)continue end na=Ma[31453]or Mb(31453,61760,7146)end elseif na>=5634 then if na<=5634 then D,Fb,_b=ua[31716],ua[28012],w_[ua[35057]]if((_b==D)~=Fb)then na=Ma[-24894]or Mb(-24894,97906,48320)continue else na=Ma[-23689]or Mb(-23689,90683,64262)continue end na=Ma[-31480]or Mb(-31480,57598,2444)else if(ba>=0 and Ob>o_)or((ba<0 or ba~=ba)and Ob<o_)then na=Ma[-16149]or Mb(-16149,89507,17729)else na=41078 end end elseif na<=5064 then D=Ua[ua[62082]+1];na,w_[ua[35057]]=Ma[-30729]or Mb(-30729,86361,48097),D[3][D[1]]else m=false;ab+=1 if k>130 then na=Ma[5023]or Mb(5023,82803,38650)continue else na=Ma[-9829]or Mb(-9829,34196,54050)continue end na=Ma[-27679]or Mb(-27679,2211,25047)end elseif na<9131 then if na>=8716 then if na>8716 then if o_==-2 then na=Ma[16835]or Mb(16835,52860,21173)continue else na=Ma[-2561]or Mb(-2561,103551,44156)continue end na=Ma[28272]or Mb(28272,26299,29647)else if k>148 then na=Ma[-18028]or Mb(-18028,14172,21937)continue else na=Ma[25436]or Mb(25436,118182,46254)continue end na=Ma[-24420]or Mb(-24420,45266,55704)end else uc=Ob if o_~=o_ then na=Ma[-16199]or Mb(-16199,115478,48862)else na=6160 end end elseif na<9518 then Sa=G if fc~=fc then na=Ma[-16947]or Mb(-16947,90744,60581)else na=Ma[-13581]or Mb(-13581,41754,25379)end elseif na<=9518 then o_,ba=Fb[9966],ua[9966];ba=za('\193\230\170^#\170','\"\211l')..ba;uc='';na,fc,bb,G=9131,(#o_-1)+102,1,102 else if ua[41628]==201 then na=Ma[30517]or Mb(30517,43319,19600)continue else na=Ma[-13543]or Mb(-13543,130713,41647)continue end na=Ma[13354]or Mb(13354,89900,47710)end elseif na<=25962 then if na<=22428 then if na>20812 then if na>=21473 then if na<21520 then if na>21473 then if(not(Fb<=uc))then na=Ma[27719]or Mb(27719,51968,23873)continue else na=Ma[-16534]or Mb(-16534,37670,58964)continue end na=Ma[-11255]or Mb(-11255,60036,4022)else D,Fb=ua[39563],ua[31716];_b=Hb[Fb]or rb[10400][Fb]if(D==1)then na=Ma[-13994]or Mb(-13994,52824,17679)continue else na=Ma[24656]or Mb(24656,42687,53878)continue end na=58176 end elseif na<=21520 then _b,ya=D[31716],ua[31716];ya=za('n\21j\241\208j','\141 \172')..ya;Ob='';uc,o_,ba,na=1,134,(#_b-1)+134,62866 else D,Fb=ua[35057],ua[62082];_b=Fb-1 if _b==-1 then na=Ma[17675]or Mb(17675,42193,58138)continue else na=Ma[-12581]or Mb(-12581,97126,12573)continue end na=58006 end elseif na<=21150 then if na>21148 then Oa={[2]=w_[bb[62082]],[1]=2};Oa[3]=Oa;na,o_[(fc-85)]=Ma[18031]or Mb(18031,45881,9740),Oa else pb={[1]=Oa,[3]=w_};Jb[Oa],na=pb,Ma[2046]or Mb(2046,32948,58940)end else bb=uc if G~=G then na=Ma[12644]or Mb(12644,86607,5151)else na=47136 end end elseif na<19618 then if na>=19074 then if na>19074 then ab-=1;ob[ab],na={[36065]=178,[35057]=l_(ua[35057],69),[62082]=l_(ua[62082],206),[41628]=0},Ma[5322]or Mb(5322,8771,14071)else Ob,na=Ob..Y(l_(Ia(_b,(G-134)+1),Ia(ya,(G-134)%#ya+1))),Ma[-25599]or Mb(-25599,44816,11692)end elseif na>19015 then ab+=1;na=Ma[-11772]or Mb(-11772,3647,27467)else if(G>=0 and ba>uc)or((G<0 or G~=G)and ba<uc)then na=Ma[14510]or Mb(14510,5652,25382)else na=Ma[32145]or Mb(32145,81308,53609)end end elseif na>=20696 then if na>20696 then D=Nb[ua[31716]+1];Fb=D[20916];_b=lb(Fb);w_[ua[35057]]=Ra(D,_b);ya,na,Ob,o_=26,Ma[-11462]or Mb(-11462,6537,29893),(Fb)+25,1 else D=ua[31716];w_[ua[35057]][D]=w_[ua[62082]];ab+=1;na=Ma[4270]or Mb(4270,90416,34938)end elseif na<=19618 then o_[(fc-85)],na=Ua[bb[62082]+1],Ma[551]or Mb(551,45002,10811)else w_[ua[41628]]=lb(ua[33417]);ab+=1;na=Ma[-26982]or Mb(-26982,56688,15418)end elseif na<24181 then if na<23144 then if na<22843 then if k>155 then na=Ma[11474]or Mb(11474,80553,63800)continue else na=Ma[-18252]or Mb(-18252,73084,35442)continue end na=Ma[11340]or Mb(11340,58034,63480)elseif na<=22843 then hb,na=D+ba-1,Ma[7329]or Mb(7329,79544,2024)else na=Ma[-4336]or Mb(-4336,8741,18969)continue end elseif na<=23504 then if na<23426 then if(k>194)then na=Ma[2250]or Mb(2250,65663,52173)continue else na=Ma[-31834]or Mb(-31834,74146,63121)continue end na=Ma[-9551]or Mb(-9551,85047,44355)elseif na<=23426 then if(D==2)then na=Ma[-20981]or Mb(-20981,36250,30367)continue else na=Ma[-11576]or Mb(-11576,57826,32465)continue end na=Ma[-15912]or Mb(-15912,117640,55711)else if kc(Fb)==za('\204\142\218\131\221','\184\239')then na=Ma[23285]or Mb(23285,69751,8532)continue end na=Ma[-20570]or Mb(-20570,13585,18912)end else ab+=ua[50122];na=Ma[-4703]or Mb(-4703,88257,45417)end elseif na>=25600 then if na>25931 then na,ya=Ma[25355]or Mb(25355,109821,35439),nil elseif na>=25841 then if na<=25841 then na,o_=Ma[22867]or Mb(22867,79226,51237),o_..Y(l_(Ia(ya,(fc-217)+1),Ia(Ob,(fc-217)%#Ob+1)))else Fb,_b,ya=Jb if kc(Fb)~=za("5\144\175\217\'\140\174\212",'S\229\193\186')then na=Ma[-9858]or Mb(-9858,89691,41546)continue end na=Ma[-4762]or Mb(-4762,66702,62256)end else na,w_[ua[35057]]=Ma[-23136]or Mb(-23136,122358,55137),_b end elseif na<25054 then if D==3 then na=Ma[29700]or Mb(29700,75938,47742)continue end na=Ma[18894]or Mb(18894,126511,39230)elseif na>25054 then if(ua[41628]==113)then na=Ma[23284]or Mb(23284,41708,63894)continue else na=Ma[-25988]or Mb(-25988,77478,46029)continue end na=Ma[15010]or Mb(15010,42785,45641)else if(k>120)then na=Ma[-5172]or Mb(-5172,73512,12284)continue else na=Ma[-17519]or Mb(-17519,128235,35100)continue end na=Ma[-10625]or Mb(-10625,8014,32252)end elseif na<=29318 then if na>28263 then if na>=28960 then if na<29182 then if k>77 then na=Ma[6073]or Mb(6073,67084,57390)continue else na=Ma[-17174]or Mb(-17174,11879,15877)continue end na=Ma[-19636]or Mb(-19636,13554,17848)elseif na>29182 then Ya[ua]=nil;ab+=1;na=Ma[-20832]or Mb(-20832,35986,60888)else Ob,o_=ca(Ya[ua],_b,w_[D+1],w_[D+2])if(not Ob)then na=Ma[-29128]or Mb(-29128,4995,26613)continue else na=Ma[-23207]or Mb(-23207,10889,9845)continue end na=9049 end elseif na>28648 then ab+=ua[50122];na=Ma[-7715]or Mb(-7715,52807,10995)elseif na<=28269 then D,Fb=nil,w_[ua[35057]];D=I(Fb)==za('_\199\227dM\219\226i','9\178\141\a')if(not D)then na=Ma[2304]or Mb(2304,40764,22821)continue else na=Ma[-26816]or Mb(-26816,37907,10870)continue end na=28910 else if(k>137)then na=Ma[-13747]or Mb(-13747,43616,44927)continue else na=Ma[-24653]or Mb(-24653,83351,2624)continue end na=Ma[-631]or Mb(-631,94128,35578)end elseif na<=27260 then if na<=26780 then if na>26719 then na,ya=Ma[-6414]or Mb(-6414,124888,43545),hb-D+1 elseif na<=26358 then ab+=ua[50122];na=Ma[-4301]or Mb(-4301,98171,39439)else Fb,_b,ya=eb(Fb);na=Ma[-30789]or Mb(-30789,118889,50837)end elseif na>27235 then D=ua[35057];Fb,_b=w_[D],w_[D+1];ya=w_[D+2]+_b;w_[D+2]=ya if(_b>0)then na=Ma[-18182]or Mb(-18182,50942,28158)continue else na=Ma[29720]or Mb(29720,94490,23124)continue end na=Ma[-15135]or Mb(-15135,4324,31126)else D=Fc(Fb)if(D~=nil and D[za('\216%\155\243\31\128','\135z\242')]~=nil)then na=Ma[28691]or Mb(28691,59405,56139)continue else na=Ma[-1063]or Mb(-1063,57024,23975)continue end na=Ma[-590]or Mb(-590,59277,58436)end elseif na<27863 then ab-=1;ob[ab],na={[36065]=203,[35057]=l_(ua[35057],110),[62082]=l_(ua[62082],148),[41628]=0},Ma[-14496]or Mb(-14496,10480,16826)elseif na<=27863 then if(Sa==1)then na=Ma[-7565]or Mb(-7565,44910,5152)continue else na=Ma[-12502]or Mb(-12502,6880,32156)continue end na=Ma[2736]or Mb(2736,49908,30529)else if(ua[41628]==93)then na=Ma[23832]or Mb(23832,2045,25632)continue else na=Ma[-30242]or Mb(-30242,16266,5982)continue end na=Ma[-1014]or Mb(-1014,82679,38787)end elseif na>32170 then if na<=33303 then if na>32923 then D,Fb,_b=ua[31716],ua[28012],w_[ua[35057]]if((_b==D)~=Fb)then na=Ma[18644]or Mb(18644,88968,19402)continue else na=Ma[29968]or Mb(29968,41146,27626)continue end na=Ma[-21167]or Mb(-21167,34302,54412)elseif na<32519 then uc,na=uc..Y(l_(Ia(o_,(Sa-102)+1),Ia(ba,(Sa-102)%#ba+1))),Ma[-22430]or Mb(-22430,121492,35186)elseif na<=32519 then na,D,Fb=Ma[17044]or Mb(17044,64482,14469),ob[ab],nil else if(not w_[ua[35057]])then na=Ma[-32147]or Mb(-32147,53695,29310)continue else na=Ma[-11788]or Mb(-11788,94627,39127)continue end na=Ma[9782]or Mb(9782,9524,13382)end elseif na>33739 then G=G+bb;Sa=G if G~=G then na=Ma[-3543]or Mb(-3543,67907,55690)else na=58650 end else if(ya<=Fb)then na=Ma[8647]or Mb(8647,69507,47676)continue else na=Ma[19031]or Mb(19031,49823,6059)continue end na=Ma[5652]or Mb(5652,38350,58492)end elseif na<=31699 then if na>30551 then ab+=ua[50122];na=Ma[18409]or Mb(18409,40291,64535)elseif na>=29784 then if na>29784 then ab-=1;na,ob[ab]=Ma[31516]or Mb(31516,63005,813),{[36065]=138,[35057]=l_(ua[35057],167),[62082]=l_(ua[62082],32),[41628]=0}else _b[(ba-25)],na=Ua[uc[62082]+1],Ma[27864]or Mb(27864,8376,19651)end else Fb[31716]=_b if(D==2)then na=Ma[-4042]or Mb(-4042,39278,11439)continue else na=Ma[-28818]or Mb(-28818,37506,6976)continue end na=Ma[26102]or Mb(26102,120377,45348)end elseif na>=31890 then if na>31890 then if ua[41628]==127 then na=Ma[-31616]or Mb(-31616,88169,6447)continue elseif(ua[41628]==177)then na=Ma[-25842]or Mb(-25842,45632,56081)continue else na=Ma[30832]or Mb(30832,1702,9466)continue end na=Ma[-4584]or Mb(-4584,15830,23652)else o_[2]=o_[3][o_[1]];o_[3]=o_;o_[1]=2;na,Jb[Ob]=Ma[-15262]or Mb(-15262,62188,54052),nil end else if(fc>=0 and uc>G)or((fc<0 or fc~=fc)and uc<G)then na=Ma[11601]or Mb(11601,42738,16106)else na=Ma[14245]or Mb(14245,79791,62726)end end elseif na<=50421 then if na<42205 then if na<=39522 then if na<=36385 then if na<35562 then if na>=35233 then if na<=35233 then Ob,o_=Fb[2803],ua[2803];o_=za('\96\188\136\255y\136','\131\137N')..o_;ba='';G,uc,na,fc=(#Ob-1)+187,187,21206,1 else ab+=ua[50122];na=Ma[-6270]or Mb(-6270,49916,6030)end elseif na<=33930 then ab+=ua[50122];na=Ma[16330]or Mb(16330,94393,39361)else D,Fb=nil,l_(ua[59599],60097);D=if Fb<32768 then Fb else Fb-65536;_b=D;na,w_[l_(ua[35057],238)]=Ma[-27751]or Mb(-27751,34210,54472),_b end elseif na<=36162 then if na>35850 then ya,Ob=Fb[31716],ua[31716];Ob=za('\168\138\237\55O\237','K\191+')..Ob;o_='';na,G,ba,uc=50370,1,217,(#ya-1)+217 elseif na<=35562 then Fb,_b,ya=D[za('\239!\255\196\27\228','\176~\150')](Fb);na=Ma[13639]or Mb(13639,8178,13902)else Rb(zc[43769],1,Fb,D,w_);na=Ma[-17427]or Mb(-17427,802,22088)end else _b,na=o_,Ma[4918]or Mb(4918,35156,11128)continue end elseif na<38710 then if na>37359 then Oa=bb[62082];pb=Jb[Oa]if pb==nil then na=Ma[12781]or Mb(12781,48649,58034)continue end na=Ma[-2796]or Mb(-2796,95427,38317)elseif na>36513 then ab-=1;na,ob[ab]=Ma[-2842]or Mb(-2842,85740,43934),{[36065]=116,[35057]=l_(ua[35057],55),[62082]=l_(ua[62082],171),[41628]=0}else ab+=ua[50122];na=Ma[444]or Mb(444,65048,6946)end elseif na>38964 then ba=ba+G;fc=ba if ba~=ba then na=Ma[-25083]or Mb(-25083,42629,46005)else na=19015 end elseif na<=38710 then P'';na=Ma[3696]or Mb(3696,40494,8299)else if k>13 then na=Ma[25694]or Mb(25694,89608,43025)continue else na=Ma[24028]or Mb(24028,109702,36823)continue end na=Ma[26404]or Mb(26404,50320,5594)end elseif na<=40064 then if na>=39771 then if na>=39993 then if na>39993 then uc=uc+fc;bb=uc if uc~=uc then na=Ma[-30976]or Mb(-30976,90976,59182)else na=Ma[-11060]or Mb(-11060,75963,53196)end else w_[ua[35057]]=ua[41628]==1;ab+=ua[62082];na=Ma[977]or Mb(977,47054,49788)end elseif na<=39771 then if k>201 then na=Ma[7811]or Mb(7811,37183,63563)continue else na=Ma[21851]or Mb(21851,37544,15096)continue end na=Ma[25472]or Mb(25472,25774,30172)else D,Fb=ua[35057],ua[62082]-1 if(Fb==-1)then na=Ma[-11818]or Mb(-11818,94125,7326)continue else na=Ma[-24926]or Mb(-24926,34451,9674)continue end na=Ma[-25991]or Mb(-25991,92263,54022)end elseif na>39627 then D=ua[35057];Fb,_b=w_[D],nil;ya=Fb;_b=I(ya)==za('\210v\226\222f\253','\188\3\143')if(not _b)then na=Ma[6749]or Mb(6749,59015,55330)continue else na=Ma[4714]or Mb(4714,10855,7066)continue end na=Ma[-556]or Mb(-556,49359,58818)elseif na<=39595 then o_=o_+uc;G=o_ if o_~=o_ then na=Ma[24374]or Mb(24374,46519,26688)else na=Ma[-21539]or Mb(-21539,72388,60129)end else w_[D+2]=bb;na,uc=Ma[-12279]or Mb(-12279,34830,54739),bb end elseif na<41114 then if na>41082 then D,Fb,_b=l_(ua[62082],27),l_(ua[41628],164),l_(ua[35057],185);ya,Ob=Fb==0 and hb-D or Fb-1,w_[D];o_,ba=ub(Ob(sa(w_,D+1,D+ya)))if _b==0 then na=Ma[28307]or Mb(28307,60448,10796)continue else na=Ma[13809]or Mb(13809,76854,2106)continue end na=65031 elseif na>41078 then Ob,na=uc,Ma[-21823]or Mb(-21823,45639,12339)continue else ya..=w_[uc];na=Ma[-25575]or Mb(-25575,38273,31379)end elseif na<=42058 then if na>41114 then D[31716]=Fb;ua[36065],na=214,Ma[-21011]or Mb(-21011,16152,23074)else if k>6 then na=Ma[-11961]or Mb(-11961,48456,58679)continue else na=Ma[18858]or Mb(18858,53308,27934)continue end na=Ma[14233]or Mb(14233,36992,63914)end else ab+=1;na=Ma[-6921]or Mb(-6921,48504,56322)end elseif na>=45979 then if na>=47136 then if na<49219 then if na<=48280 then if na<=47136 then if(fc>=0 and uc>G)or((fc<0 or fc~=fc)and uc<G)then na=Ma[-4473]or Mb(-4473,121707,44851)else na=Ma[-9360]or Mb(-9360,78147,3897)end else na,w_[ua[35057]]=Ma[8107]or Mb(8107,37512,59314),ua[31716]end else bb=ob[ab];ab+=1;Sa=bb[35057]if(Sa==0)then na=Ma[30510]or Mb(30510,8524,21373)continue else na=Ma[25225]or Mb(25225,62496,13952)continue end na=Ma[12281]or Mb(12281,73893,43408)end elseif na<50370 then if na>49219 then if(k>122)then na=Ma[-20630]or Mb(-20630,92480,18591)continue else na=Ma[14317]or Mb(14317,40403,64615)continue end na=Ma[10810]or Mb(10810,88052,41606)else Ob=Ob+ba;uc=Ob if Ob~=Ob then na=Ma[-22167]or Mb(-22167,95845,11151)else na=Ma[-22551]or Mb(-22551,59373,53386)end end elseif na>50370 then ab+=ua[50122];na=Ma[-30837]or Mb(-30837,13489,17913)else fc=ba if uc~=uc then na=Ma[26182]or Mb(26182,89650,3908)else na=Ma[-8051]or Mb(-8051,5269,28433)end end elseif na>=46576 then if na>46857 then D,Fb,_b=ua[35057],ua[41628],ua[31716];ya=w_[Fb];w_[D+1]=ya;w_[D]=ya[_b];ab+=1;na=Ma[-29349]or Mb(-29349,92442,32800)elseif na<=46795 then if na<=46576 then ab-=1;ob[ab],na={[36065]=148,[35057]=l_(ua[35057],239),[62082]=l_(ua[62082],100),[41628]=0},Ma[-4191]or Mb(-4191,90068,47718)else ya,na=ba,Ma[22198]or Mb(22198,104860,36615)continue end else D,Fb=ua[35057],ua[31716];hb=D+6;_b,ya=w_[D],nil;ya=I(_b)==za('\134\189-\19\148\161,\30','\224\200Cp')if ya then na=Ma[26435]or Mb(26435,126157,39700)continue else na=Ma[3170]or Mb(3170,51485,26700)continue end na=Ma[4202]or Mb(4202,92174,33084)end elseif na<=46502 then if na>45979 then ab-=1;na,ob[ab]=Ma[22164]or Mb(22164,87884,42494),{[36065]=19,[35057]=l_(ua[35057],90),[62082]=l_(ua[62082],17),[41628]=0}else if k>158 then na=Ma[2016]or Mb(2016,69089,64413)continue else na=Ma[-23128]or Mb(-23128,43185,54954)continue end na=Ma[-15658]or Mb(-15658,9931,13183)end else ya=w_[D];ba,Ob,na,o_=1,D+1,8470,Fb end elseif na<=43609 then if na>42715 then if na<43548 then ya,na=ba,52742 continue elseif na>43548 then ab-=1;ob[ab],na={[36065]=118,[35057]=l_(ua[35057],214),[62082]=l_(ua[62082],3),[41628]=0},Ma[29761]or Mb(29761,93764,35574)else if not(uc<=Fb)then na=Ma[-1178]or Mb(-1178,61157,24337)continue end na=Ma[32337]or Mb(32337,97244,40558)end elseif na>42422 then if na<=42642 then if(uc>=0 and o_>ba)or((uc<0 or uc~=uc)and o_<ba)then na=Ma[-10590]or Mb(-10590,82870,14913)else na=19074 end else Fb,_b,ya=D[za('\0\212\203+\238\208','_\139\162')](Fb);na=Ma[9621]or Mb(9621,67893,505)end elseif na>42375 then uc=u_(Ob)if(uc==nil)then na=Ma[-32608]or Mb(-32608,13356,19487)continue else na=Ma[32128]or Mb(32128,105426,35420)continue end na=Ma[6765]or Mb(6765,71318,65432)elseif na>42205 then na,ya=35233,nil else na,Fb[9966]=Ma[-15761]or Mb(-15761,79335,53878),Ob end elseif na<45028 then if na<44630 then ba=ba+G;fc=ba if ba~=ba then na=Ma[-26681]or Mb(-26681,45583,11015)else na=Ma[-22660]or Mb(-22660,62220,874)end elseif na<=44630 then ab+=1;na=Ma[-18544]or Mb(-18544,42918,45780)else if(k>89)then na=Ma[637]or Mb(637,61591,3433)continue else na=Ma[10350]or Mb(10350,95476,15315)continue end na=Ma[-14099]or Mb(-14099,814,22108)end elseif na<45588 then if(D==3)then na=Ma[24889]or Mb(24889,58675,51002)continue else na=Ma[31525]or Mb(31525,77936,62439)continue end na=Ma[-25]or Mb(-25,83130,19629)elseif na<=45588 then if(ua[41628]==161)then na=Ma[-13545]or Mb(-13545,38509,8659)continue else na=Ma[-16003]or Mb(-16003,63378,61847)continue end na=Ma[22866]or Mb(22866,34478,54236)else if ua[41628]==152 then na=Ma[-12296]or Mb(-12296,8177,13358)continue elseif ua[41628]==158 then na=Ma[-891]or Mb(-891,89318,9755)continue else na=Ma[16343]or Mb(16343,96566,48837)continue end na=Ma[26331]or Mb(26331,92514,32776)end elseif na<57328 then if na>=53257 then if na>=55449 then if na<=56248 then if na<=56100 then if na>55524 then ya,na=Fb-1,Ma[22788]or Mb(22788,100192,36225)elseif na>55449 then uc=uc+fc;bb=uc if uc~=uc then na=Ma[-24309]or Mb(-24309,44178,18698)else na=31713 end else Ob,o_=Fb(_b,ya);ya=Ob if ya==nil then na=Ma[-25192]or Mb(-25192,65642,7992)else na=Ma[11661]or Mb(11661,96273,34158)end end else if(o_>=0 and ya>Ob)or((o_<0 or o_~=o_)and ya<Ob)then na=Ma[-8866]or Mb(-8866,52009,11857)else na=Ma[29476]or Mb(29476,93715,9890)end end elseif na>=57260 then if na<=57260 then if(k>178)then na=Ma[-29544]or Mb(-29544,45103,42310)continue else na=Ma[-28314]or Mb(-28314,78313,40164)continue end na=Ma[28157]or Mb(28157,3004,28366)else hb,ab,na,Jb,Ya,m=-1,1,14877,nc({},{[za('\248\149\245\200\174\253','\167\202\152')]=za('\232\237','\158')}),nc({},{[za(' \1\138\16:\130','\127^\231')]=za('\233\241','\130')}),false end else ab+=1;na=Ma[-12604]or Mb(-12604,4102,31028)end elseif na<=54047 then if na>53811 then na,w_[ua[35057]]=Ma[18584]or Mb(18584,37857,59017),w_[ua[62082]]elseif na>53651 then Fb,_b,ya=Jb if(kc(Fb)~=za('\222G\129\222\204[\128\211','\184\50\239\189'))then na=Ma[-6688]or Mb(-6688,117296,56962)continue else na=Ma[29703]or Mb(29703,1632,11984)continue end na=Ma[3603]or Mb(3603,49661,58451)elseif na>53257 then w_[ua[41628]],na=ya,Ma[6308]or Mb(6308,89482,48304)else P'';na=Ma[11680]or Mb(11680,82765,2351)end elseif na>=54470 then if na>54470 then if(w_[ua[35057]])then na=Ma[-2693]or Mb(-2693,85815,43456)continue else na=Ma[-8758]or Mb(-8758,44889,52705)continue end na=Ma[24782]or Mb(24782,51369,8657)else if(k>169)then na=Ma[20432]or Mb(20432,64833,9781)continue else na=Ma[9957]or Mb(9957,13057,8380)continue end na=Ma[17724]or Mb(17724,62094,1980)end else na,w_[ua[35057]]=Ma[10079]or Mb(10079,89239,21632),_b[ua[2803]]end elseif na>=51469 then if na<=52341 then if na>=52316 then if na<=52316 then Fb=zc[23893];hb,na=D+Fb-1,Ma[-12854]or Mb(-12854,80331,41570)else w_[D]=Ob;na,Fb=Ma[-28024]or Mb(-28024,30651,24406),Ob end elseif na<=51469 then D,Fb=nil,l_(ua[59599],6915);D=if Fb<32768 then Fb else Fb-65536;_b=D;ya=Nb[_b+1];Ob=ya[20916];o_=lb(Ob);w_[l_(ua[35057],10)]=Ra(ya,o_);G,na,ba,uc=1,12965,86,(Ob)+85 else if(o_[1]>=ua[35057])then na=Ma[4154]or Mb(4154,70517,48048)continue else na=Ma[-11840]or Mb(-11840,55141,61915)continue end na=Ma[-27948]or Mb(-27948,64783,60353)end elseif na<=52896 then if na>52742 then Fb,na=Ob,42058 continue else Fb[2803]=ya;Ob,na=nil,9518 end else ua=ob[ab];na,k=Ma[-19907]or Mb(-19907,17071,29097),ua[36065]end elseif na>=51124 then if na>51258 then Ob={_b(w_[D+1],w_[D+2])};Rb(Ob,1,Fb,D+3,w_)if w_[D+3]~=nil then na=Ma[-21321]or Mb(-21321,62919,2863)continue else na=Ma[14694]or Mb(14694,43444,14958)continue end na=Ma[-15640]or Mb(-15640,1128,21778)elseif na>51124 then ua[36065]=155;ab+=1;na=Ma[-2269]or Mb(-2269,48975,56827)else Fb[2803],na=ya,Ma[29772]or Mb(29772,128467,37498)end elseif na>50777 then w_[ua[62082]],na=w_[ua[41628]]+ua[31716],Ma[13848]or Mb(13848,13786,17504)elseif na>50429 then w_[D+1]=uc;Ob,na=uc,Ma[-19338]or Mb(-19338,85664,35245)else if k>224 then na=Ma[-12726]or Mb(-12726,72435,44888)continue else na=Ma[-16908]or Mb(-16908,17356,30845)continue end na=Ma[19616]or Mb(19616,90109,47757)end elseif na>=61518 then if na>=63319 then if na>=64506 then if na>65031 then bb=uc if G~=G then na=Ma[16812]or Mb(16812,67255,57141)else na=Ma[2337]or Mb(2337,55103,25751)end elseif na>64521 then Rb(o_,1,ba,D,w_);na=Ma[-26818]or Mb(-26818,86175,47531)elseif na>64506 then if Fb<=ya then na=Ma[14604]or Mb(14604,96432,34188)continue end na=Ma[10732]or Mb(10732,95619,33975)else if(k>12)then na=Ma[-15914]or Mb(-15914,42528,2252)continue else na=Ma[-21847]or Mb(-21847,85445,24517)continue end na=Ma[4150]or Mb(4150,63816,5106)end elseif na>=63588 then if na<=63588 then if k>181 then na=Ma[-18022]or Mb(-18022,97521,54719)continue else na=Ma[29354]or Mb(29354,91142,11141)continue end na=Ma[8379]or Mb(8379,48443,56399)else Ob,o_=Fb[2803],ua[2803];o_=za('\180v\216+\179\216','WC\30')..o_;ba='';na,fc,uc,G=65372,1,92,(#Ob-1)+92 end else na,ba=Ma[-25118]or Mb(-25118,96528,21568),_b-1 end elseif na>62078 then if na<=62786 then if na>62156 then D=Ua[ua[62082]+1];na,D[3][D[1]]=Ma[13822]or Mb(13822,47340,53662),w_[ua[35057]]else Rb(o_,1,Fb,D+3,w_);w_[D+2]=w_[D+3];ab+=ua[50122];na=Ma[-10118]or Mb(-10118,7872,31594)end else G=o_ if ba~=ba then na=Ma[-25298]or Mb(-25298,125223,38864)else na=Ma[29742]or Mb(29742,88434,12211)end end elseif na<=61932 then if na>61832 then Fb,_b,ya=eb(Fb);na=Ma[1220]or Mb(1220,84663,37258)elseif na>61518 then if(ua[41628]==127)then na=Ma[-3809]or Mb(-3809,48776,19318)continue else na=Ma[-28167]or Mb(-28167,88896,39007)continue end na=Ma[-393]or Mb(-393,36932,63734)else bb=u_(uc)if(bb==nil)then na=Ma[22906]or Mb(22906,79506,59852)continue else na=Ma[-18099]or Mb(-18099,61607,30981)continue end na=Ma[31089]or Mb(31089,66540,51648)end else if(k>20)then na=Ma[-1870]or Mb(-1870,116970,33652)continue else na=Ma[-25634]or Mb(-25634,76965,35855)continue end na=Ma[24687]or Mb(24687,2834,28248)end elseif na<60077 then if na>=58650 then if na<=59042 then if na<=58650 then if(bb>=0 and G>fc)or((bb<0 or bb~=bb)and G<fc)then na=Ma[-16566]or Mb(-16566,40885,20632)else na=32182 end else uc=ob[ab];ab+=1;G=uc[35057]if G==0 then na=Ma[27977]or Mb(27977,35514,48338)continue elseif G==2 then na=Ma[29251]or Mb(29251,52527,22032)continue end na=Ma[-9920]or Mb(-9920,64357,5398)end else if k>139 then na=Ma[-17787]or Mb(-17787,70247,35563)continue else na=Ma[10881]or Mb(10881,47153,1934)continue end na=Ma[-12812]or Mb(-12812,9786,13120)end elseif na<58006 then if(k>86)then na=Ma[-20524]or Mb(-20524,128340,41124)continue else na=Ma[14643]or Mb(14643,97467,49868)continue end na=Ma[-25421]or Mb(-25421,58311,63091)elseif na>58006 then ab+=1;na=Ma[-23588]or Mb(-23588,52110,11964)else return sa(w_,D,D+ya-1)end elseif na<60547 then if na<60133 then if k>8 then na=Ma[-26067]or Mb(-26067,43424,20344)continue else na=Ma[-27683]or Mb(-27683,72512,55149)continue end na=Ma[-5705]or Mb(-5705,38635,58271)elseif na<=60133 then D=Fc(Fb)if D~=nil and D[za('\187~e\144D~','\228!\f')]~=nil then na=Ma[15198]or Mb(15198,33030,15175)continue elseif(kc(Fb)==za('\21\149\3\152\4','a\244'))then na=Ma[4280]or Mb(4280,41851,45269)continue else na=Ma[20182]or Mb(20182,53708,62468)continue end na=Ma[28878]or Mb(28878,56881,63247)else ba,na=ba..Y(l_(Ia(Ob,(bb-92)+1),Ia(o_,(bb-92)%#o_+1))),Ma[-28815]or Mb(-28815,103804,34135)end elseif na>61163 then Fb,_b,ya=Ya if kc(Fb)~=za('U\195\133\"G\223\132/','3\182\235A')then na=Ma[-37]or Mb(-37,96362,49370)continue end na=Ma[-15910]or Mb(-15910,51540,5549)elseif na<=60701 then if na>60547 then P'';na=Ma[-28362]or Mb(-28362,81136,61266)else if k>127 then na=Ma[-27964]or Mb(-27964,72457,64805)continue else na=Ma[-20917]or Mb(-20917,37578,29138)continue end na=Ma[-15311]or Mb(-15311,35127,57411)end else ba,na=ba..Y(l_(Ia(Ob,(bb-187)+1),Ia(o_,(bb-187)%#o_+1))),Ma[19602]or Mb(19602,88090,4813)end until na==16233 end return function(...)local M,dc,ka,yc,hc,xc,Z,_a,Lb,j,a_;ka,_a=function(zb,r_,vb)_a[vb]=Aa(r_,43954)-Aa(zb,26217)return _a[vb]end,{};yc=_a[-15541]or ka(39567,110099,-15541)repeat if yc<20000 then if yc>7948 then yc=_a[-15567]or ka(32702,60090,-15567)continue elseif yc<=2235 then if yc<=997 then j,xc=fa_[45646]+1,a_[za('\144','\254')]-fa_[45646];Z[23893]=xc;Rb(a_,j,j+xc-1,1,Z[43769]);yc=_a[-11328]or ka(32779,129623,-11328)else a_,M,Z=ac(...),lb(fa_[20698]),{[23893]=0,[43769]={}};Rb(a_,1,fa_[45646],0,M)if fa_[45646]<a_[za('9','W')]then yc=_a[30404]or ka(12388,62016,30404)continue end yc=27523 end else dc,hc=j[2],nil;Lb=dc;hc=I(Lb)==za('\129\25\169\155\3\188','\242m\219')if(hc==false)then yc=_a[-18775]or ka(41592,80284,-18775)continue else yc=_a[10093]or ka(22974,9797,10093)continue end yc=_a[14303]or ka(56736,107099,14303)end elseif yc<52765 then if yc<=20000 then return P(dc,0)else j,xc=ub(Ka(ma,M,fa_[18941],fa_[50435],Z))if j[1]then yc=_a[13727]or ka(41551,80210,13727)continue else yc=_a[-6274]or ka(37253,113994,-6274)continue end yc=15738 end elseif yc>52765 then return sa(j,2,xc)else dc,yc=I(dc),_a[-29197]or ka(14517,1870,-29197)end until yc==10033 end end return Ra(Za,ga)end)local Gc;Gc,H={[0]=0},function()Gc[0]=Gc[0]+1 return{[1]=Gc[0],[3]=Gc}end;wb=jb return(function()return wb(Q(qc'/1RWVrXe9pxS/xc8PDFaKHyx//c8PjFaODyx/8Q9PzHThCeX30m+HFW0BAFQtn4EwZdUtRdQtwYB/5BFpwueU1ayugNisAhBrJVQAOIKo0GzCiELIAZCxAsg83+/BqnThCaUCaH4A4IG4wTiWlZW/d/+ECU8PHL3PD0x/1o8PHFXPDkx/BKiAmjThyeUVzz/ODGTDTwx0Tx3EDBYFqADPSEE5PcscvcWoFo8HHFXAz0kB2QcAmA5CeD1fAJgLwnkDHL3Pr07DGBccVc+DGT4/wyy9z00MVo0X1yxAz01DuR8CeB9NhFgrHFXPTgRY6v4fATgNwTgrATgKL4T5Gxy9z8xFmD8/3GTCjwxuTky/zGTCzwxVj8q+zJVKqDThySWk70EFeA/DTNKLKCTfQUEYDgtMZMGBGDvPkAzSARhhCWW/i0hxD4vMUc/PPcxkwcI4DooMfP/uQSpItr129N/hyCXujo7NSHjag3gOQ3kAA3gOykN4/c5KjQN4yKWkwHeI+A5XjdMOqAMPtc+KiAmYCA6IJMC3hLgOvs3TRLiIZa+K+PMcvc7JS5gvG9wDD49BWA9MQXh79OEIJdCojg9tf/3OyAxWlCcsPe5NCFCoCCXk37eG+A7JjdEF2Igl3NXPyFlCWfENCMFYqoIbxwC5zwnYDsnY1f/Oz0xTjzSznZ30Fj4TqEMMTsRZP88MfO2AanTh68vlFc0DOg0FmPEqzUdVSAvFWc0FWQ1qAzhAuQM4TQM5DQM6/N/tgep1Dw/OE5g9zGTfzfgNh4xk/94PDFSNTZceXo14XkCYRgxk3oCYnvjf2Ug1Dw+OwXifXs94DcaMZN0BeCvNjd8fTvhdQJhFLcxk3YCYo1zPmF39gnirnBB4i+Xk3DeV+A0cDhxbqDvNcc/MXZvoB7lXmPsdff3NRJg4Oxzk3LuBWFbO3VJYi6XV781PjHztA9p4C3llCVl/XQieQKEULK/G5WoVVNQesKR/1C3CZW1JlNQ/b58gYtBsgyvtP9FQtSjR5VTUH2xeMJMqFNTUHwiP4VZswSFtQGgfSLvhFSrGQiEs1mnvwWVtMpQuIUBpP9Qsi+VtIB25/eIULmHAa9apR3/nJZkB3jpoFD9ookhpk2jH4Wy/3zuoqha9r4se41ShwOoXKUXhYT9rRFFg/wGhOy7/50sQvja7/d7/2Xsc5AbohmG3+lbyu/uDWOvWr2hDWDaPDxCD2Ou/1C1D5GhWSKy/fsbo6BaqBKVpf1tkgOTVqcQnFP8lMiWApRUrwhTVf+amZmZmZnJP/4YQ6dctR+fqO3PovDvViBiA8S5P+1WmyJQlxQHYJBs/1Bcsg+I94Tu/+HRqj2UIdSG/0PpDpGxYNZo701euBkoY7ZHqu4pg6RwkilDrlCy3xSfolCWqyHbAf+gT8fyaSb7j/8H366DSIE8B/95FJ1vj8GCU//yRZSkbCas2+8AiFC/sGG7GJX/GZOz39m7J/zv7IZQo7LBsVqk/xCfvjpncYddv/u59oZbsjCDtv9Gow7dhwfUrf2mPMOrUKcYlbT9ZDQjsEGnCIW1/xaMe4VVAAAA9gBAaUA3Q49apxi/g7Ib+8wXJMShd1qiBUDDI9VSQeP3UgQoQaMgM6HG1zThULlCbEVjXTvturwjaA9Hg7l4Tr7Bg/YfhO1vwuMIv2YBjNJQusphE3+cguUzhc1FwsPvPw1Qvc0hKauY/8HoTSyKu5jZ7wsEixbJo6xVX/snEssDPG3Hj9ZuU4MZXd7KQ92cy0PbVXDMQ1wf0IODx9+Tmx5QoNgBT7//GCop02H6lvP/wJGwzVjnD7DqF2OrGEPrXcMg/hP+BcNYRZ7uMb6a/7t65AUxGiWo913p9WCDrbyWavuTiBfjFSAQ6jj3uNWf3gNgscPS3UxmgxcrwuCDVeP3H+DR4eNpkqJw7T3gA4xz5iJcV1b9rOtBuT08MSLW//zb87wGqSLR//zbaz4zMfO7+wep7kIcTLH3O/0/zwAssSLanNt/ItuH29OFILMDvxSssfc6OvLC0/+HIZW6OTowu18+zc7zvQdoOAdkv9f32yLUnsUAI/+Wuj84M0m8H+VVc8JQ9AP3go5Usv0UfUORVKgYn6t+fuSQQbQVnqH749+AXacOU/jDyXHuhCO12CKFQ5ZsGPb8A19//qJSV1SZfv+h6Kc+gJM73gD7PWr3ATHThyaW6wM94IA04YA/PTFeA287MZM1A2E+A27/Vz0qMUc9PDDv6AqWTv+DnHH3Tu+AWjwM8ID1hDwCZy/ThCaU4oOMBOAlYAM8bAToAmcE4ewBoMKSI8+FXKgYZ6SiwKO2/aRWg6dQshmTsvskTXJDkVapEoP/qYY4zuuHFZH+qKSAWqgPn6ri31J/xKAKJWQ6He6po90Yd53DQSkr/aKqo+pdrYfidH6sI4cxE6HBeDIi71VWVLwngqQ+gPrJoDDPoeimP4CTXv+gUj0+XNGiOPug9T4oADnRoD0+41iG7aInl+OhtiKP3Hdinrp4Q9u9wx3CgjdjVlNWpsZhzYNMLGA9N2HjcZM2YjLgM+BWPSp7MFnWAiaWkzbWAK89DTFe4gE3EsE59zGTMD5gPEAxXAISw5b2gZjiviPIDriEyAPv/UapNMgJTuZ476S1ULvY4bBFvz8/n6hHr1rHJ47Du2QD1mMxEzy+Q4vvL8pROr+jIocBe8HHzUMEzjmIlOP7pHdfolxWVIPfd/acUkoEc/c8HYP/6KU+gNOHJ5ePVzx2MUiEA2BxgDzfHHFXPHkCY4yM/7P3PDkxWiwcr7FXPHwE5OwIYDum86BccfWiBGE9BGPo/aYKYIYnllc8Ce8xVz0ICuTcc/fbPjX5oLxxd4HTgf8ll1w+FzHztv0AgIM8zHP3Ozf+/aCccdOHIJeT/ww8MZg7MzFW1zw8sYSC+BBgNDL/MVoIHLHztwB/qdOHL5eTDjIArzRmNlUyAQ8F4T/7MUoF4Ec7PDBJ17kfVQt2CAthMDHZSwtgD+GTCXSANS6+H+Rccvc7KHiADH1wEOCWVzs+MQnl79g+6M5P4cQ8Ke8x878GFuRMcve7Pisg4XCTBH2AOO8kMZMFgQA+KjPdQ1VhhSWWgYCVV3k9COB6gEm/H1V6hO9y9z0nHeFwVz3lNgnonAngAuPThSU9lAdtItP924KDKed/6Kc/gAM/ODflb3L3PyGQgPxwLGP/DDH6Ij0wSDt/IzDvOzoxeinl/8j8svc7HzFa/7Qss9OEIJTz67YDMPMCMOEjMX72MOCTA5wAO9M0f3RiAjRgfDRhOzF8YgFdfTXhODF9Y4F+N2FXLjFyBmEAOON7ZoGFfy7jc3hgOGGbgz7gNNg+5TpgPuE0Pz7hMUf9NDjgth9V2D7zXi7iRz48MbqB9usB/vzjikaqH5ypKe/Ao6xT8KOHUKT3CZdTaqOEULIJf4Cw2pSLLEIDpN+TVqcQnAFlVK/3DoNTvkOXTLYZ/VP2A4VAqB+Er/MNl6LDCEAVnqDh3gTEjVSrGaXDr1rvoTSEsnBEl1Sk8xCV/cN7AD2Dv579FsxFsRuVslNW/M/ogiigWrQZt7Oegip3Uc2I8GMXYBT7ha/QxLxyU1UA2wAAAEDwPwEEaUB2AiQAABhEVLUX1+OvlFSvCNrLt/BBj+9asRmCvYOPWqGvFISyd78ji78gg/u2eI7jkFyrDJyPo8/33+FD5aIHolpvtdHJ5/tDXW7/A9+7+P5JMf2jgtG2/qMH6P+jt+XpQ2J3+QkN6COOJJ/qQ7uNmupDTA1l7GPFvdfuw/B1T7LtoxbbBDvvw5d678Mr/X2KnYMBOK7tzfJD1+WhZbqj9fVDs6i29kMJVPZDs/MCBHvdG/hjB0Lu+YMBpN7UBLyHpgP84xka3sTiXFdW4PmhAzyqdYIxdYfcw6cze4FU/THRAoUll9OBJn+VXD19MZMsw6C3OYY3xaGTLcKgOvvTN8Uh04chl5NpLowBxaAvaAFqN8Wi/4cglgM7KTGT3SiPgTsxkwNuMjFLkymTATQDcAXgKpaB/TUG7lc7IjGTK3qaATYKcCsxkySdgb03DfAsMZMloQEwlBFwDOAmpIExFPCkCD0lgnUDPXUAnQCpdQJPouWTbaO5/eHfoD+Yr1/x7P1iYuTDrWrhulSIsfLBkEW/6IOFd1yoGPyjh1C+awQfUKsThKPsY1fhbcTfWqQQn77vI4Bd+6cIcIOBQKQenP2jcgOHXKcQn6H26SOqK+gDnYiPB20M64Pe5eyDwYhLQ62F7mPm200jsO9DcNt47fFjyCfxY0mY7ezzg5Kf84PpPYru9KM3aurvolJWVqmm+sHvo0xJhzTPID/vPjGTNcYgPSow3EeBxaCWkzbbID0NrTFIAZM306A+R4Aw7sqgPEAxR4KEJ5ZfSb4cVb+hIrah4f6LCLNZpwWVtDd0pCOSIC8BgHnC+KKD/69apR2clod998RQwX5DsEW/P9+fqFeJG6FDqFzbpRd84wq/d0NENH35q2NBEKGd3KzD3+scvTWzp2MU6Bt4/oMDUjOdAg=='),{})end)()(...)
+--[[
+
+  _______                      _    _       _     
+ |__   __|                    | |  | |     | |    
+    | |_____   _  __ _ _ __   | |__| |_   _| |__  
+    | |_  / | | |/ _` | '_ \  |  __  | | | | '_ \ 
+    | |/ /| |_| | (_| | | | | | |  | | |_| | |_) |
+    |_/___|\__,_|\__,_|_| |_| |_|  |_|\__,_|_.__/ 
+                                                  
+                                                  
+                        Tzuan Hub
+]]
+
+---------------------------------------------------------------------------------
+
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/XUANVNPRO/Mmb/refs/heads/main/gui2.0.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+-- Tạo cửa sổ Fluent chính
+local Window = Fluent:CreateWindow({
+    Title = "Tzuan Hub | Forsaken",
+    SubTitle = "Version 2.0.0",
+    Search = true,
+    Icon = "rbxassetid://84950100176700",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(480, 360),
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.RightAlt,
+
+    UserInfo = false,
+    UserInfoTop = false,
+    UserInfoTitle = game:GetService("Players").LocalPlayer.DisplayName,
+    UserInfoSubtitle = "Mẹo mày bé",
+    UserInfoSubtitleColor = Color3.fromRGB(71, 123, 255)
+})
+
+-- Tabs
+local Tabs = {
+    Dev = Window:AddTab({ Title = "About", Icon = "info" }),
+    Farm = Window:AddTab({ Title = "Farm", Icon = "box" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Event = Window:AddTab({ Title = "Event", Icon = "bell" }),
+    Custom = Window:AddTab({ Title = "Custom", Icon = "brush" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "user" }),
+    Visual = Window:AddTab({ Title = "Visual", Icon = "eye" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "menu" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
+}
+
+-- Phần Logic Chính
+
+--// ⚙️ ESPManager v2.7 (Auto-Restore + Debounce 0.5s)
+--// Tự thêm lại khi model biến mất/hiện, chết/hồi sinh, GUI/HL mất, với debounce 0.5s để tránh lag
+
+local RunService = game:GetService("RunService")
+local Camera = workspace.CurrentCamera
+
+local ESPManager = {
+    ActiveTypes = {},    -- ["Player"] = true
+    Objects = {},        -- [model] = { type, gui, hl, label, conns = {} }
+    Filters = {},        -- filterFn
+    Colors = {},         -- typeColor
+    Watchers = {},       -- connection table
+    ShowHP = {},         -- typeName -> boolean
+    _pendingCreate = {}, -- [model] = true (debounce)
+}
+
+-- Helper: safe find primary part
+local function getPrimaryPart(model)
+    if not model then return nil end
+    local p = model:FindFirstChild("HumanoidRootPart") or model:FindFirstChildWhichIsA("BasePart")
+    return p
+end
+
+-- 🧩 Đăng ký loại ESP
+function ESPManager:RegisterType(name, color, filterFn, showHP)
+    self.Filters[name] = filterFn
+    self.Colors[name] = color
+    self.ShowHP[name] = showHP or false
+    self.ActiveTypes[name] = false
+end
+
+-- internal: disconnect connections table
+local function disconnectConns(tbl)
+    if not tbl then return end
+    for _, c in pairs(tbl) do
+        if c and typeof(c.Disconnect) == "function" then
+            pcall(function() c:Disconnect() end)
+        end
+    end
+end
+
+-- 🧱 Tạo ESP (không debounce) - gọi an toàn bên trong task.delay khi cần
+function ESPManager:_CreateImmediate(model, typeName)
+    if not model or not model.Parent then return end
+    if ESPManager.Objects[model] then
+        -- nếu tồn tại nhưng bị hỏng phần gui/hl thì dọn trước
+        local existing = ESPManager.Objects[model]
+        if existing.gui and existing.gui.Parent and existing.hl and existing.hl.Parent then
+            return -- đã ok rồi
+        else
+            ESPManager:Remove(model)
+        end
+    end
+
+    local color = ESPManager.Colors[typeName]
+    local part = getPrimaryPart(model)
+    if not part then return end
+
+    -- Billboard
+    local billboard = Instance.new("BillboardGui")
+    billboard.Name = "ESP_" .. typeName
+    billboard.Size = UDim2.new(0, 180, 0, 35)
+    billboard.AlwaysOnTop = true
+    billboard.StudsOffset = Vector3.new(0, 3, 0)
+    billboard.MaxDistance = 600
+    billboard.Parent = part
+
+    local label = Instance.new("TextLabel")
+    label.Size = UDim2.new(1, 0, 1, 0)
+    label.BackgroundTransparency = 1
+    label.TextColor3 = color
+    label.TextStrokeTransparency = 0.3
+    label.Font = Enum.Font.GothamBold
+    label.TextSize = 16
+    label.Text = model.Name
+    label.Parent = billboard
+
+    -- Highlight
+    local hl = Instance.new("Highlight")
+    hl.Adornee = model
+    hl.FillColor = color
+    hl.OutlineColor = color
+    hl.FillTransparency = 0.7
+    hl.OutlineTransparency = 0
+    hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    hl.Enabled = true
+    hl.Parent = model
+
+    -- Kết nối model-level watchers (để tự phục hồi khi parent thay đổi / respawn / humanoid died)
+    local conns = {}
+
+    -- nếu model bị reparent / removed -> schedule recreate (debounced)
+    table.insert(conns, model.AncestryChanged:Connect(function(_, parent)
+        -- nếu model không còn trong workspace, xóa ESP
+        if not model:IsDescendantOf(workspace) then
+            -- xóa ngay (không recreate khi user tắt loại)
+            if ESPManager.Objects[model] and ESPManager.Objects[model].type == typeName then
+                ESPManager:Remove(model)
+            end
+            return
+        end
+        -- nếu trở lại workspace -> debounce tạo lại
+        if ESPManager.ActiveTypes[typeName] and ESPManager.Filters[typeName](model) then
+            ESPManager:_ScheduleCreate(model, typeName)
+        end
+    end))
+
+    -- watch humanoid death & respawn
+    local function watchHumanoid(hum)
+        if not hum then return end
+        -- Died -> remove, rồi chờ humanoid mới
+        table.insert(conns, hum.Died:Connect(function()
+            if ESPManager.Objects[model] and ESPManager.Objects[model].type == typeName then
+                ESPManager:Remove(model)
+            end
+            -- chờ humanoid mới xuất hiện (ChildAdded)
+            -- scheduled create sẽ handle khi Humanoid xuất hiện
+        end))
+    end
+
+    -- nếu đã có humanoid, watch nó
+    watchHumanoid(model:FindFirstChildOfClass("Humanoid"))
+
+    -- listen ChildAdded để detect humanoid respawn
+    table.insert(conns, model.ChildAdded:Connect(function(child)
+        if child and child:IsA("Humanoid") then
+            -- humanoid mới -> schedule create
+            watchHumanoid(child)
+            if ESPManager.ActiveTypes[typeName] and ESPManager.Filters[typeName](model) then
+                ESPManager:_ScheduleCreate(model, typeName)
+            end
+        end
+        -- nếu PrimaryPart xuất hiện muộn cũng schedule create
+        if (child:IsA("BasePart") or child:IsA("Model")) and ESPManager.ActiveTypes[typeName] and ESPManager.Filters[typeName](model) then
+            -- primary part may appear later
+            ESPManager:_ScheduleCreate(model, typeName)
+        end
+    end))
+
+    ESPManager.Objects[model] = {
+        type = typeName,
+        gui = billboard,
+        label = label,
+        hl = hl,
+        conns = conns,
+    }
+end
+
+-- 🧱 Public Create (debounced wrapper)
+function ESPManager:_ScheduleCreate(model, typeName)
+    if not model or not typeName then return end
+    -- nếu loại đang tắt thì không schedule
+    if not ESPManager.ActiveTypes[typeName] then return end
+    -- tránh schedule nhiều lần
+    if ESPManager._pendingCreate[model] then return end
+    ESPManager._pendingCreate[model] = true
+
+    -- dùng task.delay 0.5 để debounce, tránh spam tạo khi model đang mid-update
+    task.delay(0.5, function()
+        pcall(function()
+            ESPManager._pendingCreate[model] = nil
+            -- double-check điều kiện
+            if not model or not model.Parent then return end
+            local filterFn = ESPManager.Filters[typeName]
+            if not filterFn or not filterFn(model) then return end
+            -- call immediate create (safe)
+            ESPManager:_CreateImmediate(model, typeName)
+        end)
+    end)
+end
+
+-- 🧹 Xoá ESP
+function ESPManager:Remove(model)
+    local data = self.Objects[model]
+    if not data then return end
+
+    -- disconnect model connections
+    if data.conns then
+        disconnectConns(data.conns)
+    end
+
+    pcall(function() if data.gui then data.gui:Destroy() end end)
+    pcall(function() if data.hl then data.hl:Destroy() end end)
+    self.Objects[model] = nil
+    -- clear pending if any
+    self._pendingCreate[model] = nil
+end
+
+-- ⚙️ Tạo watcher (tự động thêm/xóa ESP khi model thay đổi)
+function ESPManager:StartWatcher(typeName)
+    local filterFn = self.Filters[typeName]
+    if not filterFn then return end
+    if self.Watchers[typeName] then return end
+
+    -- tạo ESP cho model sẵn có (debounced per model)
+    for _, obj in ipairs(workspace:GetDescendants()) do
+        if filterFn(obj) then
+            -- schedule create with debounce
+            self:_ScheduleCreate(obj, typeName)
+        end
+    end
+
+    -- theo dõi model mới (DescendantAdded) nhưng schedule create chỉ khi hợp lệ
+    local addConn = workspace.DescendantAdded:Connect(function(obj)
+        if self.ActiveTypes[typeName] and filterFn(obj) then
+            self:_ScheduleCreate(obj, typeName)
+        end
+    end)
+
+    -- khi model bị remove -> Remove ESP nếu có
+    local removeConn = workspace.DescendantRemoving:Connect(function(obj)
+        if self.Objects[obj] and self.Objects[obj].type == typeName then
+            self:Remove(obj)
+        end
+        -- clear any pending create when descendant removing
+        self._pendingCreate[obj] = nil
+    end)
+
+    self.Watchers[typeName] = {add = addConn, rem = removeConn}
+end
+
+function ESPManager:StopWatcher(typeName)
+    local w = self.Watchers[typeName]
+    if w then
+        if w.add then w.add:Disconnect() end
+        if w.rem then w.rem:Disconnect() end
+    end
+    self.Watchers[typeName] = nil
+end
+
+-- ♻️ Cập nhật (1 vòng duy nhất, cực nhẹ) - CHỈ cập nhật text / kiểm tra nhanh
+RunService.Heartbeat:Connect(function()
+    -- Sử dụng pairs(Objects) nhỏ (chỉ những model có ESP hiện tại)
+    for model, data in pairs(ESPManager.Objects) do
+        -- nếu model hỏng -> dọn
+        if not model or not model.Parent then
+            ESPManager:Remove(model)
+        else
+            local part = getPrimaryPart(model)
+            if not part then
+                ESPManager:Remove(model)
+            else
+                -- nếu gui/hl bị xóa bất ngờ -> schedule recreate (debounced)
+                local needRecreate = false
+                if (not data.gui) or (not data.hl) or (not data.label) then
+                    needRecreate = true
+                else
+                    -- kiểm tra parent tình trạng (nếu parent nil)
+                    if not data.gui.Parent then
+                        needRecreate = true
+                    end
+                end
+                if needRecreate then
+                    -- remove entry ngay (dọn) và schedule tạo lại an toàn
+                    local typeName = data.type
+                    ESPManager:Remove(model)
+                    ESPManager:_ScheduleCreate(model, typeName)
+                    -- next model
+                else
+                    -- cập nhật text (nhẹ)
+                    local dist = (Camera.CFrame.Position - part.Position).Magnitude
+                    local txt = model.Name
+                    local showHP = ESPManager.ShowHP[data.type]
+                    if showHP then
+                        local hum = model:FindFirstChildOfClass("Humanoid")
+                        if hum then
+                            txt = string.format("%s | HP:%d | [%.0fm]", txt, math.floor(hum.Health), dist)
+                        else
+                            txt = string.format("%s [%.0fm]", txt, dist)
+                        end
+                    else
+                        txt = string.format("%s [%.0fm]", txt, dist)
+                    end
+                    if data.label then
+                        -- label update is cheap
+                        pcall(function() data.label.Text = txt end)
+                    end
+                end
+            end
+        end
+    end
+end)
+
+-- ⚡ Bật/Tắt từng loại ESP
+function ESPManager:SetEnabled(typeName, state)
+    self.ActiveTypes[typeName] = state
+
+    if state then
+        self:StartWatcher(typeName)
+        -- khi bật lại, quét nhanh toàn bộ workspace và schedule create (debounced)
+        local filterFn = self.Filters[typeName]
+        if filterFn then
+            for _, obj in ipairs(workspace:GetDescendants()) do
+                if filterFn(obj) then
+                    self:_ScheduleCreate(obj, typeName)
+                end
+            end
+        end
+    else
+        self:StopWatcher(typeName)
+        -- xóa toàn bộ ESP loại đó
+        for model, data in pairs(self.Objects) do
+            if data.type == typeName then
+                self:Remove(model)
+            end
+        end
+    end
+end
+
+_G.ESPManager = ESPManager
+
+
+-- Phần Tạo Nút Gui
+
+-- 🟢 DRAGGABLE UI BUTTON WITH ENHANCED CLICK AND HOVER ANIMATIONS
+local UserInputService = game:GetService("UserInputService")
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+
+-- Xóa nếu có UI minimize cũ
+local ExistingUI = CoreGui:FindFirstChild("TzuanHubMinimizeUI")
+if ExistingUI then
+    ExistingUI:Destroy()
+end
+
+-- Create Floating UI
+local DragUI = Instance.new("ScreenGui")
+DragUI.Name = "TzuanHubMinimizeUI"
+DragUI.ResetOnSpawn = false
+DragUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DragUI.Parent = CoreGui
+
+-- Create Circular Button
+local Button = Instance.new("ImageButton")
+Button.Parent = DragUI
+Button.Size = UDim2.new(0, 50, 0, 50)
+Button.Position = UDim2.new(0, 10, 1, -85)
+Button.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Button.BackgroundTransparency = 0.3
+Button.BorderSizePixel = 0
+Button.ClipsDescendants = true
+Button.Image = "rbxassetid://84950100176700" -- Thay icon nếu muốn
+Button.ScaleType = Enum.ScaleType.Fit
+Button.Active = true
+Button.ZIndex = 1000
+
+-- Make UI Circular
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Button
+
+-- Tween Info for Animations
+local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+-- 🟢 Toggle Fluent UI trực tiếp
+local function ToggleUI()
+    if Window.Minimized then
+        Window:Minimize(false) -- mở lại
+    else
+        Window:Minimize(true) -- thu nhỏ
+    end
+end
+
+-- Click Animation & UI Toggle
+local isDragging = false
+local dragThreshold = 10
+
+Button.MouseButton1Click:Connect(function()
+    if isDragging then return end
+
+    -- Click animation
+    TweenService:Create(Button, tweenInfo, {
+        BackgroundTransparency = 0.5,
+        Size = UDim2.new(0, 45, 0, 45),
+        Rotation = 5
+    }):Play()
+    task.wait(0.1)
+    TweenService:Create(Button, tweenInfo, {
+        BackgroundTransparency = 0.3,
+        Size = UDim2.new(0, 50, 0, 50),
+        Rotation = 0
+    }):Play()
+
+    ToggleUI()
+end)
+
+-- Hover Animation
+Button.MouseEnter:Connect(function()
+    TweenService:Create(Button, tweenInfo, {Size = UDim2.new(0, 55, 0, 55)}):Play()
+end)
+
+Button.MouseLeave:Connect(function()
+    TweenService:Create(Button, tweenInfo, {Size = UDim2.new(0, 50, 0, 50)}):Play()
+end)
+
+-- Dragging Logic for PC & Mobile
+local dragging, dragStart, startPos
+
+local function StartDrag(input)
+    isDragging = false
+    dragging = true
+    dragStart = input.Position
+    startPos = Button.Position
+
+    input.Changed:Connect(function()
+        if input.UserInputState == Enum.UserInputState.End then
+            dragging = false
+        end
+    end)
+end
+
+local function OnDrag(input)
+    if dragging then
+        local delta = (input.Position - dragStart).Magnitude
+        if delta > dragThreshold then
+            isDragging = true
+        end
+        Button.Position = UDim2.new(
+            startPos.X.Scale,
+            startPos.X.Offset + (input.Position.X - dragStart.X),
+            startPos.Y.Scale,
+            startPos.Y.Offset + (input.Position.Y - dragStart.Y)
+        )
+    end
+end
+
+-- Dragging Support
+Button.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        StartDrag(input)
+    end
+end)
+
+Button.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        OnDrag(input)
+    end
+end)  
+
+
+-- Tab.Dev
+
+local Options = Fluent.Options
+
+
+    Tabs.Dev:AddParagraph({
+        Title = "Note",
+        Content = "Thank you for using the script!"
+    })
+
+    Tabs.Dev:AddSection("↳ Links")
+
+    Tabs.Dev:AddButton({
+        Title = "Discord",
+        Description = "Copy the link to join the discord!",
+        Callback = function()
+            setclipboard("https://discord.gg/usv255Pw4t")
+            Fluent:Notify({
+                Title = "Notification",
+                Content = "Successfully copied to the clipboard",
+                SubContent = "", -- Optional
+                Duration = 3 
+            })
+        end
+    })
+
+
+
+    Tabs.Dev:AddButton({
+        Title = "Youtube",
+        Description = "Copy link to Subscribe to Youtube channel!",
+        Callback = function()
+            setclipboard("https://youtube.com/@Tzuanww")
+            Fluent:Notify({
+                Title = "Notification",
+                Content = "Successfully copied to the clipboard!",
+                SubContent = "", -- Optional
+                Duration = 3 
+            })
+        end
+    })
+
+
+    Tabs.Dev:AddButton({
+        Title = "Tiktok",
+        Description = "Copy the link and follow me on TikTok!",
+        Callback = function()
+            setclipboard("https://www.tiktok.com/@xuan_vp?_r=1&_t=ZS-91ACXEqUsID")
+            Fluent:Notify({
+                Title = "Notification",
+                Content = "Successfully copied to the clipboard!",
+                SubContent = "", -- Optional
+                Duration = 3 
+            })
+        end
+    })
+
+-- Tabs.Farm
+
+
+
+
+do
+    local Players = game:GetService("Players")
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local LocalPlayer = Players.LocalPlayer
+
+    local Active = false
+    local loopRunning = false
+    local CurrentTarget = nil
+    local lastAttack = 0
+
+    -- 🟥 Chỉ chạy khi là các model này
+    local KillersList = {
+        ["Slasher"] = true,
+        ["1x1x1x1"] = true,
+        ["c00lkidd"] = true,
+        ["Noli"] = true,
+        ["JohnDoe"] = true,
+        ["Guest 666"] = true,
+        ["Sixer"] = true,
+    }
+
+    -- 🟢 Danh sách ưu tiên
+    local PriorityList = {
+        ["0206octavio"] = true
+    }
+
+    -- 🔥 Danh sách skill (full, có thể thêm/bớt thoải mái)
+    local SkillList = {
+        "Slash", "Stab", "Punch",
+        "VoidRush", "Nova",
+        "CorruptEnergy", "Behead", "GashingWound",
+        "MassInfection", "CorruptNature", "WalkspeedOverride", "PizzaDelivery",
+        "UnstableEye", "Entanglement",
+        "DigitalFootprint", "404Error",
+        "RagingPace", "Carving Slash", "Demonic Pursuit",
+        "Infernal Cry", "Blood Rush"
+    }
+
+    -- =====================
+    -- 🗡️ RemoteEvent Finder
+    -- =====================
+    local SkillRemotes = {}
+
+    local function findSkillRemoteFromButton(button)
+        for _, conn in ipairs(getconnections(button.MouseButton1Click)) do
+            local f = conn.Function
+            if f and islclosure(f) then
+                for _, v in pairs(getupvalues(f)) do
+                    if typeof(v) == "Instance" and v:IsA("RemoteEvent") then
+                        return v
+                    end
+                end
+            end
+        end
+        return nil
+    end
+
+    local function initSkillButtons()
+        local gui = LocalPlayer:FindFirstChild("PlayerGui")
+        if not gui then return end
+        local mainUI = gui:FindFirstChild("MainUI")
+        local container = mainUI and mainUI:FindFirstChild("AbilityContainer")
+        if not container then return end
+
+        for _, child in ipairs(container:GetChildren()) do
+            if child:IsA("ImageButton") then
+                local remote = findSkillRemoteFromButton(child)
+                if remote then
+                    SkillRemotes[child.Name] = remote
+                    warn("[Skill] Found RemoteEvent for:", child.Name, remote:GetFullName())
+                end
+            end
+        end
+    end
+
+    initSkillButtons()
+    LocalPlayer.CharacterAdded:Connect(function()
+        task.wait(1)
+        initSkillButtons()
+    end)
+
+    -- =====================
+    -- 🎯 Target Finder
+    -- =====================
+    local function GetPriorityTarget()
+        local survivorsFolder = workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Survivors")
+        if not survivorsFolder then return nil end
+
+        for _, survivor in ipairs(survivorsFolder:GetChildren()) do
+            if survivor:IsA("Model") and survivor:FindFirstChild("HumanoidRootPart") then
+                if PriorityList[survivor.Name] then
+                    local humanoid = survivor:FindFirstChildOfClass("Humanoid")
+                    if humanoid and humanoid.Health > 0 then
+                        return survivor
+                    end
+                end
+            end
+        end
+        return nil
+    end
+
+    local function GetClosestSurvivor()
+        local priorityTarget = GetPriorityTarget()
+        if priorityTarget then return priorityTarget end
+
+        local localChar = LocalPlayer.Character
+        if not (localChar and localChar:FindFirstChild("HumanoidRootPart")) then return nil end
+        local survivorsFolder = workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Survivors")
+        if not survivorsFolder then return nil end
+
+        local closest, minDist = nil, math.huge
+        for _, survivor in ipairs(survivorsFolder:GetChildren()) do
+            local humanoid = survivor:FindFirstChildOfClass("Humanoid")
+            if survivor:IsA("Model") and survivor:FindFirstChild("HumanoidRootPart") and humanoid and humanoid.Health > 0 then
+                local dist = (localChar.HumanoidRootPart.Position - survivor.HumanoidRootPart.Position).Magnitude
+                if dist < minDist then
+                    minDist = dist
+                    closest = survivor
+                end
+            end
+        end
+        return closest
+    end
+
+    -- =====================
+    -- 🗡️ Kill Logic (spam nhanh + Remote + UI Click)
+    -- =====================
+    local function KillTarget(target)
+        pcall(function()
+            if not target then return end
+            local localChar = LocalPlayer.Character
+            if not (localChar and localChar:FindFirstChild("HumanoidRootPart")) then return end
+
+            local root = localChar.HumanoidRootPart
+            local targetRoot = target:FindFirstChild("HumanoidRootPart")
+            if not targetRoot then return end
+
+            -- Spam skill (mỗi 0.05s)
+            if tick() - lastAttack >= 0.05 then
+                lastAttack = tick()
+
+                for _, skillName in ipairs(SkillList) do
+                    -- luôn cập nhật vị trí sát lưng target trước khi dùng skill
+                    local offset = targetRoot.CFrame.LookVector * -2
+                    root.CFrame = targetRoot.CFrame + offset
+
+                    local remote = SkillRemotes[skillName]
+                    if remote then
+                        -- Cách 1: FireServer trực tiếp
+                        remote:FireServer(true)
+                        task.wait(0.005)
+                        remote:FireServer(false)
+                    else
+                        -- Cách 2: Giả click nút skill trong GUI
+                        local gui = LocalPlayer:FindFirstChild("PlayerGui")
+                        local mainUI = gui and gui:FindFirstChild("MainUI")
+                        local container = mainUI and mainUI:FindFirstChild("AbilityContainer")
+                        if container then
+                            local button = container:FindFirstChild(skillName)
+                            if button and button:IsA("ImageButton") then
+                                for _, conn in ipairs(getconnections(button.MouseButton1Click)) do
+                                    if conn.Function then
+                                        pcall(conn.Function)
+                                    end
+                                end
+                                pcall(function() button:Activate() end)
+                            end
+                        end
+
+                        -- fallback cuối cùng: Remote gốc trong ReplicatedStorage
+                        local net = ReplicatedStorage:FindFirstChild("Modules")
+                                    and ReplicatedStorage.Modules:FindFirstChild("Network")
+                                    and ReplicatedStorage.Modules.Network:FindFirstChild("RemoteEvent")
+                        if net and typeof(net.FireServer) == "function" then
+                            net:FireServer("UseActorAbility", skillName)
+                        end
+                    end
+
+                    task.wait(0.01) -- giữ nhịp nhanh
+                end
+            end
+        end)
+    end
+
+    -- =====================
+    -- 🔄 Main Loop
+    -- =====================
+    local function StartLoop()
+        if loopRunning then return end
+        loopRunning = true
+        task.spawn(function()
+            while Active do
+                -- 🛑 Nếu không phải killer hợp lệ thì không làm gì
+                local char = LocalPlayer.Character
+                if not (char and KillersList[char.Name]) then
+                    CurrentTarget = nil
+                    task.wait(0.5)
+                    continue
+                end
+
+                if not CurrentTarget 
+                   or not CurrentTarget.Parent 
+                   or not CurrentTarget:FindFirstChildOfClass("Humanoid") 
+                   or CurrentTarget:FindFirstChildOfClass("Humanoid").Health <= 0 then
+                    CurrentTarget = GetClosestSurvivor()
+                end
+                if CurrentTarget then
+                    KillTarget(CurrentTarget)
+                end
+                task.wait(0.01)
+            end
+            loopRunning = false
+        end)
+    end
+
+    Tabs.Farm:AddToggle("KillersFarmV2", {
+        Title = "Killers Farm V2",
+        Default = false,
+        Callback = function(Value)
+            Active = Value
+            if Active then
+                StartLoop()
+            end
+        end
+    })
+end
+
+
+
+
+local Players = game:GetService("Players")
+local LP = Players.LocalPlayer
+
+local solveGeneratorCooldown = false
+local genDelay = 0.75 -- delay mặc định
+local currentCharacter
+local Spectators = {}
+local isInGame, Survivor = false, false
+
+-- 🟥 Killer nguy hiểm
+local DangerousKillers = {
+    ["Slasher"] = true,
+    ["1x1x1x1"] = true,
+    ["c00lkidd"] = true,
+    ["Noli"] = true,
+    ["JohnDoe"] = true,
+    ["Guest 666"] = true,
+    ["Sixer"] = true
+}
+
+-- 🟢 Kiểm tra killer gần generator
+local function isKillerNearGenerator(generatorPos, distance)
+    local killersFolder = workspace.Players:FindFirstChild("Killers")
+    if not killersFolder then return false end
+    for _, killer in ipairs(killersFolder:GetChildren()) do
+        if killer:IsA("Model") and killer:FindFirstChild("HumanoidRootPart") then
+            if DangerousKillers[killer.Name] then
+                local dist = (killer.HumanoidRootPart.Position - generatorPos).Magnitude
+                if dist <= distance then
+                    return true
+                end
+            end
+        end
+    end
+    return false
+end
+
+-- 🟢 Tìm generator chưa xong (cập nhật genDelay luôn)
+local function getUnfinishedGenerators()
+    local list = {}
+    local map = workspace:FindFirstChild("Map") 
+        and workspace.Map:FindFirstChild("Ingame") 
+        and workspace.Map.Ingame:FindFirstChild("Map")
+    if map then
+        for _, gen in ipairs(map:GetChildren()) do
+            if gen.Name == "Generator" 
+                and gen:FindFirstChild("Progress") 
+                and gen.Progress.Value < 100 then
+                table.insert(list, gen)
+            end
+        end
+    end
+
+    -- ⚡ Nếu chỉ còn 1 generator => tăng delay để tránh bị kick
+    if #list == 1 then
+        genDelay = 1.5
+    else
+        genDelay = 0.75
+    end
+
+    return list
+end
+
+-- 🟢 Sửa 1 lần rồi nhảy sang generator khác
+local function fixOneGenerator(gen)
+    if solveGeneratorCooldown then return end
+    if not currentCharacter or not currentCharacter:FindFirstChild("HumanoidRootPart") then return end
+
+    local genCFrame = gen:GetPivot()
+    local goalPos = (genCFrame * CFrame.new(0, 0, -7)).Position
+
+    if isKillerNearGenerator(goalPos, 50) then
+        print("⚠️ Bỏ qua generator vì killer nguy hiểm gần!")
+        return
+    end
+
+    -- Teleport tới gen
+    currentCharacter:PivotTo(CFrame.new(goalPos + Vector3.new(0, 0, 0))) -- chỉnh độ cao, độ lệch
+    task.wait(0.25)
+
+    local prompt = gen:FindFirstChild("Main") and gen.Main:FindFirstChild("Prompt")
+    if prompt then
+        prompt.HoldDuration = 0
+        prompt.RequiresLineOfSight = false
+        prompt.MaxActivationDistance = 99999
+
+        -- Ấn để sửa 1 lần
+        pcall(function()
+            prompt:InputHoldBegin()
+            prompt:InputHoldEnd()
+        end)
+    end
+
+    if gen:FindFirstChild("Remotes") and gen.Remotes:FindFirstChild("RE") then
+        gen.Remotes.RE:FireServer()
+    end
+
+    -- 🔴 Spam thêm vài lần để chắc chắn thoát GUI trước khi đi gen khác
+    if prompt then
+        task.wait(0)
+        pcall(function()
+            for i = 1, 3 do
+                prompt:InputHoldBegin()
+                task.wait(0)
+                prompt:InputHoldEnd()
+            end
+        end)
+    end
+
+    -- Cooldown
+    solveGeneratorCooldown = true
+    task.delay(genDelay, function()
+        solveGeneratorCooldown = false
+    end)
+end
+
+-- 🟢 Survivors Auto Farm
+Tabs.Farm:AddToggle("SurvivorsAutoFarmV2", {
+    Title = "Survivors Farm V2",
+    Default = false
+}):OnChanged(function(Value)
+    _G.SurvivorsFarm = Value
+
+    -- Cập nhật trạng thái in-game
+    task.spawn(function()
+        while _G.SurvivorsFarm do
+            Spectators = {}
+            for _, v in ipairs(workspace:WaitForChild("Players"):WaitForChild("Spectating"):GetChildren()) do
+                table.insert(Spectators, v.Name)
+            end
+            isInGame = not table.find(Spectators, LP.Name)
+            task.wait(0.1)
+        end
+    end)
+
+    -- Kiểm tra survivor
+    task.spawn(function()
+        while _G.SurvivorsFarm do
+            if workspace:FindFirstChild("Players") then
+                local survivorsFolder = workspace.Players:FindFirstChild("Survivors")
+                Survivor = survivorsFolder 
+                    and (survivorsFolder:FindFirstChild(LP.Name) 
+                    or table.find(survivorsFolder:GetChildren(), LP.Character))
+            end
+            task.wait(0.1)
+        end
+    end)
+
+    -- Auto sửa gen
+    task.spawn(function()
+        local survivorsFolder = workspace.Players:WaitForChild("Survivors")
+        while _G.SurvivorsFarm do
+            if Survivor and isInGame then
+                -- lấy nhân vật hiện tại
+                for _, surv in ipairs(survivorsFolder:GetChildren()) do
+                    if surv:GetAttribute("Username") == LP.Name then
+                        currentCharacter = surv
+                        break
+                    end
+                end
+
+                -- tìm gen chưa xong và sửa 1 lần
+                local gens = getUnfinishedGenerators()
+                for _, gen in ipairs(gens) do
+                    if not _G.SurvivorsFarm then break end
+                    fixOneGenerator(gen)
+                    task.wait(genDelay) -- sau khi sửa xong thì nhảy qua gen khác
+                end
+            end
+            task.wait(0.1)
+        end
+    end)
+end)
+
+
+
+
+
+
+
+    Tabs.Farm:AddSection("↳ Generator")
+
+do
+local solveGeneratorCooldown = false
+local AutoFinishGen = false
+local genDelay = 1.5 -- mặc định 1.5s
+
+-- Hàm tìm generator gần nhất
+local function getClosestGenerator()
+    local char = game.Players.LocalPlayer.Character
+    if not char or not char.PrimaryPart then return nil end
+
+    local root = char.PrimaryPart
+    local closest, shortestDist = nil, math.huge
+
+    local mapContainer = workspace:FindFirstChild("Map")
+    if mapContainer then
+        local ingame = mapContainer:FindFirstChild("Ingame")
+        if ingame then
+            local map = ingame:FindFirstChild("Map")
+            if map then
+                for _, obj in ipairs(map:GetChildren()) do
+                    if obj.Name == "Generator" and obj:IsA("Model") and obj.PrimaryPart then
+                        local dist = (root.Position - obj.PrimaryPart.Position).Magnitude
+                        if dist < shortestDist then
+                            closest = obj
+                            shortestDist = dist
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+-- Nút Finish generator thủ công
+Tabs.Farm:AddButton({
+    Title = "Finish Generator",
+    Callback = function()
+        if solveGeneratorCooldown then 
+            print("⏳ Please wait before trying again!") 
+            return
+        end
+        if AutoFinishGen then
+            print("❌ Please disable Auto Finish Generator first!")
+            return
+        end
+
+        local gen = getClosestGenerator()
+        if gen and gen:FindFirstChild("Remotes") and gen.Remotes:FindFirstChild("RE") then
+            gen.Remotes.RE:FireServer()
+            solveGeneratorCooldown = true
+            task.delay(genDelay, function()
+                solveGeneratorCooldown = false
+            end)
+        end
+    end
+})
+
+-- Toggle Auto Finish Generator
+Tabs.Farm:AddToggle("AutoFinishGen", {
+    Title = "Auto Finish Generator",
+    Default = false
+}):OnChanged(function(state)
+    AutoFinishGen = state
+
+    if state then
+        if solveGeneratorCooldown then
+            print("⚠️ Please wait cooldown before enabling Auto Finish!") 
+            Fluent.Options.AutoFinishGen:SetValue(false)
+            return
+        end
+
+        task.spawn(function()
+            while AutoFinishGen do
+                local gen = getClosestGenerator()
+                if gen and gen:FindFirstChild("Remotes") and gen.Remotes:FindFirstChild("RE") then
+                    gen.Remotes.RE:FireServer()
+                end
+                solveGeneratorCooldown = true
+                task.wait(genDelay)
+                solveGeneratorCooldown = false
+            end
+        end)
+    else
+        solveGeneratorCooldown = false
+    end
+end)
+
+
+-- Ô nhập delay
+Tabs.Farm:AddInput("GenDelayInput", {
+    Title = "Enter Delay",
+    Default = "1.5",
+    Placeholder = "Write Here (1.5-10)",
+    Numeric = true,
+    Callback = function(value)
+        local num = tonumber(value)
+        if num then
+            -- Clamp giá trị từ 1.5 đến 10
+            genDelay = math.clamp(num, 1.5, 10)
+            print("⏱ Delay set to:", genDelay)
+        else
+            print("⚠️ Nhập số hợp lệ!")
+        end
+    end
+})
+end
+
+
+do
+local Players = game:GetService("Players")
+local PathfindingService = game:GetService("PathfindingService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local LP = Players.LocalPlayer
+
+-- 🔹 Cancel token cho pathfinding
+local h = 0
+_G.PlayerControlled = false
+
+-- =========================
+--  DANH SÁCH SURVIVORS HỢP LỆ
+-- =========================
+local AllowedSurvivors = {
+    ["Noob"] = true, ["Guest1337"] = true, ["Elliot"] = true,
+    ["Shedletsky"] = true, ["TwoTime"] = true, ["007n7"] = true, ["Veeronica"] = true,
+    ["Chance"] = true, ["Builderman"] = true, ["Taph"] = true, ["Dusekkar"] = true,
+}
+
+local function isSurvivorValid()
+    local char = LP.Character
+    if not char then return false end
+    return AllowedSurvivors[char.Name] == true
+end
+
+-- =========================
+--  PHÁT HIỆN NGƯỜI CHƠI ĐIỀU KHIỂN
+-- =========================
+local moveKeys = {
+    [Enum.KeyCode.W] = true, [Enum.KeyCode.A] = true, [Enum.KeyCode.S] = true, [Enum.KeyCode.D] = true,
+    [Enum.KeyCode.Up] = true, [Enum.KeyCode.Left] = true, [Enum.KeyCode.Down] = true, [Enum.KeyCode.Right] = true,
+}
+local activeInputs, lastMoveTick = 0, 0
+local IDLE_GRACE = 0.25
+
+local function setControlled(flag)
+    if _G.PlayerControlled ~= flag then
+        _G.PlayerControlled = flag
+        if flag then h = h + 1 end -- hủy path ngay khi người chơi can thiệp
+    end
+end
+
+UserInputService.InputBegan:Connect(function(input, gp)
+    if gp then return end
+    if input.UserInputType == Enum.UserInputType.Keyboard and moveKeys[input.KeyCode] then
+        activeInputs += 1; setControlled(true)
+    elseif input.UserInputType == Enum.UserInputType.Gamepad1 then
+        activeInputs += 1; setControlled(true)
+    elseif input.UserInputType == Enum.UserInputType.Touch then
+        local cam = workspace.CurrentCamera
+        if cam and input.Position.X < cam.ViewportSize.X * 0.5 then
+            activeInputs += 1; setControlled(true)
+        end
+    end
+end)
+
+UserInputService.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.Keyboard and moveKeys[input.KeyCode] then
+        activeInputs = math.max(0, activeInputs - 1)
+    elseif input.UserInputType == Enum.UserInputType.Gamepad1 or input.UserInputType == Enum.UserInputType.Touch then
+        activeInputs = math.max(0, activeInputs - 1)
+    end
+    if activeInputs == 0 then lastMoveTick = tick() end
+end)
+
+RunService.Heartbeat:Connect(function()
+    local hum = LP.Character and LP.Character:FindFirstChildOfClass("Humanoid")
+    if not hum then return end
+    if hum.MoveDirection.Magnitude > 0 then
+        lastMoveTick = tick(); setControlled(true)
+    elseif activeInputs == 0 and (tick() - lastMoveTick) >= IDLE_GRACE then
+        setControlled(false)
+    end
+end)
+
+-- =========================
+--  PATHFINDING
+-- =========================
+local function pathfindTo(targetPos)
+    local hNow = h
+    local char = LP.Character
+    if not char then return end
+    local hum = char:FindFirstChildOfClass("Humanoid")
+    local root = char:FindFirstChild("HumanoidRootPart")
+    if not (hum and root) then return end
+
+    local path = PathfindingService:CreatePath({
+        AgentRadius = 2, AgentHeight = 5,
+        AgentCanJump = false, AgentJumpHeight = 10, AgentMaxSlope = 45
+    })
+
+    local ok = pcall(function() path:ComputeAsync(root.Position, targetPos) end)
+    if not ok or path.Status ~= Enum.PathStatus.Success then return end
+
+    for _, wp in ipairs(path:GetWaypoints()) do
+        if hNow ~= h or _G.PlayerControlled then return end
+        if not (hum and root and root.Parent) then return end
+
+        hum:MoveTo(wp.Position)
+        repeat task.wait()
+        until hNow ~= h or _G.PlayerControlled or not root.Parent
+           or ((root.Position * Vector3.new(1,0,1) - wp.Position * Vector3.new(1,0,1)).Magnitude <= 2)
+
+        if wp.Action == Enum.PathWaypointAction.Jump then hum.Jump = true end
+    end
+end
+
+-- =========================
+--  HỖ TRỢ KIỂM TRA KILLER
+-- =========================
+local function isKillerNearGenerator(generatorPos, distance)
+    local killersFolder = Workspace.Players:FindFirstChild("Killers")
+    if not killersFolder then return false end
+    for _, killer in ipairs(killersFolder:GetChildren()) do
+        local hrp = killer:FindFirstChild("HumanoidRootPart")
+        if hrp and (hrp.Position - generatorPos).Magnitude <= distance then
+            return true
+        end
+    end
+    return false
+end
+
+-- =========================
+--  TOGGLE AUTO WALK & FIX GENERATORS
+-- =========================
+local GenWalkToggle = Tabs.Farm:AddToggle("GenWalkToggle", {
+    Title = "Walk To Generator",
+    Default = false
+})
+
+GenWalkToggle:OnChanged(function(Value)
+    _G.AutoGenerators = Value
+    if not Value then h = h + 1 end
+
+    -- Auto Sprint (có kiểm soát stamina)
+    if Value then
+        _G.alwaysSprint = true
+        task.spawn(function()
+            local okSprint, sprint = pcall(function() return require(ReplicatedStorage.Systems.Character.Game.Sprinting) end)
+            local okStam, stamina = pcall(function() return require(ReplicatedStorage.Systems.Character.Game.StaminaHandler) end)
+            if not okSprint then return end
+
+            local LOW, HIGH, lastReset, forceStop = 10, 80, tick(), false
+            local function fireSprint(flag)
+                sprint.IsSprinting = flag
+                pcall(function() if sprint.__sprintedEvent then sprint.__sprintedEvent:Fire(flag) end end)
+            end
+
+            while _G.alwaysSprint and _G.AutoGenerators and task.wait() do
+                -- 🔒 Chỉ chạy khi là survivor hợp lệ; nếu không thì tắt sprint và chờ
+                if not isSurvivorValid() then
+                    if okSprint and sprint.IsSprinting then fireSprint(false) end
+                    continue
+                end
+
+                if okStam and type(stamina.Value) == "number" then
+                    if stamina.Value <= LOW then if sprint.IsSprinting then fireSprint(false) end; forceStop = true end
+                    if forceStop and stamina.Value >= HIGH then fireSprint(true); forceStop = false; lastReset = tick() end
+                end
+                if not forceStop and not sprint.IsSprinting then fireSprint(true); lastReset = tick() end
+                if not forceStop and tick() - lastReset >= 3 then
+                    fireSprint(false); task.wait(0.1); fireSprint(true); lastReset = tick()
+                end
+            end
+        end)
+    else
+        _G.alwaysSprint = false
+    end
+
+    -- Auto Generators loop
+    task.spawn(function()
+        while true do
+            if not _G.AutoGenerators then task.wait(1); continue end
+            if not isSurvivorValid() then task.wait(1); continue end -- ✅ chỉ cho phép survivors hợp lệ
+
+            if _G.PlayerControlled then task.wait(0.1); continue end
+
+            local hrp = LP.Character and LP.Character:FindFirstChild("HumanoidRootPart")
+            if not hrp then task.wait(1); continue end
+
+            local map = Workspace:FindFirstChild("Map") and Workspace.Map:FindFirstChild("Ingame") and Workspace.Map.Ingame:FindFirstChild("Map")
+            if not map then task.wait(2); continue end
+
+            local gens = {}
+            for _, gen in ipairs(map:GetChildren()) do
+                if gen.Name == "Generator" and gen:FindFirstChild("Progress") and gen.Progress.Value < 100 then
+                    table.insert(gens, gen)
+                end
+            end
+            if #gens == 0 then task.wait(3); continue end
+
+            table.sort(gens, function(a, b)
+                local ca, cb = a.Positions and a.Positions:FindFirstChild("Center"), b.Positions and b.Positions:FindFirstChild("Center") -- ✅ sửa 'và' -> 'and'
+                if ca and cb then
+                    return (hrp.Position - ca.Position).Magnitude < (hrp.Position - cb.Position).Magnitude
+                end
+                return false
+            end)
+
+            local targetGen = gens[1]
+            if targetGen and targetGen.Positions and targetGen.Positions:FindFirstChild("Center") then
+                local center = targetGen.Positions.Center.Position
+                if isKillerNearGenerator(center, 50) then task.wait(2); continue end
+
+                if not _G.PlayerControlled then pcall(function() pathfindTo(center) end) end
+                repeat task.wait(0.05)
+                until not _G.AutoGenerators or _G.PlayerControlled or not hrp.Parent or (hrp.Position - center).Magnitude <= 6
+                if _G.PlayerControlled then continue end
+
+                local prompt = targetGen.Main and targetGen.Main:FindFirstChild("Prompt")
+                if prompt and (hrp.Position - center).Magnitude <= 6 then
+                    prompt.HoldDuration, prompt.RequiresLineOfSight, prompt.MaxActivationDistance = 0, false, 99999
+                    while _G.AutoGenerators and not _G.PlayerControlled and targetGen.Parent and targetGen:FindFirstChild("Progress") and targetGen.Progress.Value < 100 do
+                        if (hrp.Position - center).Magnitude > 6 then break end
+                        -- 🔹 Nhấn 1 lần rồi chờ 3 giây
+                        pcall(function()
+                            prompt:InputHoldBegin()
+                        end)
+                        task.wait(0.2) -- giữ nhẹ để chắc chắn ăn lệnh
+                        pcall(function()
+                            prompt:InputHoldEnd()
+                        end)
+                        task.wait(3.0) -- nghỉ 3 giây
+                    end
+                end
+            end
+            task.wait(0.5)
+        end
+    end)
+end)
+
+-- Reset path khi map mới spawn
+Workspace.ChildAdded:Connect(function(child)
+    if child.Name == "Map" then h = h + 1 end
+end)
+end
+
+
+
+    Tabs.Farm:AddSection("↳ Items")
+
+local Players = game:GetService("Players")
+local LP = Players.LocalPlayer
+
+-- Hàm nhặt item gần nhất
+local function pickUpNearest()
+    local map = workspace:FindFirstChild("Map") 
+                and workspace.Map:FindFirstChild("Ingame") 
+                and workspace.Map.Ingame:FindFirstChild("Map")
+    if not map or not LP.Character or not LP.Character:FindFirstChild("HumanoidRootPart") then return end
+
+    local oldCFrame = LP.Character.HumanoidRootPart.CFrame
+    for _, item in ipairs(map:GetChildren()) do
+        if item:IsA("Tool") and item:FindFirstChild("ItemRoot") 
+           and item.ItemRoot:FindFirstChild("ProximityPrompt") then
+            LP.Character.HumanoidRootPart.CFrame = item.ItemRoot.CFrame
+            task.wait(0.3)
+            fireproximityprompt(item.ItemRoot.ProximityPrompt)
+            task.wait(0.4)
+            LP.Character.HumanoidRootPart.CFrame = oldCFrame
+            break
+        end
+    end
+end
+
+-- Button: Pick Up Item (1 lần)
+Tabs.Farm:AddButton({
+    Title = "Pick Up Item",
+    Callback = pickUpNearest
+})
+
+-- Toggle: Auto PickUp Item (lặp)
+Tabs.Farm:AddToggle("ItemPick", {
+    Title = "Auto PickUp Item",
+    Default = false
+}):OnChanged(function(Value)
+    _G.PickupItem = Value
+    if not Value then return end
+
+    task.spawn(function()
+        while _G.PickupItem do
+            pickUpNearest()
+            task.wait(0.2) -- delay giữa mỗi lần nhặt
+        end
+    end)
+end)
+
+
+
+
+-- Tabs.Main
+
+Tabs.Main:AddParagraph({
+    Title = "How to Use Script :",
+    Content = "1: Must adjust the slider to increase or decrease\n2: Must not be min or max because it will not work\n3: Then turn on the buttons to use those functions\n\n|| Like, Share And Subscribe For Tzuanww ||"
+})
+
+
+
+    Tabs.Main:AddSection("↳ Eliot")
+
+do
+-- 🧩 GUI Toggle + Input
+local toggleOn = false
+local toggleFlag = Instance.new("BoolValue")
+toggleFlag.Name = "EliotPizzaAim_ToggleFlag"
+toggleFlag.Value = false
+
+Tabs.Main:AddToggle("NemPizza", {
+    Title = "Pizza Aimbot",
+    Default = toggleOn,
+}):OnChanged(function(state)
+    toggleOn = state
+    toggleFlag.Value = state
+end)
+
+-- khoảng cách aim (studs)
+local maxDistance = 100
+Tabs.Main:AddInput("PizzaAimDistance", {
+    Title = "Aim Distance",
+    Default = tostring(maxDistance),
+    Placeholder = "Enter Number",
+}):OnChanged(function(value)
+    local num = tonumber(value)
+    if num then
+        maxDistance = num
+    end
+end)
+
+-- ⚙️ Services
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local localPlayer = Players.LocalPlayer
+local survivorsFolder = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+-- 🎞️ Animation IDs
+local PizzaAnimation = {
+    ["114155003741146"] = true,
+    ["104033348426533"] = true
+}
+
+-- 🧠 Eliot check
+local EliotModels = {["Elliot"] = true}
+
+-- 🔖 State
+local autoRotateDisabledByScript = false
+local currentTarget, isLockedOn, wasPlayingAnimation = nil, false, false
+local aimOffset = 2 -- lệch phải 2 studs
+
+-- ⚙️ Utils
+local function isEliot()
+    local char = localPlayer.Character
+    return char and EliotModels[char.Name] or false
+end
+
+local function getMyHumanoid()
+    local char = localPlayer.Character
+    return char and char:FindFirstChildWhichIsA("Humanoid")
+end
+
+local function restoreAutoRotate()
+    local hum = getMyHumanoid()
+    if hum and autoRotateDisabledByScript then
+        hum.AutoRotate = true
+        autoRotateDisabledByScript = false
+    end
+end
+
+local function isPlayingDangerousAnimation()
+    local humanoid = getMyHumanoid()
+    if not humanoid then return false end
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    if not animator then return false end
+    for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+        if track and track.Animation and track.Animation.AnimationId then
+            local animId = tostring(track.Animation.AnimationId):match("%d+")
+            if animId and PizzaAnimation[animId] then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+-- 🎯 Lấy survivor yếu máu nhất (trong folder Survivors)
+local function getWeakestSurvivor()
+    local list = {}
+    local myChar = localPlayer.Character
+    local myHum = getMyHumanoid()
+    local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
+    if not myRoot or not myHum or not myHum.MaxHealth or myHum.MaxHealth <= 0 then return nil end
+
+    local myHpPercent = myHum.Health / myHum.MaxHealth
+
+    for _, obj in ipairs(survivorsFolder:GetChildren()) do
+        if obj:IsA("Model") and obj ~= myChar then
+            local hum = obj:FindFirstChildWhichIsA("Humanoid")
+            local hrp = obj:FindFirstChild("HumanoidRootPart")
+            if hum and hrp and hum.Health > 0 and hum.MaxHealth > 0 then
+                local dist = (hrp.Position - myRoot.Position).Magnitude
+                local hpPercent = hum.Health / hum.MaxHealth
+                if dist <= maxDistance then
+                    table.insert(list, {model = obj, hp = hpPercent})
+                end
+            end
+        end
+    end
+
+    -- Sắp xếp theo % máu tăng dần
+    table.sort(list, function(a, b)
+        return a.hp < b.hp
+    end)
+
+    if #list == 0 then return nil end
+    if myHpPercent <= list[1].hp and #list > 1 then
+        return list[2].model
+    else
+        return list[1].model
+    end
+end
+
+-- 🔁 Reset khi respawn
+localPlayer.CharacterAdded:Connect(function()
+    task.delay(0.1, function()
+        autoRotateDisabledByScript = false
+    end)
+end)
+
+-- 🔂 Main loop
+RunService.RenderStepped:Connect(function()
+    if not toggleFlag.Value then
+        restoreAutoRotate()
+        currentTarget, isLockedOn, wasPlayingAnimation = nil, false, false
+        return
+    end
+
+    if not isEliot() then
+        restoreAutoRotate()
+        currentTarget, isLockedOn, wasPlayingAnimation = nil, false, false
+        return
+    end
+
+    local myHumanoid = getMyHumanoid()
+    if not myHumanoid then return end
+    local myRoot = myHumanoid.Parent and myHumanoid.Parent:FindFirstChild("HumanoidRootPart")
+    if not myRoot then return end
+
+    local isPlaying = isPlayingDangerousAnimation()
+
+    -- 🧲 Lock target khi bắt đầu animation
+    if isPlaying and not isLockedOn then
+        currentTarget = getWeakestSurvivor()
+        if currentTarget then isLockedOn = true end
+    end
+
+    -- ⚙️ Validate target
+    if isLockedOn and currentTarget then
+        local tHum = currentTarget:FindFirstChildWhichIsA("Humanoid")
+        local tHrp = currentTarget:FindFirstChild("HumanoidRootPart")
+        if (not tHum) or (tHum.Health <= 0) or (not tHrp) then
+            currentTarget, isLockedOn = nil, false
+        end
+    end
+
+    -- ⏹️ End animation -> reset
+    if (not isPlaying) and wasPlayingAnimation then
+        currentTarget, isLockedOn = nil, false
+        restoreAutoRotate()
+    end
+    wasPlayingAnimation = isPlaying
+
+    -- 🎯 Aim logic
+    if isPlaying and isLockedOn and currentTarget and currentTarget:FindFirstChild("HumanoidRootPart") then
+        local hrp = currentTarget.HumanoidRootPart
+        local targetPos = hrp.Position
+        if not autoRotateDisabledByScript then
+            myHumanoid.AutoRotate = false
+            autoRotateDisabledByScript = true
+        end
+
+        -- dự đoán hướng di chuyển nhẹ
+        local vel = hrp.Velocity
+        if vel and vel.Magnitude > 2 then
+            targetPos = targetPos + hrp.CFrame.LookVector * 3
+        end
+
+        -- lệch phải
+        local offset = myRoot.CFrame.RightVector * aimOffset
+        local lookAt = Vector3.new(targetPos.X, myRoot.Position.Y, targetPos.Z) + offset
+
+        myRoot.CFrame = myRoot.CFrame:Lerp(CFrame.lookAt(myRoot.Position, lookAt), 0.99)
+    end
+end)
+end
+
+
+
+--// 🍕 Auto Eat Pizza Instantly (Fluent Toggle Style)
+--// ======================================
+
+do
+    -- 🌍 Global Vars
+    local Players = game:GetService("Players")
+    local Workspace = game:GetService("Workspace")
+    local LocalPlayer = Players.LocalPlayer
+
+    getgenv().BlinkToPizzaToggle = false
+    getgenv().HPThreshold = 30
+
+    -- 🧩 Helper Functions
+    local function getHRP()
+        local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+        return char:WaitForChild("HumanoidRootPart")
+    end
+
+    local function getHP()
+        local char = LocalPlayer.Character
+        if char then
+            local hum = char:FindFirstChildOfClass("Humanoid")
+            if hum then return hum.Health end
+        end
+        return 0
+    end
+
+    local function getPizzaCF()
+        local map = Workspace:FindFirstChild("Map")
+        local ingame = map and map:FindFirstChild("Ingame")
+        if not ingame then return nil end
+
+        local pizza = ingame:FindFirstChild("Pizza")
+        if not pizza then return nil end
+
+        if pizza:IsA("BasePart") or pizza:IsA("MeshPart") or pizza:IsA("UnionOperation") then
+            return pizza.CFrame
+        elseif pizza:IsA("Model") then
+            local pp = pizza.PrimaryPart or pizza:FindFirstChildWhichIsA("BasePart")
+            if pp then
+                if not pizza.PrimaryPart then pizza.PrimaryPart = pp end
+                return pp.CFrame
+            end
+        elseif pizza:IsA("CFrameValue") then
+            return pizza.Value
+        end
+    end
+
+    -- ?? Fluent UI Section
+
+    -- 🍕 Toggle tự ăn pizza
+    Tabs.Main:AddToggle("BlinkPizza_Toggle", {
+        Title = "Auto Eat Pizza",
+        Default = false,
+    }):OnChanged(function(state)
+        getgenv().BlinkToPizzaToggle = state
+    end)
+
+    -- ❤️ Input HP Threshold
+    Tabs.Main:AddInput("PizzaHPThreshold", {
+        Title = "HP Threshold",
+        Default = tostring(getgenv().HPThreshold),
+        Placeholder = "30",
+    }):OnChanged(function(value)
+        local num = tonumber(value)
+        if num then
+            getgenv().HPThreshold = num
+        end
+    end)
+
+    -- 🔁 Auto Loop
+    task.spawn(function()
+        while task.wait(0.9) do
+            if getgenv().BlinkToPizzaToggle then
+                local hrp = getHRP()
+                local pizzaCF = getPizzaCF()
+                if pizzaCF and getHP() <= getgenv().HPThreshold then
+                    local oldCF = hrp.CFrame
+                    hrp.CFrame = pizzaCF * CFrame.new(0, 1, 0)
+
+                    if getgenv().activateRemoteHook then
+                        getgenv().activateRemoteHook("UnreliableRemoteEvent", "UpdCF")
+                    end
+
+                    task.delay(0.2, function()
+                        hrp.CFrame = oldCF
+                        task.wait(0.3)
+                        if getgenv().deactivateRemoteHook then
+                            getgenv().deactivateRemoteHook("UnreliableRemoteEvent", "UpdCF")
+                        end
+                    end)
+                end
+            end
+        end
+    end)
+end
+
+
+    Tabs.Main:AddSection("↳ Shedletsky")
+
+
+do
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+    local lp = Players.LocalPlayer
+
+    -- ⚙️ Variables
+    local enabled = false
+    local mode = "AI Aimbot"
+    local cooldown = false
+    local lastTarget = nil
+    local maxDistance = 5
+    local sliderInitialized = false
+
+    local TELEPORT_DURATION = 0.8
+    local AI_DELAY = 15 -- ⏳ Delay giữa mỗi lần teleport AI
+
+    local killersFolder = workspace:WaitForChild("Players"):WaitForChild("Killers")
+
+    -- 🎵 Animation IDs
+    local monitoredAnimations = {
+        'rbxassetid://116618003477002', 'rbxassetid://121255898612475',
+        'rbxassetid://98031287364865',  'rbxassetid://119462383658044',
+        'rbxassetid://77448521277146',  'rbxassetid://103741352379819',
+        'rbxassetid://131696603025265', 'rbxassetid://122503338277352',
+        'rbxassetid://97648548303678'
+    }
+
+    -- 🔧 Slash button + remote
+    local slashButton, slashRemote, slashConnections = nil, nil, {}
+
+    local function findSlashRemote()
+        if slashRemote then return slashRemote end
+        if not slashButton then return nil end
+        for _, conn in ipairs(getconnections(slashButton.MouseButton1Click)) do
+            local f = conn.Function
+            if f and islclosure(f) then
+                for _, v in pairs(getupvalues(f)) do
+                    if typeof(v) == "Instance" and v:IsA("RemoteEvent") then
+                        slashRemote = v
+                        warn("[AutoSlash] Found Slash Remote:", v:GetFullName())
+                        return slashRemote
+                    end
+                end
+            end
+        end
+        return nil
+    end
+
+    local function initSlashButton()
+        local gui = lp:FindFirstChild("PlayerGui")
+        if not gui then return end
+        local mainUI = gui:FindFirstChild("MainUI")
+        local container = mainUI and mainUI:FindFirstChild("AbilityContainer")
+        slashButton = container and container:FindFirstChild("Slash")
+        if slashButton and slashButton:IsA("ImageButton") then
+            slashConnections = getconnections(slashButton.MouseButton1Click)
+            findSlashRemote()
+        end
+    end
+
+    initSlashButton()
+    lp.CharacterAdded:Connect(function()
+        task.wait(0.5)
+        initSlashButton()
+    end)
+
+    local function useSlash()
+        if slashRemote then
+            pcall(function()
+                slashRemote:FireServer(true)
+                task.delay(0.05, function()
+                    slashRemote:FireServer(false)
+                end)
+            end)
+        elseif slashButton then
+            for _, conn in ipairs(slashConnections) do
+                pcall(function() conn:Fire() end)
+            end
+            pcall(function() slashButton:Activate() end)
+        end
+    end
+
+    -- 🧭 UI
+    local ModeDropdown = Tabs.Main:AddDropdown("SlashMode", {
+        Title = "Slash Mode",
+        Values = { "AI Aimbot", "Player Aimbot" },
+        Default = "AI Aimbot"
+    })
+    ModeDropdown:OnChanged(function(Value)
+        mode = Value
+    end)
+
+    local SlashToggle = Tabs.Main:AddToggle("SlashToggle", {
+        Title = "Auto Slash",
+        Default = false
+    })
+    SlashToggle:OnChanged(function(Value)
+        enabled = Value
+    end)
+
+    local DistanceSlider = Tabs.Main:AddSlider("DistanceSlider", {
+        Title = "Distance",
+        Min = 1, Max = 50, Default = 5,
+        Rounding = 1, ValueName = "studs"
+    })
+    DistanceSlider:OnChanged(function(Value)
+        if not sliderInitialized then
+            sliderInitialized = true
+            return
+        end
+        maxDistance = Value
+    end)
+
+    -- ⚡ Helpers
+    local function getRelativeTeleportPosition(hrp, targetHRP)
+        local toTarget = (hrp.Position - targetHRP.Position).Unit
+        return targetHRP.Position + (toTarget * 2)
+    end
+
+    local function teleportAndSlash(target, spam)
+        if cooldown then return end
+        local hrp = lp.Character and lp.Character:FindFirstChild("HumanoidRootPart")
+        local kHRP = target:FindFirstChild("HumanoidRootPart")
+        if not hrp or not kHRP then return end
+
+        cooldown = true
+        lastTarget = target
+
+        local start = tick()
+        local conn
+        conn = RunService.Heartbeat:Connect(function()
+            if not (lp.Character and lp.Character:FindFirstChild("HumanoidRootPart") and kHRP and kHRP.Parent) then
+                if conn then conn:Disconnect() end
+                cooldown = false
+                lastTarget = nil
+                return
+            end
+
+            if tick() - start >= TELEPORT_DURATION then
+                if conn then conn:Disconnect() end
+                task.delay((mode == "AI Aimbot") and AI_DELAY or TELEPORT_DURATION, function()
+                    cooldown = false
+                    lastTarget = nil
+                end)
+                return
+            end
+
+            local newPos = getRelativeTeleportPosition(hrp, kHRP)
+            hrp.CFrame = CFrame.new(newPos, kHRP.Position)
+
+            if spam then useSlash() end
+        end)
+    end
+
+    -- ⚔️ AI Aimbot Mode (auto tìm trong Killers folder)
+    RunService.Heartbeat:Connect(function()
+        if not enabled or cooldown or mode ~= "AI Aimbot" then return end
+        local char = lp.Character
+        if not (char and char:FindFirstChild("HumanoidRootPart")) then return end
+        local hrp = char.HumanoidRootPart
+
+        for _, killer in ipairs(killersFolder:GetChildren()) do
+            if killer:FindFirstChild("HumanoidRootPart") then
+                local kHRP = killer.HumanoidRootPart
+                local dist = (hrp.Position - kHRP.Position).Magnitude
+                if dist <= maxDistance and killer ~= lastTarget then
+                    teleportAndSlash(killer, true)
+                    break
+                end
+            end
+        end
+    end)
+
+    -- 👁️ Player Aimbot Mode
+    local function attachAnimMonitor(character)
+        local humanoid = character:WaitForChild("Humanoid", 5)
+        if not humanoid then return end
+
+        humanoid.AnimationPlayed:Connect(function(animTrack)
+            if not enabled or mode ~= "Player Aimbot" or cooldown then return end
+            local animId = animTrack.Animation and animTrack.Animation.AnimationId
+            if animId and table.find(monitoredAnimations, animId) then
+                for _, killer in ipairs(killersFolder:GetChildren()) do
+                    if killer:FindFirstChild("HumanoidRootPart") then
+                        local hrpLocal = lp.Character and lp.Character:FindFirstChild("HumanoidRootPart")
+                        local kHRP = killer:FindFirstChild("HumanoidRootPart")
+                        if hrpLocal and kHRP then
+                            local dist = (kHRP.Position - hrpLocal.Position).Magnitude
+                            if dist <= maxDistance * 5 then
+                                teleportAndSlash(killer, false)
+                                break
+                            end
+                        end
+                    end
+                end
+            end
+        end)
+    end
+
+    if lp.Character then
+        attachAnimMonitor(lp.Character)
+    end
+    lp.CharacterAdded:Connect(attachAnimMonitor)
+end
+
+
+
+do
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+    local lp = Players.LocalPlayer
+
+    -- Vars
+    local healEnabled = false
+    local healHPThreshold = 50
+    local healDistance = 50
+
+    -- Heal button + remote
+    local healButton, healRemote, healConnections = nil, nil, {}
+
+    -- tìm RemoteEvent từ button Heal
+    local function findHealRemote()
+        if healRemote then return healRemote end
+        if not healButton then return nil end
+        for _, conn in ipairs(getconnections(healButton.MouseButton1Click)) do
+            local f = conn.Function
+            if f and islclosure(f) then
+                local upvals = getupvalues(f)
+                for _, v in pairs(upvals) do
+                    if typeof(v) == "Instance" and v:IsA("RemoteEvent") then
+                        healRemote = v
+                        warn("[AutoHeal] Found Heal Remote:", v:GetFullName())
+                        return healRemote
+                    end
+                end
+            end
+        end
+        return nil
+    end
+
+    local function initHealButton()
+        local gui = lp:FindFirstChild("PlayerGui")
+        if not gui then return end
+        local mainUI = gui:FindFirstChild("MainUI")
+        local container = mainUI and mainUI:FindFirstChild("AbilityContainer")
+        healButton = container and container:FindFirstChild("FriedChicken")
+        if healButton and healButton:IsA("ImageButton") then
+            healConnections = getconnections(healButton.MouseButton1Click)
+            findHealRemote()
+        end
+    end
+
+    initHealButton()
+    lp.CharacterAdded:Connect(function()
+        task.wait(0.5)
+        initHealButton()
+    end)
+
+    local function useHeal()
+        if healRemote then
+            pcall(function()
+                healRemote:FireServer(true)
+                task.delay(0.05, function()
+                    healRemote:FireServer(false)
+                end)
+            end)
+        elseif healButton then
+            for _, conn in ipairs(healConnections) do
+                pcall(function() conn:Fire() end)
+            end
+            pcall(function() healButton:Activate() end)
+        end
+    end
+
+    -- UI ------------------------------------------------
+    local HealToggle = Tabs.Main:AddToggle("HealToggle", {
+        Title = "Auto Heal",
+        Default = false
+    })
+    HealToggle:OnChanged(function(v) healEnabled = v end)
+
+    local HealHPSlider = Tabs.Main:AddSlider("HealHPSlider", {
+        Title = "Heal HP",
+        Min = 1, Max = 100, Default = 50,
+        Rounding = 0, ValueName = "HP"
+    })
+    HealHPSlider:OnChanged(function(v) healHPThreshold = v end)
+
+    local HealDistanceSlider = Tabs.Main:AddSlider("HealDistanceSlider", {
+        Title = "Distance",
+        Min = 1, Max = 150, Default = 50,
+        Rounding = 0, ValueName = "studs"
+    })
+    HealDistanceSlider:OnChanged(function(v) healDistance = v end)
+
+    -- Helpers -------------------------------------------------------------
+    local function getPlayersFolders()
+        local pf = workspace:FindFirstChild("Players")
+        if not pf then return nil, nil, nil end
+        return pf, pf:FindFirstChild("Killers"), pf:FindFirstChild("Survivors")
+    end
+
+    local function belongsToMe(m)
+        if not (m and m:IsA("Model")) then return false end
+        if m:GetAttribute("Username") == lp.Name then return true end
+        local UsernameSV = m:FindFirstChild("Username")
+        if UsernameSV and typeof(UsernameSV.Value) == "string" and UsernameSV.Value == lp.Name then return true end
+        local Owner = m:FindFirstChild("Owner") or m:FindFirstChild("Player")
+        if Owner and Owner.Value == lp then return true end
+        local uidAttr = m:GetAttribute("UserId")
+        if uidAttr and tonumber(uidAttr) == lp.UserId then return true end
+        if m.Name == lp.Name then return true end
+        return false
+    end
+
+    local function getMyShedletsky()
+        local pf, killersFolder, survivorsFolder = getPlayersFolders()
+        local candidates = {}
+
+        local function scan(container)
+            if not container then return end
+            for _, d in ipairs(container:GetDescendants()) do
+                if d:IsA("Model") and d.Name == "Shedletsky" and d:FindFirstChild("Humanoid") and d:FindFirstChild("HumanoidRootPart") then
+                    if belongsToMe(d) then table.insert(candidates, d) end
+                end
+            end
+        end
+
+        scan(killersFolder)
+        scan(survivorsFolder)
+        scan(workspace)
+
+        if #candidates == 0 then return nil, nil, nil end
+
+        local basePos
+        if lp.Character and lp.Character:FindFirstChild("HumanoidRootPart") then
+            basePos = lp.Character.HumanoidRootPart.Position
+        end
+
+        local best, bestDist = candidates[1], math.huge
+        if basePos then
+            for _, m in ipairs(candidates) do
+                local hrp = m:FindFirstChild("HumanoidRootPart")
+                if hrp then
+                    local d = (hrp.Position - basePos).Magnitude
+                    if d < bestDist then best, bestDist = m, d end
+                end
+            end
+        end
+
+        local hum = best:FindFirstChildOfClass("Humanoid")
+        local hrp = best:FindFirstChild("HumanoidRootPart")
+        return best, hum, hrp
+    end
+
+    local function getNearestKillerDist(fromHRP, myModel)
+        local _, killersFolder = getPlayersFolders()
+        if not (killersFolder and fromHRP) then return math.huge end
+        local nearest = math.huge
+        for _, k in ipairs(killersFolder:GetChildren()) do
+            if k ~= myModel then
+                local khrp = k:FindFirstChild("HumanoidRootPart")
+                if khrp then
+                    local d = (fromHRP.Position - khrp.Position).Magnitude
+                    if d < nearest then nearest = d end
+                end
+            end
+        end
+        return nearest
+    end
+
+    -- Main loop ----------------------------------------------------------
+    RunService.Heartbeat:Connect(function()
+        if not healEnabled then return end
+
+        local myModel, myHumanoid, myHRP = getMyShedletsky()
+        if not (myModel and myHumanoid and myHRP) then return end
+        if myHumanoid.Health <= 0 then return end
+
+        local nearestDist = getNearestKillerDist(myHRP, myModel)
+
+        if myHumanoid.Health <= healHPThreshold and nearestDist >= healDistance then
+            useHeal()
+        end
+    end)
+end
+
+
+
+    Tabs.Main:AddSection("↳ Chance")
+
+
+
+do
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local Stats = game:GetService("Stats")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local LocalPlayer = Players.LocalPlayer
+
+local active = false
+local useOffset = true
+local predictionMode = "Speed"
+local aimMode = "Normal"
+local aimDuration = 1.7
+local fasterDuration = 1.5
+local spinDuration = 0.5
+local aimTargets = {"Slasher", "c00lkidd", "JohnDoe", "1x1x1x1", "Noli", "Guest 666", "Sixer"}
+
+local Humanoid, HRP = nil, nil
+local originalWS, originalJP, originalAutoRotate = nil, nil, nil
+local aiming = false
+local prevFlintVisibleAim = false
+local lastTriggerTime = 0
+
+local autoCoinflip = false
+local coinflipTargetCharge = 3
+local coinflipCooldown = 0.15
+local lastCoinflipTime = 0
+
+local blockCoinflipWhenClose = true
+local coinflipBlockDist = 50
+
+local RemoteEvent
+pcall(function()
+    RemoteEvent = ReplicatedStorage:WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent")
+end)
+
+-- ================= GUI =================
+Tabs.Main:AddDropdown("AimMode", {
+    Title = "Aim Mode",
+    Values = {"Normal", "Faster", "Reflex"},
+    Default = "Normal",
+    Callback = function(val) aimMode = val end
+})
+
+Tabs.Main:AddDropdown("PredictionMode", {
+    Title = "Prediction Mode",
+    Values = {"Speed", "Ping", "front", "No Lag"},
+    Default = "Speed",
+    Callback = function(val) predictionMode = val end
+})
+
+Tabs.Main:AddDropdown("CoinflipChargeDropdown", {
+    Title = "Select Score",
+    Values = {"1 Point", "2 Point", "3 Point"},
+    Default = "3 Point",
+}):OnChanged(function(val)
+    local num = tonumber(val and val:match("%d+"))
+    if num then coinflipTargetCharge = num end
+end)
+
+Tabs.Main:AddInput("CoinflipDistance", {
+    Title = "Distance",
+    Default = "50",
+    Placeholder = "Enter studs",
+    Callback = function(val)
+        local num = tonumber(val)
+        if num and num > 0 then
+            coinflipBlockDist = num
+        end
+    end
+})
+
+Tabs.Main:AddToggle("BlockCoinflipToggle", {
+    Title = "Safe Mode",
+    Default = true,
+}):OnChanged(function(state)
+    blockCoinflipWhenClose = state
+end)
+
+Tabs.Main:AddToggle("OffsetToggle", {
+    Title = "Enable Offset",
+    Default = true,
+    Callback = function(state) useOffset = state end
+})
+
+Tabs.Main:AddToggle("AimbotToggle", {
+    Title = "Auto Aim Shoot",
+    Default = false,
+    Callback = function(state) active = state end
+})
+
+Tabs.Main:AddToggle("AutoCoinflipToggle", {
+    Title = "Auto Coin Flip",
+    Default = false,
+}):OnChanged(function(state)
+    autoCoinflip = state
+end)
+
+-- ================= Character Setup =================
+local function setupCharacter(char)
+    Humanoid = char:WaitForChild("Humanoid")
+    HRP = char:WaitForChild("HumanoidRootPart")
+end
+if LocalPlayer.Character then setupCharacter(LocalPlayer.Character) end
+LocalPlayer.CharacterAdded:Connect(setupCharacter)
+
+-- ================= Helpers =================
+local function getValidTarget()
+    -- Quét tất cả Players
+    for _, plr in ipairs(Players:GetPlayers()) do
+        if plr ~= LocalPlayer and plr.Character then
+            local char = plr.Character
+            local hrp = char:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                for _, targetName in ipairs(aimTargets) do
+                    if char.Name:lower():find(targetName:lower()) then
+                        return hrp
+                    end
+                end
+            end
+        end
+    end
+    return nil
+end
+
+local function getPingSeconds()
+    local pingStat = Stats.Network.ServerStatsItem["Data Ping"]
+    if pingStat then return pingStat:GetValue() / 1000 end
+    return 0.1
+end
+
+local function isFlintlockVisible()
+    if not LocalPlayer.Character then return false end
+    local flint = LocalPlayer.Character:FindFirstChild("Flintlock", true)
+    if not flint then return false end
+    if not (flint:IsA("BasePart") or flint:IsA("MeshPart") or flint:IsA("UnionOperation")) then
+        flint = flint:FindFirstChildWhichIsA("BasePart", true)
+        if not flint then return false end
+    end
+    return flint.Transparency < 1
+end
+
+local movementThreshold = 0.5
+local function getPredictedAimPosPing(targetHRP)
+    local ping = getPingSeconds()
+    local velocity = targetHRP.Velocity
+    if velocity.Magnitude <= movementThreshold then return targetHRP.Position end
+    return targetHRP.Position + (velocity * ping)
+end
+
+local function getPredictedAimPosInfrontHRPPing(targetHRP)
+    local ping = getPingSeconds()
+    local studs = ping * 60
+    if targetHRP.Velocity.Magnitude <= movementThreshold then return targetHRP.Position end
+    return targetHRP.Position + (targetHRP.CFrame.LookVector * studs)
+end
+
+local function computeAimPos(targetHRP)
+    if predictionMode == "Ping" then
+        return getPredictedAimPosPing(targetHRP)
+    elseif predictionMode == "front" then
+        return targetHRP.Position + targetHRP.CFrame.LookVector * 4
+    elseif predictionMode == "No Lag" then
+        return getPredictedAimPosInfrontHRPPing(targetHRP)
+    else
+        local velocity = targetHRP.Velocity
+        if velocity.Magnitude > 0.1 then
+            if useOffset and HRP then
+                local ok, toTarget = pcall(function() return (targetHRP.Position - HRP.Position).Unit end)
+                if not ok then return targetHRP.Position end
+                local moveDir = velocity.Unit
+                local dot = toTarget:Dot(moveDir)
+                if math.abs(dot) < 0.85 then
+                    return targetHRP.Position + velocity * (4 / 60)
+                else
+                    return targetHRP.Position
+                end
+            else
+                return targetHRP.Position
+            end
+        else
+            return targetHRP.Position
+        end
+    end
+end
+
+local function safeSetCFrame(newCF)
+    if typeof(newCF) == "CFrame" and tostring(newCF) ~= "nan" and HRP then
+        HRP.CFrame = newCF
+    end
+end
+
+local function faceInstant(toPos)
+    if not HRP or not toPos then return end
+    local fromPos = HRP.Position
+    if (toPos - fromPos).Magnitude < 0.01 then return end
+    local lookAt = Vector3.new(toPos.X, fromPos.Y, toPos.Z)
+    local targetCF = CFrame.new(fromPos, lookAt)
+    safeSetCFrame(HRP.CFrame:Lerp(targetCF, 0.99))
+end
+
+-- ================= Coinflip helpers =================
+local function getAbilityContainer()
+    local ok, container = pcall(function()
+        local gui = LocalPlayer:FindFirstChild("PlayerGui")
+        if not gui then return nil end
+        local mainUI = gui:FindFirstChild("MainUI")
+        if not mainUI then return nil end
+        return mainUI:FindFirstChild("AbilityContainer")
+    end)
+    if ok then return container end
+    return nil
+end
+
+local function tryActivateButton(button)
+    if not button then return false end
+    pcall(function() if button.Activate then button:Activate() end end)
+    local ok, conns = pcall(function()
+        if type(getconnections) == "function" and button.MouseButton1Click then
+            return getconnections(button.MouseButton1Click)
+        end
+        return nil
+    end)
+    if ok and conns then
+        for _, conn in ipairs(conns) do
+            pcall(function()
+                if conn.Function then conn.Function()
+                elseif conn.func then conn.func()
+                elseif conn.Fire then conn.Fire() end
+            end)
+        end
+    end
+    pcall(function() if button.Activated then button.Activated:Fire() end end)
+    pcall(function() if button.MouseButton1Click then button.MouseButton1Click:Fire() end end)
+    return true
+end
+
+local function findAbilityButtonByName(name)
+    local container = getAbilityContainer()
+    if not container then return nil end
+    local btn = container:FindFirstChild(name)
+    if btn then return btn end
+    local lname = name:lower()
+    for _, child in ipairs(container:GetChildren()) do
+        if child.Name and child.Name:lower():find(lname) then return child end
+        local found = child:FindFirstChildWhichIsA("ImageButton") or child:FindFirstChildWhichIsA("TextButton")
+        if found and found.Name and found.Name:lower():find(lname) then
+            return found
+        end
+    end
+    return nil
+end
+
+local function clickCoinflipButton()
+    local tryNames = {"CoinFlip", "Coin", "Reroll"}
+    for _, n in ipairs(tryNames) do
+        local b = findAbilityButtonByName(n)
+        if b then
+            if tryActivateButton(b) then return true end
+        end
+    end
+    return false
+end
+
+local function findRerollContainer()
+    local container = getAbilityContainer()
+    if not container then return nil end
+    local reroll = container:FindFirstChild("Reroll") or container:FindFirstChild("RerollAbility") or nil
+    if reroll then return reroll end
+    for _, child in ipairs(container:GetChildren()) do
+        for _, obj in ipairs(child:GetDescendants()) do
+            if (obj:IsA("TextLabel") or obj:IsA("TextButton") or obj:IsA("TextBox")) and obj.Text and tostring(obj.Text):match("%d") then
+                return child
+            end
+        end
+    end
+    return nil
+end
+
+local function getNearbyMaxNumber()
+    local reroll = findRerollContainer()
+    if not reroll then return nil end
+    local maxNum = nil
+    for _, obj in ipairs(reroll:GetDescendants()) do
+        if (obj:IsA("TextLabel") or obj:IsA("TextButton") or obj:IsA("TextBox")) and obj.Text then
+            for num in tostring(obj.Text):gmatch("%d+") do
+                local n = tonumber(num)
+                if n then
+                    if not maxNum or n > maxNum then maxNum = n end
+                end
+            end
+        end
+    end
+    return maxNum
+end
+
+-- ================= Main loop =================
+RunService.RenderStepped:Connect(function()
+    -- AIMBOT LOGIC
+    if active and Humanoid and HRP then
+        local isVisible = isFlintlockVisible()
+        if isVisible and not prevFlintVisibleAim and not aiming then
+            lastTriggerTime = tick()
+            aiming = true
+        end
+        prevFlintVisibleAim = isVisible
+
+        if aiming then
+            local elapsed = tick() - lastTriggerTime
+
+            if aimMode == "Reflex" then
+                if elapsed <= spinDuration then
+                    local spinProgress = elapsed / spinDuration
+                    local spinAngle = math.rad(360 * spinProgress)
+                    safeSetCFrame(CFrame.new(HRP.Position) * CFrame.Angles(0, spinAngle, 0))
+                elseif elapsed <= spinDuration + 0.7 then
+                    if not originalWS then
+                        originalWS, originalJP, originalAutoRotate = Humanoid.WalkSpeed, Humanoid.JumpPower, Humanoid.AutoRotate
+                    end
+                    Humanoid.AutoRotate = false
+                    HRP.AssemblyAngularVelocity = Vector3.zero
+                    local targetHRP = getValidTarget()
+                    if targetHRP then
+                        faceInstant(computeAimPos(targetHRP))
+                    end
+                else
+                    aiming = false
+                    if originalWS then
+                        Humanoid.WalkSpeed, Humanoid.JumpPower, Humanoid.AutoRotate =
+                            originalWS, originalJP, originalAutoRotate
+                        originalWS, originalJP, originalAutoRotate = nil, nil, nil
+                    end
+                end
+            else
+                local duration = (aimMode == "Faster") and fasterDuration or aimDuration
+                if elapsed <= duration then
+                    if not originalWS then
+                        originalWS, originalJP, originalAutoRotate = Humanoid.WalkSpeed, Humanoid.JumpPower, Humanoid.AutoRotate
+                    end
+                    Humanoid.AutoRotate = false
+                    HRP.AssemblyAngularVelocity = Vector3.zero
+                    local targetHRP = getValidTarget()
+                    if targetHRP then
+                        faceInstant(computeAimPos(targetHRP))
+                    end
+                else
+                    aiming = false
+                    if originalWS then
+                        Humanoid.WalkSpeed, Humanoid.JumpPower, Humanoid.AutoRotate =
+                            originalWS, originalJP, originalAutoRotate
+                        originalWS, originalJP, originalAutoRotate = nil, nil, nil
+                    end
+                end
+            end
+        end
+    end
+
+    -- COINFLIP LOGIC
+    if autoCoinflip then
+        local tooClose = false
+        if blockCoinflipWhenClose then
+            local targetHRP = getValidTarget()
+            if targetHRP and HRP then
+                if (targetHRP.Position - HRP.Position).Magnitude <= coinflipBlockDist then
+                    tooClose = true
+                end
+            end
+        end
+
+        if not tooClose then
+            local maxNum = getNearbyMaxNumber()
+            if not maxNum or maxNum < coinflipTargetCharge then
+                if tick() - lastCoinflipTime >= coinflipCooldown then
+                    lastCoinflipTime = tick()
+                    local ok = clickCoinflipButton()
+                    if not ok and RemoteEvent then
+                        pcall(function()
+                            RemoteEvent:FireServer("UseActorAbility", "CoinFlip")
+                        end)
+                    end
+                end
+            end
+        end
+    end
+end)
+end
+
+
+
+    Tabs.Main:AddSection("↳ Two Time")
+
+
+--// Auto Backstab Unified (AI Aimbot + Player Aimbot, tự động quét Killers Folder)
+do
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+    local lp = Players.LocalPlayer
+
+    -- ⚙️ Config
+    local Mode = "AI Aimbot"
+    local checkRadius = 18
+    local backstabDelay = 0.01
+
+    local killersFolder = workspace:WaitForChild("Players"):WaitForChild("Killers")
+
+    local ANIM_IDS = {
+        "115194624791339",
+        "86545133269813",
+        "89448354637442",
+        "77119710693654",
+        "107640065977686",
+        "112902284724598",
+    }
+
+    -- 🔘 UI
+    Tabs.Main:AddDropdown("BackstabMode", {
+        Title = "Backstab Mode",
+        Values = { "AI Aimbot", "Player Aimbot" },
+        Default = "AI Aimbot",
+    }):OnChanged(function(value)
+        Mode = value
+        print("🎯 Backstab Mode:", value)
+    end)
+
+    local enabled = false
+    Tabs.Main:AddToggle("AutoBackstab", {
+        Title = "Auto Backstab V2",
+        Default = false
+    }):OnChanged(function(state)
+        enabled = state
+        print("🔪 Auto Backstab:", state and "ON" or "OFF")
+    end)
+
+    Tabs.Main:AddInput("BackstabRadiusInput", {
+        Title = "Check Radius",
+        Default = tostring(checkRadius),
+        Placeholder = "Write Here (1 - 50)",
+        Numeric = true,
+        Callback = function(value)
+            local num = tonumber(value)
+            if num then
+                checkRadius = math.clamp(num, 1, 50)
+                print("📏 Check Radius set to:", checkRadius)
+            else
+                print("⚠️ Nhập số hợp lệ!")
+            end
+        end
+    })
+
+    -- =====================
+    -- 🗡️ Dagger Remote Finder
+    -- =====================
+    local daggerButton, daggerRemote, daggerConnections = nil, nil, {}
+
+    local function findDaggerRemote()
+        if daggerRemote then return daggerRemote end
+        if not daggerButton then return nil end
+        for _, conn in ipairs(getconnections(daggerButton.MouseButton1Click)) do
+            local f = conn.Function
+            if f and islclosure(f) then
+                for _, v in pairs(getupvalues(f)) do
+                    if typeof(v) == "Instance" and v:IsA("RemoteEvent") then
+                        daggerRemote = v
+                        warn("[Backstab] Found Dagger Remote:", v:GetFullName())
+                        return daggerRemote
+                    end
+                end
+            end
+        end
+        return nil
+    end
+
+    local function initDaggerButton()
+        local gui = lp:FindFirstChild("PlayerGui")
+        if not gui then return end
+        local mainUI = gui:FindFirstChild("MainUI")
+        local container = mainUI and mainUI:FindFirstChild("AbilityContainer")
+        daggerButton = container and container:FindFirstChild("Dagger")
+        if daggerButton and daggerButton:IsA("ImageButton") then
+            daggerConnections = getconnections(daggerButton.MouseButton1Click)
+            findDaggerRemote()
+        end
+    end
+
+    initDaggerButton()
+    lp.CharacterAdded:Connect(function()
+        task.wait(0.5)
+        initDaggerButton()
+    end)
+
+    local function useDagger()
+        if daggerRemote then
+            pcall(function()
+                daggerRemote:FireServer(true)
+                task.delay(0.05, function()
+                    daggerRemote:FireServer(false)
+                end)
+            end)
+        elseif daggerButton then
+            for _, conn in ipairs(daggerConnections) do
+                pcall(function() conn:Fire() end)
+            end
+            pcall(function() daggerButton:Activate() end)
+        end
+    end
+
+    -- =====================
+    -- ⚒️ Helpers
+    -- =====================
+    local function getCharacter()
+        local ch = lp.Character
+        if ch and ch.Parent then
+            local hrp = ch:FindFirstChild("HumanoidRootPart")
+            local humanoid = ch:FindFirstChildOfClass("Humanoid")
+            return ch, humanoid, hrp
+        end
+        return nil, nil, nil
+    end
+
+    local function isPlayingTargetAnimation(humanoid)
+        if not humanoid then return false end
+        for _, t in ipairs(humanoid:GetPlayingAnimationTracks()) do
+            local animId = tostring(t.Animation.AnimationId or "")
+            for _, id in ipairs(ANIM_IDS) do
+                if animId:find(id, 1, true) then
+                    return true
+                end
+            end
+        end
+        return false
+    end
+
+    local function teleportBehind(targetHRP, myHRP)
+        local look = targetHRP.CFrame.LookVector
+        local destPos = targetHRP.Position - look * 2
+        myHRP.CFrame = CFrame.new(destPos, destPos + look)
+    end
+
+    local function isBehindTarget(targetHRP, myHRP)
+        local look = targetHRP.CFrame.LookVector
+        local dir = (myHRP.Position - targetHRP.Position).Unit
+        return look:Dot(dir) < -0.5
+    end
+
+    local function getNearbyKillers(position)
+        local killers = {}
+        for _, plr in ipairs(Players:GetPlayers()) do
+            if plr ~= lp and plr.Character then
+                local char = plr.Character
+                local hrp = char:FindFirstChild("HumanoidRootPart") or char.PrimaryPart
+                if hrp then
+                    local dist = (hrp.Position - position).Magnitude
+                    if dist <= checkRadius then
+                        table.insert(killers, {model = char, hrp = hrp, dist = dist})
+                    end
+                end
+            end
+        end
+        return killers
+    end
+
+    local function getNearbyAIKillers(hrp)
+        local killers = {}
+        for _, killer in ipairs(killersFolder:GetChildren()) do
+            local kHRP = killer:FindFirstChild("HumanoidRootPart")
+            if kHRP then
+                local dist = (kHRP.Position - hrp.Position).Magnitude
+                if dist <= checkRadius then
+                    table.insert(killers, {model = killer, hrp = kHRP, dist = dist})
+                end
+            end
+        end
+        return killers
+    end
+
+    -- =====================
+    -- 🔄 Main Loop
+    -- =====================
+    local cooldown = false
+    local lastTarget = nil
+
+    RunService.Heartbeat:Connect(function()
+        if not enabled or cooldown then return end
+        local char, humanoid, myHRP = getCharacter()
+        if not (char and humanoid and myHRP) then return end
+
+        -- 🚨 Chỉ hoạt động nếu model là "TwoTime"
+        if char.Name ~= "TwoTime" then return end
+
+        if Mode == "Player Aimbot" then
+            if isPlayingTargetAnimation(humanoid) then
+                local killers = getNearbyKillers(myHRP.Position)
+                if #killers > 0 then
+                    table.sort(killers, function(a,b) return a.dist < b.dist end)
+                    local target = killers[1]
+                    cooldown = true
+
+                    local start = tick()
+                    local conn
+                    conn = RunService.Heartbeat:Connect(function()
+                        if not (char and target.hrp and char.Parent and target.hrp.Parent) then
+                            if conn then conn:Disconnect() end
+                            cooldown = false
+                            return
+                        end
+                        if tick() - start >= 0.7 then
+                            if conn then conn:Disconnect() end
+                            task.delay(1, function() cooldown = false end)
+                            return
+                        end
+                        teleportBehind(target.hrp, myHRP)
+                        useDagger()
+                    end)
+                end
+            end
+
+        elseif Mode == "AI Aimbot" then
+            local killers = getNearbyAIKillers(myHRP)
+            if #killers > 0 then
+                table.sort(killers, function(a,b) return a.dist < b.dist end)
+                local target = killers[1]
+                if target.model ~= lastTarget and isBehindTarget(target.hrp, myHRP) then
+                    cooldown = true
+                    lastTarget = target.model
+
+                    local start = tick()
+                    local conn
+                    conn = RunService.Heartbeat:Connect(function()
+                        if not (char and char.Parent and target.hrp and target.hrp.Parent) then
+                            if conn then conn:Disconnect() end
+                            return
+                        end
+                        if tick() - start >= 0.7 then
+                            if conn then conn:Disconnect() end
+                            task.delay(10, function()
+                                cooldown = false
+                                lastTarget = nil
+                            end)
+                            return
+                        end
+                        teleportBehind(target.hrp, myHRP)
+                        useDagger()
+                    end)
+                end
+            end
+        end
+    end)
+
+    lp.CharacterAdded:Connect(function()
+        task.wait(1)
+        print("🔄 Character respawned/changed, Auto Backstab vẫn hoạt động (nếu model = 'TwoTime').")
+    end)
+end
+
+
+
+    Tabs.Main:AddSection("↳ 007n7")
+
+
+do
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+
+    local running = false
+    local animTrack
+    local InvisibleEnabled = false
+
+    -- 🔍 Tự động lấy Survivors trong workspace
+    local survivorsFolder = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+    local function getHumanoid()
+        local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+        return char:FindFirstChildOfClass("Humanoid"), char
+    end
+
+    local function getAnimator(humanoid)
+        local animator = humanoid:FindFirstChildOfClass("Animator")
+        if not animator then
+            animator = Instance.new("Animator")
+            animator.Parent = humanoid
+        end
+        return animator
+    end
+
+    local function playInvisibleAnim(humanoid)
+        local animator = getAnimator(humanoid)
+        if not animTrack or not animTrack.IsPlaying then
+            local animation = Instance.new("Animation")
+            animation.AnimationId = "rbxassetid://75804462760596"
+            animTrack = animator:LoadAnimation(animation)
+            animTrack.Looped = true
+            animTrack:Play()
+            animTrack:AdjustSpeed(0)
+        end
+    end
+
+    local function stopInvisibleAnim()
+        if animTrack and animTrack.IsPlaying then
+            animTrack:Stop()
+            animTrack = nil
+        end
+    end
+
+    -- ✅ Kiểm tra nếu character là survivor (trong folder Survivors)
+    local function isSurvivorModel(char)
+        if not char then return false end
+        if survivorsFolder:FindFirstChild(char.Name) then
+            return true
+        end
+        return false
+    end
+
+    local function handleToggle(enabled)
+        InvisibleEnabled = enabled
+        local humanoid, char = getHumanoid()
+        if not humanoid or not char then return end
+
+        if enabled then
+            running = true
+            task.spawn(function()
+                while running and InvisibleEnabled do
+                    humanoid, char = getHumanoid()
+                    if not humanoid or not char then
+                        task.wait(0.5)
+                        continue
+                    end
+
+                    if isSurvivorModel(char) then
+                        playInvisibleAnim(humanoid)
+                    else
+                        stopInvisibleAnim()
+                    end
+                    task.wait(0.5)
+                end
+            end)
+        else
+            running = false
+            stopInvisibleAnim()
+        end
+    end
+
+    LocalPlayer.CharacterAdded:Connect(function(char)
+        task.wait(1)
+        if InvisibleEnabled and isSurvivorModel(char) then
+            handleToggle(true)
+        end
+    end)
+
+    -- 🟢 Fluent UI Toggle
+    Tabs.Main:AddToggle("InstantInvisibleV2", {
+        Title = "Instant Invisible",
+        Default = false
+    }):OnChanged(function(Value)
+        handleToggle(Value)
+    end)
+end
+
+
+
+do
+    -- Invisible upon Cloning (sandboxed)
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+
+    local running = false
+    local animTrack
+
+    local function getHumanoid()
+        local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+        return char:FindFirstChildOfClass("Humanoid"), char
+    end
+
+    local function getAnimator(humanoid)
+        local animator = humanoid:FindFirstChildOfClass("Animator")
+        if not animator then
+            animator = Instance.new("Animator")
+            animator.Parent = humanoid
+        end
+        return animator
+    end
+
+    local function playInvisibleAnim(humanoid)
+        local animator = getAnimator(humanoid)
+        if not animTrack or not animTrack.IsPlaying then
+            local animation = Instance.new("Animation")
+            animation.AnimationId = "rbxassetid://75804462760596"
+            animTrack = animator:LoadAnimation(animation)
+            animTrack.Looped = true
+            animTrack:Play()
+            animTrack:AdjustSpeed(0)
+        end
+    end
+
+    local function stopInvisibleAnim()
+        if animTrack and animTrack.IsPlaying then
+            animTrack:Stop()
+            animTrack = nil
+        end
+    end
+
+    local function handleToggle(enabled)
+        local humanoid, char = getHumanoid()
+        if not humanoid or not char then return end
+
+        if enabled then
+            running = true
+            task.spawn(function()
+                while running do
+                    humanoid, char = getHumanoid()
+                    if not humanoid or not char then break end
+
+                    local torso = char:FindFirstChild("Torso") or char:FindFirstChild("UpperTorso")
+                    local root = char:FindFirstChild("HumanoidRootPart")
+
+                    if torso and torso.Transparency ~= 0 then
+                        playInvisibleAnim(humanoid)
+                        if root then root.Transparency = 0.4 end
+                    else
+                        stopInvisibleAnim()
+                        if root then root.Transparency = 1 end
+                    end
+
+                    task.wait(0.5)
+                end
+            end)
+        else
+            running = false
+            stopInvisibleAnim()
+            if char and char:FindFirstChild("HumanoidRootPart") then
+                char.HumanoidRootPart.Transparency = 1
+            end
+        end
+    end
+
+    -- ✅ Toggle dạng mới Fluent UI
+    Tabs.Main:AddToggle("InvisibleCloneV2", {
+        Title = "Invisible if cloned",
+        Default = _G.InvisibleClone or false
+    }):OnChanged(function(Value)
+        _G.InvisibleClone = Value
+        handleToggle(Value)
+    end)
+end
+
+
+    Tabs.Main:AddSection("↳ Veeronica")
+
+Tabs.Main:AddToggle("AutoTrick", {
+    Title = "Auto Trick V2",
+    Default = false,
+    Callback = function(Value)
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local Players = game:GetService("Players")
+        local VirtualInputManager = game:GetService("VirtualInputManager")
+
+        local player = Players.LocalPlayer
+        local device = "Mobile"
+
+        -- 🧩 Safe get UI & Behavior folder (cache sẵn)
+        local function getBehaviorFolder()
+            local ok, folder = pcall(function()
+                return ReplicatedStorage.Assets.Survivors.Veeronica.Behavior
+            end)
+            return ok and folder
+        end
+
+        local function getSprintingButton()
+            local gui = player:FindFirstChild("PlayerGui")
+            if not gui then return end
+            local main = gui:FindFirstChild("MainUI")
+            if not main then return end
+            return main:FindFirstChild("SprintingButton")
+        end
+
+        -- 🧠 Kiểm tra highlight có target mình không
+        local function adorneeIsPlayerCharacter(h)
+            if not h then return false end
+            local adornee = h.Adornee
+            local char = player.Character
+            if not adornee or not char then return false end
+            return adornee == char or adornee:IsDescendantOf(char)
+        end
+
+        -- 🧰 Hàm kích nút Sprinting (chỉ gọi 1 lần)
+        local function triggerSprint()
+            if device ~= "Mobile" then return end
+            local btn = getSprintingButton()
+            if not btn then return end
+            local conns = getconnections(btn.MouseButton1Down)
+            for _, v in pairs(conns) do
+                pcall(function()
+                    v:Fire()
+                    if v.Function then v:Function() end
+                end)
+            end
+        end
+
+        -- 🧹 Cleanup function
+        local function cleanup()
+            if _G.AutoTrick_Connections then
+                for _, conn in ipairs(_G.AutoTrick_Connections) do
+                    if conn and conn.Connected then
+                        conn:Disconnect()
+                    end
+                end
+                _G.AutoTrick_Connections = nil
+            end
+            if _G.AutoTrick_Loop then
+                task.cancel(_G.AutoTrick_Loop)
+                _G.AutoTrick_Loop = nil
+            end
+            print("[AutoTrick] Disabled")
+        end
+
+        if Value then
+            print("[AutoTrick] Enabled")
+
+            local behaviorFolder = getBehaviorFolder()
+            if not behaviorFolder then
+                warn("[AutoTrick] Behavior folder not found.")
+                return
+            end
+
+            local highlights = {}
+            _G.AutoTrick_Connections = {}
+
+            -- 🔍 Khi có highlight mới thêm vào
+            local addConn = behaviorFolder.DescendantAdded:Connect(function(child)
+                if child:IsA("Highlight") then
+                    highlights[child] = true
+                end
+            end)
+
+            -- 🔍 Khi highlight bị xóa
+            local removeConn = behaviorFolder.DescendantRemoving:Connect(function(child)
+                if child:IsA("Highlight") then
+                    highlights[child] = nil
+                end
+            end)
+
+            table.insert(_G.AutoTrick_Connections, addConn)
+            table.insert(_G.AutoTrick_Connections, removeConn)
+
+            -- 🚀 Vòng kiểm tra định kỳ nhẹ (0.3s/lần)
+            _G.AutoTrick_Loop = task.spawn(function()
+                while task.wait(0.3) do
+                    if not Value then break end
+                    for h in pairs(highlights) do
+                        if adorneeIsPlayerCharacter(h) then
+                            triggerSprint()
+                            break
+                        end
+                    end
+                end
+            end)
+
+        else
+            cleanup()
+        end
+    end
+})
+
+
+    Tabs.Main:AddSection("↳ Dusekkar")
+
+
+--// Dusk Aim Assist (Fluent Dropdown trên Toggle) - Locked Target Version
+do
+-- 🧠 Services
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local Workspace = game:GetService("Workspace")
+
+-- 📍 References
+local LocalPlayer = Players.LocalPlayer
+local Camera = Workspace.CurrentCamera
+
+-- ⚙️ Config
+local TargetAnimationID = "rbxassetid://77894750279891"
+local Enabled = false
+local Smoothness = 0.2
+
+-- Thời gian tối đa khóa target (giây) sau khi chọn target
+local LOCK_DURATION = 0.7
+
+-- 🎛️ Fluent UI Controls
+local toggleFlag = Instance.new("BoolValue")
+toggleFlag.Name = "DuskAim_ToggleFlag"
+toggleFlag.Value = false
+
+-- Dropdown ở TRÊN
+Tabs.Main:AddDropdown("DuskSmooth", {
+    Title = "Smoothness",
+    Values = {"Low", "Medium", "High"},
+    Default = "Medium",
+}):OnChanged(function(value)
+    if value == "Low" then
+        Smoothness = 0.1
+    elseif value == "Medium" then
+        Smoothness = 0.2
+    elseif value == "High" then
+        Smoothness = 0.4
+    end
+end)
+
+-- Toggle ở DƯỚI
+Tabs.Main:AddToggle("DuskAim", {
+    Title = "Dusk Aim Assist",
+    Default = false,
+}):OnChanged(function(state)
+    Enabled = state
+    toggleFlag.Value = state
+    -- reset any locked target when toggling off
+    if not state then
+        currentTarget = nil
+        lockExpires = nil
+    end
+end)
+
+-- 🎯 Find nearest player (returns HumanoidRootPart or nil)
+local function getNearestPlayerRoot()
+    if not LocalPlayer.Character or not LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        return nil
+    end
+
+    local nearest, distance = nil, math.huge
+    local myPos = LocalPlayer.Character.HumanoidRootPart.Position
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+            local root = player.Character.HumanoidRootPart
+            local dist = (root.Position - myPos).Magnitude
+            if dist < distance then
+                distance = dist
+                nearest = root
+            end
+        end
+    end
+    return nearest
+end
+
+-- Helper: check if a humanoid is currently playing the target animation
+local function humanoidIsPlayingTargetAnimation(humanoid)
+    if not humanoid then return false end
+    for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+        if track.Animation and track.Animation.AnimationId == TargetAnimationID then
+            return true
+        end
+    end
+    return false
+end
+
+-- State for locked target
+local currentTarget = nil          -- HumanoidRootPart (locked)
+local currentTargetHumanoid = nil  -- Humanoid of the locked target's character
+local lockExpires = nil            -- timestamp when lock can be released at earliest
+
+-- 🔥 Aimbot logic (RenderStepped)
+RunService.RenderStepped:Connect(function()
+    if not Enabled then
+        return
+    end
+
+    -- safety: require local character and camera
+    if not LocalPlayer.Character or not LocalPlayer.Character:FindFirstChild("HumanoidRootPart") or not Camera then
+        currentTarget = nil
+        currentTargetHumanoid = nil
+        lockExpires = nil
+        return
+    end
+
+    -- First: detect if ANY player is playing the target animation
+    local anyAnimPlaying = false
+    for _, player in pairs(Players:GetPlayers()) do
+        if player.Character and player.Character:FindFirstChildOfClass("Humanoid") then
+            local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+            if humanoidIsPlayingTargetAnimation(humanoid) then
+                anyAnimPlaying = true
+                -- If we don't have a locked target yet, lock to the nearest player NOW
+                if not currentTarget then
+                    local chosen = getNearestPlayerRoot()
+                    if chosen then
+                        currentTarget = chosen
+                        currentTargetHumanoid = chosen.Parent and chosen.Parent:FindFirstChildOfClass("Humanoid") or nil
+                        lockExpires = tick() + LOCK_DURATION
+                    end
+                end
+                -- We break here optionally (we only need to know that an animation is playing).
+                -- But do not break if we want to check other players' animations as well; either is fine.
+                -- We'll not break so we keep checking; but one detection is enough to keep anyAnimPlaying = true.
+            end
+        end
+    end
+
+    -- If there is a locked target, aim at it while animation(s) are playing OR until lockExpires
+    if currentTarget and currentTarget.Parent and currentTargetHumanoid then
+        -- validate target: still has HumanoidRootPart and is alive
+        if not currentTarget or not currentTarget.Parent or not currentTarget.Parent:FindFirstChild("HumanoidRootPart") then
+            -- invalid target, release
+            currentTarget = nil
+            currentTargetHumanoid = nil
+            lockExpires = nil
+            return
+        end
+
+        -- Determine whether we should continue aiming:
+        -- continue if either (a) any player is currently playing the target animation OR
+        -- (b) we haven't reached lockExpires yet (ensures a short guaranteed aiming window)
+        local continueAiming = anyAnimPlaying or (lockExpires and tick() < lockExpires)
+
+        if continueAiming then
+            local aimPos = currentTarget.Position
+            local camCFrame = Camera.CFrame
+            -- avoid zero-length direction
+            local dirVec = aimPos - camCFrame.Position
+            if dirVec.Magnitude > 0 then
+                local direction = dirVec.Unit
+                Camera.CFrame = Camera.CFrame:Lerp(
+                    CFrame.new(camCFrame.Position, camCFrame.Position + direction),
+                    Smoothness
+                )
+            end
+            return
+        else
+            -- no animation playing and lock expired -> release target, allow new selection next detection
+            currentTarget = nil
+            currentTargetHumanoid = nil
+            lockExpires = nil
+            return
+        end
+    end
+
+    -- If we get here: no locked target, but if an animation is playing we already set one above.
+    -- Nothing to do otherwise.
+end)
+end
+
+
+
+    Tabs.Main:AddSection("↳ Guest1337")
+
+
+
+
+do
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+    local localPlayer = Players.LocalPlayer
+
+    local Killers = {
+        ["Slasher"] = true,
+        ["1x1x1x1"] = true,
+        ["c00lkidd"] = true,
+        ["Noli"] = true,
+        ["JohnDoe"] = true,
+        ["Guest 666"] = true,
+        ["Sixer"] = true
+    }
+
+    local function isKiller(player)
+        local char = player.Character
+        if not char then return false end
+        return Killers[char.Name] == true
+    end
+
+    local animationIds = {
+        ["83829782357897"]  = true, -- Slash, 1x1x1x1
+        ["126830014841198"] = true, -- Slash, Jason
+        ["126355327951215"] = true, -- Behead, Jason
+        ["121086746534252"] = true, -- GashingWoundStart, Jason
+        ["105458270463374"] = true, -- Slash, JohnDoe
+        ["18885909645"]     = true, -- Attack, c00lkid
+        ["94162446513587"]  = true, -- Slash, JohnDoe, Skin: !Joner
+        ["93069721274110"]  = true, -- Slash, JohnDoe, Skin: AnnihilationJohnDoe
+        ["97433060861952"]  = true, -- Slash, JohnDoe, Skin: #SK
+        ["121293883585738"] = true, -- Slash, 1x1x1x1
+        ["92173139187970"]  = true, -- Slash, Skin: Hacklord1x1x1x1
+        ["106847695270773"] = true, -- GashingWoundStart, Jason, Skin: Subject0Jason
+        ["125403313786645"] = true, -- Slash, Jason, Skin: Subject0Jason
+        ["81639435858902"]  = true, -- Behead, Jason, Skin: WhitePumpkinJason
+        ["137314737492715"] = true, -- GashingWoundStart, Jason, Skin: WhitePumpkinJason
+        ["120112897026015"] = true, -- Slash, Jason, Skin: WhitePumpkinJason
+        ["82113744478546"]  = true, -- Behead, Jason (nhiều skin)
+        ["118298475669935"] = true, -- Slash, Jason (nhiều skin)
+        ["126681776859538"] = true, -- Behead, Jason, Skin: PursuerJason
+        ["129976080405072"] = true, -- GashingWoundStart, Jason, Skin: PursuerJason
+        ["109667959938617"] = true, -- Slash, Jason, Skin: PursuerJason
+        ["74707328554358"]  = true, -- Slash, Jason, Skin: #DeadRabbitsJason
+        ["133336594357903"] = true, -- Behead, Jason, Skin: #DeadRabbitsJason
+        ["86204001129974"]  = true, -- GashingWoundStart, Jason, Skin: #DeadRabbitsJason
+        ["70371667919898"]  = true, -- Attack, c00lkidd, Skin: MafiosoC00l
+        ["131543461321709"] = true, -- Attack, c00lkidd, Skin: SaviorC00l
+        ["106776364623742"] = true, -- Walkspeed Overing, c00lkidd (all skins)
+        ["136323728355613"] = true, -- Swing, Noli
+        ["109230267448394"] = true, -- Swing, Noli (all skins)
+        ["139835501033932"] = true, -- VoidRush, Noli (all skins)
+        ["114356208094580"] = true, -- VoidRush2, Noli
+        ["106538427162796"] = true, -- Stab, All Noli
+        ["126896426760253"] = true, -- VoidRush, Noli
+        ["131430497821198"] = true, -- MassInfection, 1x1x1x1
+        ["100592913030351"] = true, -- MassInfection, 1x1x1x1 (Fleskhjerta/AceOfSpades/Lancer)
+        ["70447634862911"]  = true, -- MassInfection, Skin: Hacklord1x1x1x1 Old
+        ["83685305553364"]  = true, -- MassInfection, Skin: Hacklord1x1x1x1 New
+        ["126171487400618"]  = true, -- Slash, Skin: Hacklord1x1x1x1
+        ["97167027849946"]  = true, -- Noli Dash Belike
+        ["99135633258223"]  = true,
+        ["98456918873918"]  = true,
+        ["83251433279852"]  = true,
+        ["126681776859538"] = true,
+        ["129976080405072"] = true,
+        ["122709416391891"] = true, -- Đánh Thường Guest 666
+        ["87989533095285"] = true, -- Vồ Tới Guest 666
+        ["139309647473555"] = true, -- Bay Đến Mục Tiêu
+        ["133363345661032"] = true, -- Chuẩn Bị Bay Đến Mục tiêu
+        ["128414736976503"] = true, -- Sẵn Sàng Bay Đến
+--        ["121808371053483"] = true, -- La Hét Vào Mặt :))
+        ["77375846492436"] = true, -- Noli Aful Rework
+        ["92445608014276"] = true, -- NAR
+        ["100358581940485"] = true, -- NAR
+        ["91758760621955"] = true, -- NAR
+        ["94634594529334"] = true, -- NAR
+        ["90620531468240"] = true, -- 1x slash m2-3 rework
+        ["94958041603347"] = true, -- Slasher Bí ngô trắng / chém
+        ["131642454238375"] = true, -- Slasher Bí Ngô trắng / Khóa skill
+        ["110702884830060"] = true, -- Slasher Bí Ngô Trắng / Liên Hoàn Chém
+        ["76312020299624"] = true, -- Noli Admin Void rush
+        ["126654961540956"] = true, -- NAVR
+        ["139613699193400"] = true, -- NAVR
+        ["91509234639766"] = true, -- NA Đánh Thường
+        ["105458270463374"] = true, -- John Doe M3 và M4 Đánh Thường
+    }
+
+    local delayedAnimations = {}
+
+    local toggleOn = false
+    local strictRangeOn = false
+    local detectionRange = 18
+
+    local blockRemote
+    local blockButton, connections = nil, {}
+
+    local function findBlockRemote()
+        if blockRemote then return blockRemote end
+        if not blockButton then return nil end
+        for _, conn in ipairs(getconnections(blockButton.MouseButton1Click)) do
+            local f = conn.Function
+            if f and islclosure(f) then
+                local upvals = getupvalues(f)
+                for _, v in pairs(upvals) do
+                    if typeof(v) == "Instance" and v:IsA("RemoteEvent") then
+                        blockRemote = v
+                        warn("[AutoBlock] Found Block Remote:", v:GetFullName())
+                        return blockRemote
+                    end
+                end
+            end
+        end
+        return nil
+    end
+
+    local function initBlockButton()
+        local gui = localPlayer:FindFirstChild("PlayerGui")
+        if not gui then return end
+        local mainUI = gui:FindFirstChild("MainUI")
+        local container = mainUI and mainUI:FindFirstChild("AbilityContainer")
+        blockButton = container and container:FindFirstChild("Block")
+        if blockButton and blockButton:IsA("ImageButton") then
+            connections = getconnections(blockButton.MouseButton1Click)
+            findBlockRemote()
+        end
+    end
+
+    initBlockButton()
+    localPlayer.CharacterAdded:Connect(function()
+        task.wait(0)
+        initBlockButton()
+    end)
+
+    local function fastBlock()
+        if blockRemote then
+            pcall(function()
+                blockRemote:FireServer(true)
+                task.delay(1e-10, function()
+                    blockRemote:FireServer(false)
+                end)
+            end)
+        else
+            if not blockButton or not blockButton.Visible then return end
+            for _, conn in ipairs(connections) do
+                pcall(function() conn:Fire() end)
+            end
+            pcall(function() blockButton:Activate() end)
+        end
+    end
+
+    local lastTeleport = 0
+    local function teleportDodge(killerChar)
+        local now = tick()
+        if now - lastTeleport < 5 then return end
+        lastTeleport = now
+
+        local myChar = localPlayer.Character
+        local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
+        local killerRoot = killerChar and killerChar:FindFirstChild("HumanoidRootPart")
+        if not (myRoot and killerRoot) then return end
+
+        local oldCFrame = myRoot.CFrame
+        local forward = killerRoot.CFrame.LookVector
+
+        myRoot.CFrame = killerRoot.CFrame + forward * 7.5
+
+        task.delay(0.1, function()
+            if myRoot then
+                myRoot.CFrame = oldCFrame
+            end
+        end)
+    end
+
+    local function getBoolFlag(name, default)
+        local flag = localPlayer:FindFirstChild(name)
+        if not flag then
+            flag = Instance.new("BoolValue")
+            flag.Name = name
+            flag.Value = default
+            flag.Parent = localPlayer
+        end
+        return flag
+    end
+
+    local function getNumberFlag(name, default)
+        local flag = localPlayer:FindFirstChild(name)
+        if not flag then
+            flag = Instance.new("NumberValue")
+            flag.Name = name
+            flag.Value = default
+            flag.Parent = localPlayer
+        end
+        return flag
+    end
+
+    local toggleFlag = getBoolFlag("AutoBlockToggle", false)
+    local strictFlag = getBoolFlag("AutoBlockStrictRange", false)
+    local rangeFlag = getNumberFlag("AutoBlockRange", 18)
+
+    toggleOn = toggleFlag.Value
+    strictRangeOn = strictFlag.Value
+    detectionRange = rangeFlag.Value
+
+    Tabs.Main:AddToggle("AutoBlockV2", {Title = "Auto Block V3", Default = toggleOn})
+        :OnChanged(function(state)
+            toggleOn = state
+            toggleFlag.Value = state
+        end)
+
+    Tabs.Main:AddToggle("StrictRangeCheck", {Title = "Auto Check V3", Default = strictRangeOn})
+        :OnChanged(function(state)
+            strictRangeOn = state
+            strictFlag.Value = state
+        end)
+
+    Tabs.Main:AddInput("RangeCheckInput", {
+        Title = "Range Check",
+        Default = tostring(detectionRange),
+        Placeholder = "Enter detection range"
+    }):OnChanged(function(txt)
+        local val = tonumber(txt)
+        if val then
+            detectionRange = val
+            rangeFlag.Value = val
+        end
+    end)
+
+    local playerConns = {}
+    local recentBlocks = {}
+    local COOLDOWN_ZERO, COOLDOWN_MISS = 0, 0
+
+    local function cleanupPlayerConns(p)
+        local tbl = playerConns[p]
+        if tbl then
+            for _, c in ipairs(tbl) do
+                if c and c.Disconnect then c:Disconnect() end
+            end
+            playerConns[p] = nil
+        end
+        recentBlocks[p.UserId] = nil
+    end
+
+    local function shouldBlockNow(p, animId, track)
+        recentBlocks[p.UserId] = recentBlocks[p.UserId] or {}
+        local last = recentBlocks[p.UserId][animId] or 0
+        local now = tick()
+        if track.TimePosition <= 0 then
+            if now - last >= COOLDOWN_ZERO then
+                recentBlocks[p.UserId][animId] = now
+                return true
+            end
+            return false
+        else
+            if now - last >= COOLDOWN_MISS then
+                recentBlocks[p.UserId][animId] = now
+                return true
+            end
+            return false
+        end
+    end
+
+    local massInfectionIds = {
+        ["131430497821198"] = true,
+        ["100592913030351"] = true,
+        ["70447634862911"]  = true,
+        ["83685305553364"]  = true,
+        ["101101433684051"] = true,
+    }
+
+    local function onAnimationPlayed(player, char, track)
+        if not toggleOn then return end
+        if not (track and track.Animation) then return end
+        local animIdStr = track.Animation.AnimationId
+        local id = animIdStr and string.match(animIdStr, "%d+")
+        if not id or not animationIds[id] then return end
+
+        if strictRangeOn then
+            local myChar = localPlayer.Character
+            local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
+            local root = char and char:FindFirstChild("HumanoidRootPart")
+            if not myRoot or not root then return end
+            local dist = (root.Position - myRoot.Position).Magnitude
+            if dist > detectionRange then return end
+        end
+
+        if shouldBlockNow(player, id, track) then
+            if massInfectionIds[id] then
+                task.delay(0.5, fastBlock) -- delay 0.5s cho MassInfection
+            else
+                fastBlock()
+            end
+
+            if isKiller(player) and delayedAnimations[id] then
+                teleportDodge(char)
+            end
+        end
+    end
+
+    local function monitorCharacter(player, char)
+        if not player or not char then return end
+        local hum = char:FindFirstChildOfClass("Humanoid") or char:WaitForChild("Humanoid", 5)
+        if not hum then return end
+        local con = hum.AnimationPlayed:Connect(function(track)
+            task.spawn(onAnimationPlayed, player, char, track)
+        end)
+        playerConns[player] = playerConns[player] or {}
+        table.insert(playerConns[player], con)
+    end
+
+    local function onPlayerAdded(player)
+        if player == localPlayer then return end
+        if player.Character then monitorCharacter(player, player.Character) end
+        local conCharAdded = player.CharacterAdded:Connect(function(char)
+            task.wait(0)
+            monitorCharacter(player, char)
+        end)
+        playerConns[player] = playerConns[player] or {}
+        table.insert(playerConns[player], conCharAdded)
+    end
+
+    for _, p in ipairs(Players:GetPlayers()) do onPlayerAdded(p) end
+    Players.PlayerAdded:Connect(onPlayerAdded)
+    Players.PlayerRemoving:Connect(cleanupPlayerConns)
+
+    local circles = {}
+
+    local function createCircleFor(player, hrp)
+        if circles[player] then circles[player]:Destroy() end
+        local circle = Instance.new("Part")
+        circle.Anchored, circle.CanCollide = true, false
+        circle.Shape = Enum.PartType.Cylinder
+        circle.Size = Vector3.new(0.2, detectionRange * 2, detectionRange * 2)
+        circle.CFrame = hrp.CFrame * CFrame.Angles(0, 0, math.rad(90))
+        circle.Material, circle.Transparency = Enum.Material.Neon, 0.5
+        circle.Color = Color3.fromRGB(255, 0, 0)
+        circle.Parent = workspace
+        circles[player] = circle
+    end
+
+    local function removeCircle(player)
+        if circles[player] then circles[player]:Destroy() circles[player] = nil end
+    end
+
+    RunService.Heartbeat:Connect(function()
+        if not strictRangeOn then
+            for _, circle in pairs(circles) do
+                if circle then circle.Transparency = 1 end
+            end
+            return
+        end
+        local myChar = localPlayer.Character
+        local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
+        if not myRoot then return end
+        for _, player in ipairs(Players:GetPlayers()) do
+            if player ~= localPlayer then
+                local char = player.Character
+                local hrp = char and char:FindFirstChild("HumanoidRootPart")
+                local hum = char and char:FindFirstChildOfClass("Humanoid")
+                if hrp and hum and hum.Health > 0 and isKiller(player) then
+                    if not circles[player] then createCircleFor(player, hrp) end
+                    local circle = circles[player]
+                    circle.Size = Vector3.new(0.2, detectionRange * 2, detectionRange * 2)
+                    circle.CFrame = hrp.CFrame * CFrame.Angles(0, 0, math.rad(90))
+                    local dist = (myRoot.Position - hrp.Position).Magnitude
+                    circle.Color = (dist <= detectionRange) and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(255, 0, 0)
+                    circle.Transparency = 0.5
+                else
+                    removeCircle(player)
+                end
+            end
+        end
+    end)
+
+    Players.PlayerRemoving:Connect(removeCircle)
+end
+
+
+
+
+
+
+do
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local lp = Players.LocalPlayer
+
+if getgenv().emergency_stop == nil then
+    getgenv().emergency_stop = false
+end
+
+-- 🔧 Chuyển studs thành độ tăng kích thước
+local function StudsIntoSize(studs)
+    return studs * 0.5
+end
+
+-- ⚙️ Hàm tăng hitbox người khác
+local function ExtendOthersHitbox(studs, time)
+    local size_increase = StudsIntoSize(studs)
+    local start = tick()
+
+    if getgenv().emergency_stop then
+        getgenv().emergency_stop = false
+    end
+
+    repeat
+        task.wait(0.05)
+        for _, plr in pairs(Players:GetPlayers()) do
+            if plr ~= lp and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+                for _, part in pairs(plr.Character:GetChildren()) do
+                    if part:IsA("BasePart") then
+                        local originalSize = part.Size
+                        part.Size = Vector3.new(
+                            originalSize.X + size_increase,
+                            originalSize.Y,
+                            originalSize.Z + size_increase
+                        )
+                        part.Massless = true
+                        part.CanCollide = false
+                    end
+                end
+            end
+        end
+    until tick() - start > tonumber(time) or getgenv().emergency_stop
+
+    -- 🔄 Trả lại kích thước cũ
+    if getgenv().emergency_stop then
+        getgenv().emergency_stop = false
+    end
+
+    for _, plr in pairs(Players:GetPlayers()) do
+        if plr ~= lp and plr.Character then
+            for _, part in pairs(plr.Character:GetChildren()) do
+                if part:IsA("BasePart") then
+                    part.Size = Vector3.new(2, 2, 1)
+                end
+            end
+        end
+    end
+end
+
+-- 🛑 Hàm dừng
+local function StopExtendingHitbox()
+    getgenv().emergency_stop = true
+end
+
+-- 🟢 Nút bật/tắt hitbox extender
+Tabs.Main:AddToggle("ExtendHitboxOthers", {
+    Title = "Block Hitbox",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            task.spawn(function()
+                while Value and not getgenv().emergency_stop do
+                    ExtendOthersHitbox(1.5, 2)
+                    task.wait(0)
+                end
+            end)
+        else
+            StopExtendingHitbox()
+        end
+    end
+})
+end
+
+
+
+
+
+do
+    -- Auto Punch settings
+    local autoPunchOn, aimPunch, flingPunchOn, customPunchEnabled = false, false, false, false
+    local hiddenfling = false
+    local flingPower = 10000
+    local predictionValue = 4
+    local customPunchAnimId = ""
+    local Humanoid
+    local lastPunchTime = 0
+    local punchAnimIds = { "87259391926321" }
+    local LP = game:GetService("Players").LocalPlayer
+    local RunService = game:GetService("RunService")
+    local PlayerGui = LP:WaitForChild("PlayerGui")
+
+    -- Function: play custom punch anim
+    local function playCustomPunch(animId)
+        if not Humanoid then return end
+        if not animId or animId == "" then return end
+        local now = tick()
+        if now - lastPunchTime < 1 then return end
+
+        for _, track in ipairs(Humanoid:GetPlayingAnimationTracks()) do
+            local animNum = tostring(track.Animation.AnimationId):match("%d+")
+            if table.find(punchAnimIds, animNum) then
+                track:Stop()
+            end
+        end
+
+        local anim = Instance.new("Animation")
+        anim.AnimationId = "rbxassetid://" .. animId
+        local track = Humanoid:LoadAnimation(anim)
+        track:Play()
+        lastPunchTime = now
+    end
+
+    -- Hidden fling coroutine
+    coroutine.wrap(function()
+        local hrp, c, vel, movel = nil, nil, nil, 0.1
+        while true do
+            RunService.Heartbeat:Wait()
+            if hiddenfling then
+                while hiddenfling and not (c and c.Parent and hrp and hrp.Parent) do
+                    RunService.Heartbeat:Wait()
+                    c = LP.Character
+                    hrp = c and c:FindFirstChild("HumanoidRootPart")
+                end
+                if hiddenfling then
+                    vel = hrp.Velocity
+                    hrp.Velocity = vel * flingPower + Vector3.new(0, flingPower, 0)
+                    RunService.RenderStepped:Wait()
+                    hrp.Velocity = vel
+                    RunService.Stepped:Wait()
+                    hrp.Velocity = vel + Vector3.new(0, movel, 0)
+                    movel = movel * -1
+                end
+            end
+        end
+    end)()
+
+    -- Auto Punch loop
+    RunService.RenderStepped:Connect(function()
+        local myChar = LP.Character
+        if not myChar then return end
+        local myRoot = myChar:FindFirstChild("HumanoidRootPart")
+        Humanoid = myChar:FindFirstChildOfClass("Humanoid")
+
+        if autoPunchOn then
+            local gui = PlayerGui:FindFirstChild("MainUI")
+            local punchBtn = gui and gui:FindFirstChild("AbilityContainer") and gui.AbilityContainer:FindFirstChild("Punch")
+            local charges = punchBtn and punchBtn:FindFirstChild("Charges")
+
+            if charges and charges.Text == "1" then
+                local killerNames = {"c00lkidd", "Slasher", "JohnDoe", "1x1x1x1", "Noli", "Guest 666", "Sixer"}
+                for _, name in ipairs(killerNames) do
+                    local killer = workspace:FindFirstChild("Players")
+                        and workspace.Players:FindFirstChild("Killers")
+                        and workspace.Players.Killers:FindFirstChild(name)
+
+                    if killer and killer:FindFirstChild("HumanoidRootPart") then
+                        local root = killer.HumanoidRootPart
+                        if root and myRoot and (root.Position - myRoot.Position).Magnitude <= 10 then
+                            
+                            -- Aim Punch
+                            if aimPunch then
+                                local humanoid = myChar:FindFirstChild("Humanoid")
+                                if humanoid then humanoid.AutoRotate = false end
+                                task.spawn(function()
+                                    local start = tick()
+                                    while tick() - start < 2 do
+                                        if myRoot and root and root.Parent then
+                                            local predictedPos = root.Position + (root.CFrame.LookVector * predictionValue)
+                                            myRoot.CFrame = CFrame.lookAt(myRoot.Position, predictedPos)
+                                        end
+                                        task.wait()
+                                    end
+                                    if humanoid then humanoid.AutoRotate = true end
+                                end)
+                            end
+
+                            -- Click punch button
+                            for _, conn in ipairs(getconnections(punchBtn.MouseButton1Click)) do
+                                pcall(function() conn:Fire() end)
+                            end
+
+                            -- Fling Punch
+                            if flingPunchOn then
+                                hiddenfling = true
+                                task.spawn(function()
+                                    local start = tick()
+                                    while tick() - start < 1 do
+                                        if LP.Character and LP.Character:FindFirstChild("HumanoidRootPart") and root and root.Parent then
+                                            local frontPos = root.Position + (root.CFrame.LookVector * 2)
+                                            LP.Character.HumanoidRootPart.CFrame = CFrame.new(frontPos, root.Position)
+                                        end
+                                        task.wait()
+                                    end
+                                    hiddenfling = false
+                                end)
+                            end
+
+                            -- Custom anim
+                            if customPunchEnabled and customPunchAnimId ~= "" then
+                                playCustomPunch(customPunchAnimId)
+                            end
+
+                            break -- chỉ đánh 1 killer mỗi vòng
+                        end
+                    end
+                end
+            end
+        end
+    end)
+
+    -- === Nút cho Tabs.Main (thêm vào GUI có sẵn) ===
+    Tabs.Main:AddToggle("AutoPunch", { Title = "Auto Punch", Default = false })
+        :OnChanged(function(val) autoPunchOn = val end)
+
+    Tabs.Main:AddToggle("AimPunch", { Title = "Punch Aimbot", Default = false })
+        :OnChanged(function(val) aimPunch = val end)
+
+    Tabs.Main:AddToggle("FlingPunch", { Title = "Fling Punch", Default = false })
+        :OnChanged(function(val) flingPunchOn = val end)
+
+    Tabs.Main:AddSlider("Prediction", {
+        Title = "Aim Prediction",
+        Min = 0, Max = 10, Default = 4, Rounding = 1,
+    }):OnChanged(function(val) predictionValue = val end)
+
+    Tabs.Main:AddSlider("FlingPower", {
+        Title = "Fling Power",
+        Min = 5000, Max = 500000, Default = 10000, Rounding = 0,
+    }):OnChanged(function(val) flingPower = val end)
+
+    Tabs.Main:AddInput("CustomAnim", {
+        Title = "Custom Punch",
+        Default = "",
+        Placeholder = "Enter Animation ID"
+    }):OnChanged(function(txt) customPunchAnimId = txt end)
+
+    Tabs.Main:AddToggle("EnableCustomAnim", { Title = "Enable Custom Animation", Default = false })
+        :OnChanged(function(val) customPunchEnabled = val end)
+end
+
+    Tabs.Main:AddSection("↳ c00lkidd")
+
+
+
+do
+    --== ⚙️ Base Globals ==--
+    local Players = game:GetService("Players")
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local RunService = game:GetService("RunService")
+    local Workspace = game:GetService("Workspace")
+    local Camera = Workspace.CurrentCamera
+    local Player = Players.LocalPlayer
+
+    getgenv().Remote = ReplicatedStorage:WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent")
+    getgenv().walkSpeed = 100
+    getgenv().connection = nil
+    getgenv().blockFootstepPlayed = false
+
+    --== 🧠 Helpers ==--
+    local function getCharacter()
+        return Player.Character or Player.CharacterAdded:Wait()
+    end
+
+    --== 🎯 Target list ==
+    -- Thay specialTargets bằng folder Survivors tự động
+    local survivorsFolder = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+    local function isSpecialTarget(char)
+        if not char then return false end
+        if survivorsFolder:FindFirstChild(char.Name) then
+            return true
+        end
+        -- một số model có thể là child của model (cẩn thận)
+        for _, child in ipairs(char:GetChildren()) do
+            if survivorsFolder:FindFirstChild(child.Name) then
+                return true
+            end
+        end
+        return false
+    end
+
+    --== 🏃 Movement Logic ==--
+    local stopMovement = false
+    local validValues = { Timeout = true, Collide = true, Hit = true }
+    local stopTimerTask = nil
+    local STOP_TIMEOUT = 5
+
+    local function startStopTimeout()
+        if stopTimerTask then return end
+        stopTimerTask = task.spawn(function()
+            task.wait(STOP_TIMEOUT)
+            stopMovement = false
+            stopTimerTask = nil
+        end)
+    end
+
+    local function cancelStopTimeout()
+        stopTimerTask = nil
+    end
+
+    local function watchResult(result)
+        local function check()
+            if validValues[result.Value] then
+                stopMovement = true
+                startStopTimeout()
+            else
+                stopMovement = false
+                cancelStopTimeout()
+            end
+        end
+        pcall(check)
+        local conn
+        conn = result:GetPropertyChangedSignal("Value"):Connect(function()
+            pcall(check)
+        end)
+        result.AncestryChanged:Connect(function(_, parent)
+            if not parent then
+                stopMovement = false
+                cancelStopTimeout()
+                if conn then
+                    conn:Disconnect()
+                    conn = nil
+                end
+            end
+        end)
+    end
+
+    local function onCharacterAdded(character)
+        local result = character:FindFirstChild("Result")
+        if result and result:IsA("StringValue") then
+            watchResult(result)
+        end
+        character.ChildAdded:Connect(function(child)
+            if child.Name == "Result" and child:IsA("StringValue") then
+                watchResult(child)
+            end
+        end)
+        character.ChildRemoved:Connect(function(child)
+            if child.Name == "Result" then
+                stopMovement = false
+                cancelStopTimeout()
+            end
+        end)
+    end
+
+    Player.CharacterAdded:Connect(onCharacterAdded)
+    if Player.Character then
+        onCharacterAdded(Player.Character)
+    end
+
+    --== 🔎 Helpers ==--
+    local function getHumRoot(partOrChar)
+        if not partOrChar then return nil end
+        return partOrChar:FindFirstChild("HumanoidRootPart") or partOrChar:FindFirstChild("Torso") or partOrChar:FindFirstChild("UpperTorso")
+    end
+
+    --== 🔄 Movement follow camera ==--
+    local function onHeartbeat()
+        local char = Player.Character
+        -- giữ check c00lkidd như gốc (chỉ áp dụng cho mẫu c00lkidd)
+        if not char or char.Name ~= "c00lkidd" then return end
+        local root = getHumRoot(char)
+        local hum = char:FindFirstChildOfClass("Humanoid")
+        local lv = root and root:FindFirstChild("LinearVelocity")
+        if not root or not hum or not lv then return end
+        lv.Enabled = false
+        if stopMovement then return end
+
+        local look = Camera and Camera.CFrame and Camera.CFrame.LookVector or nil
+        if look then
+            local dir = Vector3.new(look.X, 0, look.Z)
+            if dir.Magnitude > 0 then
+                dir = dir.Unit
+                root.Velocity = Vector3.new(dir.X * getgenv().walkSpeed, root.Velocity.Y, dir.Z * getgenv().walkSpeed)
+                root.CFrame = CFrame.new(root.Position, root.Position + dir)
+            end
+        end
+    end
+
+    --== 🧩 Hook Helpers ==--
+    getgenv().createHook = function(remoteName)
+        if getgenv()["original_" .. remoteName] then
+            return getgenv()["original_" .. remoteName]
+        end
+        getgenv()["original_" .. remoteName] = hookmetamethod(game, "__namecall", function(self, ...)
+            local method = getnamecallmethod()
+            local args = { ... }
+            if self == getgenv().Remote and method == "FireServer" then
+                if args[1] == Player.Name .. remoteName then
+                    return
+                end
+            end
+            return getgenv()["original_" .. remoteName](self, ...)
+        end)
+        return getgenv()["original_" .. remoteName]
+    end
+
+    getgenv().enableHook = function(remoteName)
+        if not getgenv()["hook_" .. remoteName] then
+            getgenv()["hook_" .. remoteName] = getgenv().createHook(remoteName)
+        end
+        if remoteName == "DusekkarCancel" and not getgenv().isFiringDusekkar then
+            getgenv().isFiringDusekkar = true
+            task.spawn(function()
+                task.wait(4)
+                getgenv().Remote:FireServer({ Player.Name .. "DusekkarCancel" })
+                getgenv().isFiringDusekkar = false
+                stopMovement = false
+                cancelStopTimeout()
+            end)
+        end
+    end
+
+    getgenv().disableHook = function(remoteName)
+        if getgenv()["hook_" .. remoteName] then
+            hookmetamethod(game, "__namecall", getgenv()["hook_" .. remoteName])
+            getgenv()["hook_" .. remoteName] = nil
+            getgenv()["original_" .. remoteName] = nil
+        end
+    end
+
+    --== 👣 Footstep Hook ==--
+    getgenv().HookFootstepPlayed = function(enable)
+        if enable then
+            if not getgenv().originalFootstepHook then
+                getgenv().originalFootstepHook = hookmetamethod(game, "__namecall", function(self, ...)
+                    local method = getnamecallmethod()
+                    local args = { ... }
+                    if method == "FireServer" and self.Name == "UnreliableRemoteEvent" then
+                        if args[1] == "FootstepPlayed" and getgenv().blockFootstepPlayed then
+                            return
+                        end
+                    end
+                    return getgenv().originalFootstepHook(self, ...)
+                end)
+            end
+            getgenv().blockFootstepPlayed = true
+        else
+            getgenv().blockFootstepPlayed = false
+        end
+    end
+
+    --== ⚔️ Combat GUI (Fluent style) ==--
+    Tabs.Main:AddToggle("WalkspeedOverride", {
+        Title = "Walkspeed Override Controller",
+        Default = false
+    }):OnChanged(function(value)
+        if value then
+            stopMovement = false
+            cancelStopTimeout()
+            if not getgenv().connection then
+                getgenv().connection = RunService.Heartbeat:Connect(onHeartbeat)
+            end
+        else
+            if getgenv().connection then
+                getgenv().connection:Disconnect()
+                getgenv().connection = nil
+            end
+        end
+    end)
+
+    Tabs.Main:AddToggle("IgnoreC00lkidd", {
+        Title = "Walkspeed Override Ignore Objectables",
+        Default = false
+    }):OnChanged(function(value)
+        if value then
+            getgenv().enableHook("C00lkiddCollision")
+        else
+            getgenv().disableHook("C00lkiddCollision")
+        end
+    end)
+
+    Tabs.Main:AddToggle("IgnoreFootstep", {
+        Title = "Block Footstep Played",
+        Default = false
+    }):OnChanged(function(value)
+        getgenv().HookFootstepPlayed(value)
+    end)
+
+    --== 🧩 New Toggle for Dusekkar ==
+    Tabs.Main:AddToggle("DusekkarMode", {
+        Title = "Anti Dusekarr Attack",
+        Default = false
+    }):OnChanged(function(value)
+        if value then
+            getgenv().enableHook("DusekkarCancel")
+        else
+            getgenv().disableHook("DusekkarCancel")
+        end
+    end)
+
+end
+
+
+
+
+    Tabs.Main:AddSection("↳ Noli")
+
+do
+    local RunService = game:GetService("RunService")
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+
+    -- ====== CONFIG ======
+    local voidrushcontrol = false
+    local DASH_SPEED = 80
+    local ATTACK_RANGE = 6
+    local ATTACK_INTERVAL = 0.2
+
+    -- ====== DYNAMIC PRIORITY ======
+    local survivorsFolder = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+    local function isPriorityTarget(p)
+        if not p or not p.Character then return false end
+        return survivorsFolder:FindFirstChild(p.Name) ~= nil
+    end
+
+    -- ====== STATE ======
+    local isOverrideActive = false
+    local connection
+    local Humanoid, RootPart
+    local lastState = nil
+    local attackingLoop = nil
+
+    -- setup character
+    local function setupCharacter(character)
+        Humanoid = character:WaitForChild("Humanoid")
+        RootPart = character:WaitForChild("HumanoidRootPart")
+        Humanoid.Died:Connect(function()
+            stopOverride()
+        end)
+    end
+
+    if LocalPlayer.Character then
+        setupCharacter(LocalPlayer.Character)
+    end
+    LocalPlayer.CharacterAdded:Connect(setupCharacter)
+
+    -- tìm mục tiêu hợp lệ
+    local function validTarget(p)
+        if p == LocalPlayer then return false end
+        local c = p.Character
+        if not c then return false end
+        local hrp = c:FindFirstChild("HumanoidRootPart")
+        local hum = c:FindFirstChild("Humanoid")
+        return hrp and hum and hum.Health > 0
+    end
+
+    -- tìm player gần nhất (ưu tiên survivorsFolder)
+    local function getClosestTarget()
+        if not RootPart then return nil end
+
+        local closestW, distW = nil, math.huge
+        local closestA, distA = nil, math.huge
+
+        for _, p in ipairs(Players:GetPlayers()) do
+            if validTarget(p) then
+                local c = p.Character
+                local hrp = c and c:FindFirstChild("HumanoidRootPart")
+                if hrp then
+                    local d = (hrp.Position - RootPart.Position).Magnitude
+                    if isPriorityTarget(p) and d < distW then
+                        distW = d
+                        closestW = p
+                    end
+                    if d < distA then
+                        distA = d
+                        closestA = p
+                    end
+                end
+            end
+        end
+
+        return closestW or closestA, distW < math.huge and distW or distA
+    end
+
+    -- cố gắng tấn công (tool:Activate())
+    local function attemptAttack()
+        local char = LocalPlayer.Character
+        if not char then return end
+        local tool = char:FindFirstChildOfClass("Tool")
+        if tool and tool.Parent == char then
+            pcall(function() tool:Activate() end)
+        end
+    end
+
+    -- điều khiển Void Rush
+    local function startOverride()
+        if isOverrideActive or not Humanoid or not RootPart then return end
+        isOverrideActive = true
+
+        connection = RunService.RenderStepped:Connect(function()
+            if not Humanoid or not RootPart or Humanoid.Health <= 0 then return end
+            local target, dist = getClosestTarget()
+
+            if target and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
+                local hrp = target.Character.HumanoidRootPart
+                local dir = hrp.Position - RootPart.Position
+                local horizontal = Vector3.new(dir.X, 0, dir.Z)
+
+                if horizontal.Magnitude > 0.1 then
+                    RootPart.CFrame = CFrame.new(RootPart.Position, Vector3.new(hrp.Position.X, RootPart.Position.Y, hrp.Position.Z))
+                    RootPart.AssemblyLinearVelocity = horizontal.Unit * DASH_SPEED
+                else
+                    RootPart.AssemblyLinearVelocity = Vector3.zero
+                end
+            else
+                RootPart.AssemblyLinearVelocity = Vector3.zero
+            end
+        end)
+
+        attackingLoop = task.spawn(function()
+            while isOverrideActive do
+                local target, dist = getClosestTarget()
+                if target and dist and dist <= ATTACK_RANGE then
+                    attemptAttack()
+                end
+                task.wait(ATTACK_INTERVAL)
+            end
+        end)
+    end
+
+    function stopOverride()
+        if not isOverrideActive then return end
+        isOverrideActive = false
+        if connection then
+            connection:Disconnect()
+            connection = nil
+        end
+        if RootPart then
+            RootPart.AssemblyLinearVelocity = Vector3.zero
+        end
+    end
+
+    -- kiểm tra trạng thái void rush
+    RunService.RenderStepped:Connect(function()
+        if not voidrushcontrol or not Humanoid then return end
+        local state = Humanoid.Parent and Humanoid.Parent:GetAttribute("VoidRushState")
+        if state ~= lastState then
+            lastState = state
+            if state == "Dashing" then
+                startOverride()
+            else
+                stopOverride()
+            end
+        end
+    end)
+
+    -- toggle GUI
+    Tabs.Main:AddToggle("VoidRushControl", {
+        Title = "Void Rush Aimbot",
+        Default = false
+    }):OnChanged(function(v)
+        voidrushcontrol = v
+        if not v then stopOverride() end
+    end)
+end
+
+
+
+    Tabs.Main:AddSection("↳ 1x1x1x1")
+
+do
+-- 🧩 GUI Toggle + Dropdown
+local toggleOn = false
+local toggleFlag = Instance.new("BoolValue")
+toggleFlag.Name = "1x1x1x1AutoAim_ToggleFlag"
+toggleFlag.Value = false
+
+local aimMode = "One Player"
+local predictMovement = false
+
+Tabs.Main:AddDropdown("AimModeDropdown", {
+    Title = "Aim Mode",
+    Values = {"One Player", "Multi Players", "Teleport"},
+    Default = "One Player",
+}):OnChanged(function(value)
+    aimMode = value
+end)
+
+Tabs.Main:AddToggle("AimSkill1x1x1x1", {
+    Title = "MassInfection Aimbot",
+    Default = toggleOn,
+}):OnChanged(function(state)
+    toggleOn = state
+    toggleFlag.Value = state
+end)
+
+Tabs.Main:AddToggle("PredictMovementToggle", {
+    Title = "Predict Movement",
+    Default = predictMovement,
+}):OnChanged(function(state)
+    predictMovement = state
+end)
+
+-- ⚙️ Setup
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local localPlayer = Players.LocalPlayer
+local workspacePlayers = workspace:WaitForChild("Players")
+local survivorsFolder = workspacePlayers:WaitForChild("Survivors")
+
+local dangerousAnimations = {
+    ["131430497821198"] = true,
+    ["100592913030351"] = true,
+    ["70447634862911"]  = true,
+    ["83685305553364"] = true
+}
+
+local killerModels = {["1x1x1x1"] = true}
+
+-- ⚡ State
+local autoRotateDisabledByScript = false
+local currentTarget, isLockedOn, wasPlayingAnimation = nil, false, false
+
+-- 🧩 Utils
+local function isKiller()
+    local char = localPlayer.Character
+    return char and killerModels[char.Name] or false
+end
+
+local function getMyHumanoid()
+    local char = localPlayer.Character
+    return char and char:FindFirstChildWhichIsA("Humanoid")
+end
+
+local function restoreAutoRotate()
+    local hum = getMyHumanoid()
+    if hum and autoRotateDisabledByScript then
+        hum.AutoRotate = true
+        autoRotateDisabledByScript = false
+    end
+end
+
+local function isPlayingDangerousAnimation()
+    local humanoid = getMyHumanoid()
+    if not humanoid then return false end
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    if not animator then return false end
+
+    for _, track in ipairs(animator:GetPlayingAnimationTracks()) do
+        local animId = tostring(track.Animation.AnimationId):match("%d+")
+        if animId and dangerousAnimations[animId] then
+            return true
+        end
+    end
+    return false
+end
+
+-- 🧭 Tìm survivor gần nhất trong folder "Survivors"
+local function getClosestSurvivor()
+    local myHumanoid = getMyHumanoid()
+    if not myHumanoid then return nil end
+    local myRoot = myHumanoid.Parent and myHumanoid.Parent:FindFirstChild("HumanoidRootPart")
+    if not myRoot then return nil end
+
+    local closest, closestDist = nil, math.huge
+
+    for _, obj in ipairs(survivorsFolder:GetChildren()) do
+        if obj:IsA("Model") then
+            local hrp = obj:FindFirstChild("HumanoidRootPart")
+            local hum = obj:FindFirstChildWhichIsA("Humanoid")
+            if hrp and hum and hum.Health > 0 then
+                local dist = (hrp.Position - myRoot.Position).Magnitude
+                if dist < closestDist then
+                    closest = obj
+                    closestDist = dist
+                end
+            end
+        end
+    end
+    return closest
+end
+
+-- 🌀 Reset khi respawn
+localPlayer.CharacterAdded:Connect(function()
+    task.delay(0.1, function()
+        autoRotateDisabledByScript = false
+    end)
+end)
+
+-- 🔁 Main loop
+RunService.RenderStepped:Connect(function()
+    if not toggleFlag.Value then
+        restoreAutoRotate()
+        currentTarget, isLockedOn, wasPlayingAnimation = nil, false, false
+        return
+    end
+
+    if not isKiller() then
+        restoreAutoRotate()
+        currentTarget, isLockedOn, wasPlayingAnimation = nil, false, false
+        return
+    end
+
+    local myHumanoid = getMyHumanoid()
+    if not myHumanoid then return end
+    local myRoot = myHumanoid.Parent and myHumanoid.Parent:FindFirstChild("HumanoidRootPart")
+    if not myRoot then return end
+
+    local isPlaying = isPlayingDangerousAnimation()
+
+    -- Lock target 1 lần khi bắt đầu animation
+    if isPlaying and not isLockedOn then
+        currentTarget = getClosestSurvivor()
+        if currentTarget then isLockedOn = true end
+    end
+
+    -- Validate target
+    if isLockedOn and currentTarget then
+        local tHum = currentTarget:FindFirstChildWhichIsA("Humanoid")
+        local tHrp = currentTarget:FindFirstChild("HumanoidRootPart")
+        if (not tHum) or (tHum and tHum.Health <= 0) or (not tHrp) then
+            currentTarget, isLockedOn = nil, false
+        end
+    end
+
+    -- End animation
+    if (not isPlaying) and wasPlayingAnimation then
+        currentTarget, isLockedOn = nil, false
+        restoreAutoRotate()
+    end
+    wasPlayingAnimation = isPlaying
+
+    -- 🎯 Aim / Teleport
+    if isPlaying and isLockedOn and currentTarget and currentTarget:FindFirstChild("HumanoidRootPart") then
+        local hrp = currentTarget.HumanoidRootPart
+        local targetPos = hrp.Position
+
+        if not autoRotateDisabledByScript then
+            myHumanoid.AutoRotate = false
+            autoRotateDisabledByScript = true
+        end
+
+        -- Predict movement
+        if predictMovement then
+            local vel = hrp.Velocity
+            if vel.Magnitude > 2 then
+                targetPos = targetPos + hrp.CFrame.LookVector * 3
+            end
+        end
+
+        local lookAt = Vector3.new(targetPos.X, myRoot.Position.Y, targetPos.Z)
+
+        if aimMode == "One Player" then
+            myRoot.CFrame = myRoot.CFrame:Lerp(CFrame.lookAt(myRoot.Position, lookAt), 0.99)
+
+        elseif aimMode == "Multi Players" then
+            local newTarget = getClosestSurvivor()
+            if newTarget then currentTarget = newTarget end
+            myRoot.CFrame = myRoot.CFrame:Lerp(CFrame.lookAt(myRoot.Position, lookAt), 0.99)
+
+        elseif aimMode == "Teleport" then
+            local behindPos = hrp.Position - hrp.CFrame.LookVector * 3
+            myRoot.CFrame = CFrame.new(behindPos, targetPos)
+        end
+    end
+end)
+end
+
+
+-- Tabs.Event
+
+    Tabs.Event:AddSection("↳ Halloween")
+
+
+do
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+
+    -- 📦 Nút Teleport riêng
+    Tabs.Event:AddButton({
+        Title = "TP to Shop",
+        Description = "Teleport đến khu Shop",
+        Callback = function()
+            local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+            local hrp = char:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                hrp.CFrame = CFrame.new(-3540.36, -392.73, 231.53)
+            end
+        end,
+    })
+end
+
+
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+
+Tabs.Event:AddButton({
+    Title = "Get Skin Sixer",
+    Callback = function()
+        pcall(function()
+            TeleportService:Teleport(139594300138069, Players.LocalPlayer)
+        end)
+    end
+})
+
+
+-- 💙 8. SUKKARS / EVENT ESP (v3.2: chạm viền sẽ ẩn ESP)
+-----------------------------------------------------
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local allowedModels = {
+    ["dumsek"] = true,
+    ["toon dusek"] = true,
+    ["dusek"] = true,
+    ["umdum"] = true,
+    ["doothsek"] = true,
+}
+
+local blockedCenter = Vector3.new(-3485.02, 4.48, 217.77)
+local blockedRadius = 500
+
+_G.ESPManager:RegisterType("Sukkars", Color3.fromRGB(0, 85, 255), function(obj)
+    if not obj:IsA("Model") then return false end
+    if not allowedModels[string.lower(obj.Name)] then return false end
+
+    local part = obj:FindFirstChild("HumanoidRootPart") or obj:FindFirstChildWhichIsA("BasePart")
+    if not part then return false end
+
+    local dist = (part.Position - blockedCenter).Magnitude
+    if dist <= blockedRadius then return false end
+
+    return true
+end, false)
+
+-- ⚡ Gắn .Touched 1 lần duy nhất
+local oldCreate = _G.ESPManager.Create
+_G.ESPManager.Create = function(self, model, typeName)
+    oldCreate(self, model, typeName)
+
+    if typeName == "Sukkars" then
+        local hrp = model:FindFirstChild("HumanoidRootPart") or model:FindFirstChildWhichIsA("BasePart")
+        if hrp and not hrp:FindFirstChild("_TouchedFlag") then
+            local flag = Instance.new("BoolValue")
+            flag.Name = "_TouchedFlag"
+            flag.Parent = hrp
+
+            hrp.Touched:Connect(function(hit)
+                local char = LocalPlayer.Character
+                if char and hit:IsDescendantOf(char) then
+                    _G.ESPManager:Remove(model)
+                end
+            end)
+        end
+    end
+end
+
+-- 💫 Ẩn ESP khi “chạm viền” (cự ly cực gần)
+task.spawn(function()
+    while task.wait(0.15) do
+        local char = LocalPlayer.Character
+        local hrp = char and char:FindFirstChild("HumanoidRootPart")
+        if not hrp then continue end
+
+        for model, data in pairs(_G.ESPManager.Objects) do
+            if data.type == "Sukkars" then
+                local part = model:FindFirstChild("HumanoidRootPart") or model:FindFirstChildWhichIsA("BasePart")
+                if part then
+                    local dist = (hrp.Position - part.Position).Magnitude
+                    if dist <= 5 then -- 👈 khoảng cách “chạm viền”
+                        _G.ESPManager:Remove(model)
+                    elseif dist > 1200 then -- xa quá thì dọn ESP
+                        _G.ESPManager:Remove(model)
+                    end
+                else
+                    _G.ESPManager:Remove(model)
+                end
+            end
+        end
+    end
+end)
+
+Tabs.Event:AddToggle("ESPSukkarsToggle", {
+    Title = "ESP Sukkars",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Sukkars", state)
+end)
+
+
+
+-- 🧭 Danh sách model cần teleport tới
+local TargetNames = {
+    "dumsek",
+    "toon dusek",
+    "umdum",
+    "dusek",
+    "doothsek",
+}
+
+-- ⚙️ Cài đặt
+local ScanInterval = 0.5
+local TeleportDelay = 0.25
+local HeightSafe = 5
+local IgnoreCenter = Vector3.new(-3485.02, 4.48, 217.77)
+local IgnoreRadius = 500
+
+-- ⚡ Biến điều khiển
+local autoTeleport = false
+local visitedModels = {}
+local currentTarget = nil
+
+-- === SERVICES ===
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- === HÀM HỖ TRỢ ===
+local function getHumanoid()
+	local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+	return char:FindFirstChildOfClass("Humanoid"), char
+end
+
+local function getModelCFrame(model)
+	if not model or not model:IsDescendantOf(workspace) then return end
+	local part = model:FindFirstChild("HumanoidRootPart") or model.PrimaryPart or model:FindFirstChildWhichIsA("BasePart")
+	if part then
+		return part.CFrame
+	elseif model.GetPivot then
+		local ok, pivot = pcall(function()
+			return model:GetPivot()
+		end)
+		if ok then return pivot end
+	end
+end
+
+local function isValidModel(model)
+	if not model or not model:IsDescendantOf(workspace) then
+		return false
+	end
+	for _, name in ipairs(TargetNames) do
+		if model.Name:lower() == name:lower() then
+			local cf = getModelCFrame(model)
+			if cf then
+				local pos = cf.Position
+				if (pos - IgnoreCenter).Magnitude > IgnoreRadius then
+					return true
+				end
+			end
+		end
+	end
+	return false
+end
+
+-- === TÌM CÁC MODEL HỢP LỆ ===
+local function findTargets()
+	local list = {}
+	for _, obj in ipairs(workspace:GetDescendants()) do
+		if obj:IsA("Model") and isValidModel(obj) then
+			table.insert(list, obj)
+		end
+	end
+	return list
+end
+
+-- === KIỂM TRA NHÂN VẬT ĐANG CHẠM MODEL HIỆN TẠI ===
+local function isTouchingTarget(target)
+	if not target or not target:IsDescendantOf(workspace) then
+		return false
+	end
+	local char = LocalPlayer.Character
+	if not char then return false end
+
+	local hrp = char:FindFirstChild("HumanoidRootPart")
+	if not hrp then return false end
+
+	local targetPart = target:FindFirstChild("HumanoidRootPart") or target.PrimaryPart or target:FindFirstChildWhichIsA("BasePart")
+	if not targetPart then return false end
+
+	local dist = (hrp.Position - targetPart.Position).Magnitude
+	return dist <= 6
+end
+
+-- === TELEPORT SANG MODEL TIẾP THEO ===
+local function teleportToNext()
+	local humanoid, char = getHumanoid()
+	local hrp = char and char:FindFirstChild("HumanoidRootPart")
+	if not hrp then return end
+
+	-- Dọn dẹp model đã biến mất khỏi danh sách
+	for m in pairs(visitedModels) do
+		if not m:IsDescendantOf(workspace) then
+			visitedModels[m] = nil
+		end
+	end
+
+	-- Lấy danh sách hợp lệ
+	local allTargets = findTargets()
+	local available = {}
+	for _, m in ipairs(allTargets) do
+		if not visitedModels[m] and m:IsDescendantOf(workspace) then
+			table.insert(available, m)
+		end
+	end
+
+	-- Nếu hết mục tiêu thì reset visited để quét lại
+	if #available == 0 then
+		table.clear(visitedModels)
+		return
+	end
+
+	-- Chọn model gần nhất
+	table.sort(available, function(a, b)
+		local pa = getModelCFrame(a).Position
+		local pb = getModelCFrame(b).Position
+		return (hrp.Position - pa).Magnitude < (hrp.Position - pb).Magnitude
+	end)
+
+	local nextTarget = available[1]
+	if nextTarget then
+		local cf = getModelCFrame(nextTarget)
+		if cf then
+			local pos = cf.Position
+			if pos.Y < -10 then
+				pos = Vector3.new(pos.X, HeightSafe, pos.Z)
+			end
+			hrp.CFrame = CFrame.new(pos + Vector3.new(0, 3, 0))
+			currentTarget = nextTarget
+		end
+	end
+end
+
+-- === VÒNG CHÍNH ===
+task.spawn(function()
+	while task.wait(ScanInterval) do
+		if autoTeleport and LocalPlayer.Character then
+			-- nếu target hiện tại biến mất, bỏ qua và chuyển model khác
+			if currentTarget and not currentTarget:IsDescendantOf(workspace) then
+				currentTarget = nil
+				task.wait(TeleportDelay)
+				teleportToNext()
+			elseif currentTarget and isTouchingTarget(currentTarget) then
+				visitedModels[currentTarget] = true
+				task.wait(TeleportDelay)
+				teleportToNext()
+			elseif not currentTarget then
+				teleportToNext()
+			end
+		end
+	end
+end)
+
+-- === TOGGLE GUI ===
+Tabs.Event:AddToggle("AutoFarmSukkars", {
+	Title = "Auto Farm Sukkars",
+	Default = false,
+	Callback = function(state)
+		autoTeleport = state
+		if not state then
+			currentTarget = nil
+			table.clear(visitedModels)
+		end
+	end,
+})
+
+
+-- Tabs.Custom
+
+--// 🌌 Hệ Thống Tu Tiên (Fluent UI Paragraph v3)
+-- Mỗi cấp 3h, 9 tầng (Nhất → Cửu Giai), có tiến trình Đột Phá %
+
+local HttpService = game:GetService("HttpService")
+local SaveFile = "TuTienData.json"
+
+-- Danh sách cảnh giới (mỗi cấp = 3h = 10800s)
+-- Phàm Nhân không có tầng
+local Levels = {
+    {name = "Phàm Nhân", time = 0, hasStage = false},
+    {name = "Kết Đan", time = 10800, hasStage = true},
+    {name = "Luyện Khí", time = 21600, hasStage = true},
+    {name = "Trúc Cơ", time = 32400, hasStage = true},
+    {name = "Kim Đan", time = 43200, hasStage = true},
+    {name = "Nguyên Anh", time = 54000, hasStage = true},
+    {name = "Hóa Thần", time = 64800, hasStage = true},
+    {name = "Luyện Hư", time = 75600, hasStage = true},
+    {name = "Hợp Thể", time = 86400, hasStage = true},
+    {name = "Đại Thừa", time = 97200, hasStage = true},
+    {name = "Độ Kiếp", time = 108000, hasStage = true},
+    {name = "Thánh Cảnh", time = 118800, hasStage = true},
+    {name = "Thánh Vương", time = 129600, hasStage = true},
+    {name = "Chí Tôn", time = 140400, hasStage = true},
+    {name = "Chuẩn Đế", time = 151200, hasStage = true},
+    {name = "Đại Đế", time = 162000, hasStage = true},
+}
+
+-- Các tầng (mỗi tầng = 20 phút = 1200s)
+local Stages = {
+    "Nhất Giai",
+    "Nhị Giai",
+    "Tam Giai",
+    "Tứ Giai",
+    "Ngũ Giai",
+    "Lục Giai",
+    "Thất Giai",
+    "Bát Giai",
+    "Cửu Giai"
+}
+
+-- Đọc dữ liệu
+local function LoadData()
+    if isfile and isfile(SaveFile) then
+        local success, decoded = pcall(function()
+            return HttpService:JSONDecode(readfile(SaveFile))
+        end)
+        if success and decoded then return decoded end
+    end
+    return {totalTime = 0}
+end
+
+-- Lưu dữ liệu
+local function SaveData(data)
+    if writefile then
+        writefile(SaveFile, HttpService:JSONEncode(data))
+    end
+end
+
+-- Tính Tu Vi, Tầng, Linh Khí %, Đột Phá %
+local function GetProgress(totalTime)
+    for i = #Levels, 1, -1 do
+        if totalTime >= Levels[i].time then
+            local current = Levels[i]
+            local nextLevel = Levels[i + 1]
+
+            if not nextLevel then
+                return current.name, (current.hasStage and "Cửu Giai" or nil), 1, 1
+            end
+
+            local levelDuration = 10800 -- 3h
+            local elapsedInLevel = totalTime - current.time
+            local percent = math.clamp(elapsedInLevel / levelDuration, 0, 1)
+
+            local stageName, breakthroughPercent
+            if current.hasStage then
+                local elapsedInStage = elapsedInLevel % 1200
+                local stageIndex = math.clamp(math.floor(elapsedInLevel / 1200) + 1, 1, #Stages)
+                stageName = Stages[stageIndex]
+                breakthroughPercent = math.clamp(elapsedInStage / 1200, 0, 1)
+            else
+                breakthroughPercent = 0
+            end
+
+            return current.name, stageName, percent, breakthroughPercent
+        end
+    end
+    return "Phàm Nhân", nil, 0, 0
+end
+
+-- Dữ liệu hiện tại
+local Data = LoadData()
+
+-- UI hiển thị
+local Paragraph = Tabs.Custom:AddParagraph({
+    Title = "Thông Tin",
+    Content = "Đang khởi động..."
+})
+
+-- Vòng cập nhật
+task.spawn(function()
+    while task.wait(1) do
+        Data.totalTime += 1
+        local level, stage, percent, breakP = GetProgress(Data.totalTime)
+
+        local content = string.format("Tu Vi: %s\n", level)
+        if stage then
+            content ..= string.format("Tầng: %s\n", stage)
+        end
+        content ..= string.format("Linh Khí: %.1f%%\n", percent * 100)
+
+        -- Nếu có tầng thì hiện thêm Đột Phá %
+        if stage then
+            content ..= string.format("Đột Phá: %.1f%%", breakP * 100)
+        end
+
+        Paragraph:SetDesc(content)
+
+        -- Lưu định kỳ
+        if Data.totalTime % 10 == 0 then
+            SaveData(Data)
+        end
+
+        -- Khi đạt Đại Đế full
+        if level == "Đại Đế" and percent >= 1 then
+            Paragraph:SetDesc("Tu Vi: Đại Đế\nTầng: Cửu Giai\nLinh Khí: 100%\nĐột Phá: 100%")
+            break
+        end
+    end
+end)
+
+
+    Tabs.Custom:AddSection("↳ Animation")
+
+--// Fake Killers Anim System (hardened)
+do
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+    local UserInputService = game:GetService("UserInputService")
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+    local player = Players.LocalPlayer
+
+    -- thử require sprint module (nếu có)
+    local sprintModule
+    pcall(function()
+        sprintModule = require(ReplicatedStorage:WaitForChild("Systems").Character.Game.Sprinting)
+    end)
+
+    -- ==============================
+    -- 🟢 DỮ LIỆU KILLERS + SKINS (chỉ sửa ở đây)
+    -- ==============================
+    local KillersData = {
+        ["Survivors"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://134624270247120",
+                Walk = "rbxassetid://132377038617766",
+                Run  = "rbxassetid://115946474977409",
+            }
+        },
+        ["Shasher"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://116050994905421",
+                Walk = "rbxassetid://93622022596108",
+                Run  = "rbxassetid://93054787145505",
+            },
+            ["Pursuer"] = {
+                Idle = "rbxassetid://94895464960972",
+                Walk = "rbxassetid://100206079439305",
+                Run  = "rbxassetid://138660433982140",
+            },
+            ["subject_0"] = {
+                Idle = "rbxassetid://14301056458",
+                Walk = "rbxassetid://122325883800612",
+                Run  = "rbxassetid://97248175252805",
+            }
+        },
+        ["Coolkidd"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://18885903667",
+                Walk = "rbxassetid://18885906143",
+                Run  = "rbxassetid://96571077893813",
+            }
+        },
+        ["John Doe"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://105880087711722",
+                Walk = "rbxassetid://81193817424328",
+                Run  = "rbxassetid://132653655520682",
+            },
+            ["Shadow"] = {
+                Idle = "rbxassetid://00000000001",
+                Walk = "rbxassetid://00000000002",
+                Run  = "rbxassetid://00000000003",
+            }
+        },
+        ["Noli"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://93841120533318",
+                Walk = "rbxassetid://109700476007435",
+                Run  = "rbxassetid://117451341682452",
+            }
+        },
+        ["1x1x1x1"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://138754221537146",
+                Walk = "rbxassetid://131235528875091",
+                Run  = "rbxassetid://106485518413331",
+            },
+            ["Hacklord [Old]"] = {
+                Idle = "rbxassetid://82241652784826",
+                Walk = "rbxassetid://119242164490314",
+                Run  = "rbxassetid://92430101129682",
+            },
+            ["Hacklord [New]"] = {
+                Idle = "rbxassetid://106131211773069",
+                Walk = "rbxassetid://119112338263474",
+                Run  = "rbxassetid://85339002634979",
+            }
+        },
+        ["Herobrine"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://107799240559806",
+                Walk = "rbxassetid://89380107485006",
+                Run  = "rbxassetid://134157363854022",
+            }
+        },
+        ["Gubby"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://88333702239259",
+                Walk = "rbxassetid://115244584291581",
+                Run  = "rbxassetid://115244584291581",
+            }
+        },
+        ["Sancho"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://115073581864188",
+                Walk = "rbxassetid://95213748170889",
+                Run  = "rbxassetid://75409814098993",
+            }
+        },
+        ["Erlking"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://93727662665079",
+                Walk = "rbxassetid://97625643261790",
+                Run  = "rbxassetid://119357938208454",
+            }
+        },
+        ["Sukuna"] = {
+            ["Default"] = {
+                Idle = "rbxassetid://115268929362938",
+                Walk = "rbxassetid://123678890237669",
+                Run  = "rbxassetid://132086389849889",
+                Music = "rbxassetid://73595818073606" -- 🆕 nhạc đặc biệt
+            }
+        }
+    }
+    -- ==============================
+
+    -- state
+    local enabled = false
+    local selectedKiller = "Shasher"
+    local selectedSkin = "Default"
+    local character, humanoid, animator
+    local idleAnim, walkAnim, runAnim
+    local idleTrack, walkTrack, runTrack
+    local _isSprinting = false
+    local musicSound -- 🆕 biến giữ Sound object
+
+    -- conn
+    local runningConn, heartbeatConn, characterRemovingConn, inputBeganConn, inputEndedConn = nil, nil, nil, nil, nil
+    local heartbeatAccumulator = 0
+    local HEARTBEAT_CHECK_INTERVAL = 0.12
+
+    -- utility
+    local function stopAndClearTracks()
+        for _, track in ipairs({idleTrack, walkTrack, runTrack}) do
+            if track then pcall(function() track:Stop() end) end
+        end
+        idleTrack, walkTrack, runTrack = nil, nil, nil
+    end
+
+    local function stopMusic()
+        if musicSound then
+            pcall(function()
+                musicSound:Stop()
+                musicSound:Destroy()
+            end)
+            musicSound = nil
+        end
+    end
+
+    local function playMusicIfSukuna(set)
+        stopMusic()
+        if selectedKiller == "Sukuna" and set and set.Music then
+            local sound = Instance.new("Sound")
+            sound.SoundId = set.Music
+            sound.Looped = true
+            sound.Volume = 2
+            sound.Parent = workspace
+            sound:Play()
+            musicSound = sound
+        end
+    end
+
+    local function disconnectListeners()
+        for _, c in ipairs({runningConn, heartbeatConn, characterRemovingConn, inputBeganConn, inputEndedConn}) do
+            if c then pcall(function() c:Disconnect() end) end
+        end
+        runningConn, heartbeatConn, characterRemovingConn, inputBeganConn, inputEndedConn = nil, nil, nil, nil, nil
+    end
+
+    local function cleanupCurrentCharacter()
+        stopAndClearTracks()
+        stopMusic()
+        disconnectListeners()
+        animator, humanoid, character = nil, nil, nil
+    end
+
+    -- load anim objects theo killer + skin
+    local function loadAnimObjects(killer, skin)
+        local killerTable = KillersData[killer]
+        if not killerTable then
+            warn("loadAnimObjects: killer không tồn tại:", tostring(killer))
+            return
+        end
+        local set = killerTable[skin or "Default"] or killerTable["Default"]
+        if not set then return end
+
+        idleAnim, walkAnim, runAnim = Instance.new("Animation"), Instance.new("Animation"), Instance.new("Animation")
+        idleAnim.Name, walkAnim.Name, runAnim.Name = "IdleAnim", "WalkAnim", "RunAnim"
+        idleAnim.AnimationId, walkAnim.AnimationId, runAnim.AnimationId = set.Idle, set.Walk, set.Run
+
+        playMusicIfSukuna(set) -- 🆕 check phát nhạc nếu là Sukuna
+    end
+
+    -- play anim
+    local function playAnim(animObj, trackType)
+        if not animator then return end
+
+        if trackType ~= "Idle" and idleTrack then pcall(function() idleTrack:Stop() end) idleTrack=nil end
+        if trackType ~= "Walk" and walkTrack then pcall(function() walkTrack:Stop() end) walkTrack=nil end
+        if trackType ~= "Run" and runTrack then pcall(function() runTrack:Stop() end) runTrack=nil end
+
+        local track
+        if trackType=="Idle" and not idleTrack then idleTrack = animator:LoadAnimation(idleAnim) track=idleTrack
+        elseif trackType=="Walk" and not walkTrack then walkTrack = animator:LoadAnimation(walkAnim) track=walkTrack
+        elseif trackType=="Run" and not runTrack then runTrack = animator:LoadAnimation(runAnim) track=runTrack
+        else track = (trackType=="Idle" and idleTrack) or (trackType=="Walk" and walkTrack) or runTrack end
+
+        if track and not track.IsPlaying then pcall(function() track:Play() end) end
+    end
+
+    local function playIdle() playAnim(idleAnim,"Idle") end
+    local function playWalk() playAnim(walkAnim,"Walk") end
+    local function playRun() playAnim(runAnim,"Run") end
+
+    -- update state
+    local function updateMovementState()
+        if not enabled or not character then return end
+        local moving=false
+        if humanoid and humanoid.MoveDirection then
+            moving = humanoid.MoveDirection.Magnitude>0
+            if not moving then
+                local root = character:FindFirstChild("HumanoidRootPart") or character.PrimaryPart
+                if root and root.Velocity.Magnitude>1 then moving=true end
+            end
+        end
+        if moving then
+            local sprintingNow = (sprintModule and sprintModule.IsSprinting) or _isSprinting
+            if sprintingNow then playRun() else playWalk() end
+        else
+            playIdle()
+        end
+    end
+
+    -- listeners
+    local function setupMovementListeners()
+        disconnectListeners()
+        inputBeganConn = UserInputService.InputBegan:Connect(function(input,gp) if gp then return end if input.KeyCode==Enum.KeyCode.LeftShift then _isSprinting=true end end)
+        inputEndedConn = UserInputService.InputEnded:Connect(function(input,gp) if gp then return end if input.KeyCode==Enum.KeyCode.LeftShift then _isSprinting=false end end)
+
+        if humanoid and humanoid.Running then
+            runningConn = humanoid.Running:Connect(function(speed) if not enabled then return end if speed>0 then updateMovementState() else playIdle() end end)
+        else
+            heartbeatAccumulator=0
+            heartbeatConn = RunService.Heartbeat:Connect(function(dt)
+                if not enabled or not character then return end
+                heartbeatAccumulator+=dt
+                if heartbeatAccumulator>=HEARTBEAT_CHECK_INTERVAL then
+                    heartbeatAccumulator=0
+                    updateMovementState()
+                end
+            end)
+        end
+    end
+
+    -- bind character
+    local function onCharacterBound(char)
+        cleanupCurrentCharacter()
+        character=char
+        humanoid=char:FindFirstChildOfClass("Humanoid") or char:FindFirstChildOfClass("AnimationController")
+        if humanoid then
+            animator = humanoid:FindFirstChildOfClass("Animator") or Instance.new("Animator", humanoid)
+        end
+        characterRemovingConn = char.AncestryChanged:Connect(function(_,parent) if not parent then cleanupCurrentCharacter() end end)
+        if enabled then
+            loadAnimObjects(selectedKiller, selectedSkin)
+            setupMovementListeners()
+            updateMovementState()
+        end
+    end
+
+    player.CharacterAdded:Connect(onCharacterBound)
+    if player.Character then onCharacterBound(player.Character) end
+
+    -- ===== UI =====
+    local killerNames = {}
+    for name,_ in pairs(KillersData) do table.insert(killerNames, name) end
+    table.sort(killerNames)
+
+    local SkinDropdown -- khai báo trước
+
+    -- dropdown chính (Killers)
+    local killerDropdown = Tabs.Custom:AddDropdown("ChooseKillersDropdown", {
+        Title = "Choose Killers",
+        Values = killerNames,
+        Default = selectedKiller,
+        Multi = false,
+        Callback = function(value)
+            local ok, err = pcall(function()
+                selectedKiller = value
+                selectedSkin = "Default"
+
+                local skins = {}
+                local t = KillersData[selectedKiller] or {}
+                for sName,_ in pairs(t) do table.insert(skins, sName) end
+                if #skins == 0 then skins = {"Default"} end
+                table.sort(skins)
+
+                if SkinDropdown and type(SkinDropdown.SetValues)=="function" and type(SkinDropdown.SetValue)=="function" then
+                    SkinDropdown:SetValues(skins)
+                    pcall(function() SkinDropdown:SetValue(skins[1] or "Default") end)
+                end
+
+                if enabled and player.Character then
+                    loadAnimObjects(selectedKiller, selectedSkin)
+                    stopAndClearTracks()
+                    updateMovementState()
+                else
+                    stopMusic()
+                end
+            end)
+            if not ok then warn("ChooseKillersDropdown callback error:", err) end
+        end
+    })
+
+    -- dropdown Skin (nằm dưới Killer)
+    SkinDropdown = Tabs.Custom:AddDropdown("ChooseSkinDropdown", {
+        Title = "Choose Skin",
+        Values = {"Default"},
+        Default = "Default",
+        Multi = false,
+        Callback = function(value)
+            local ok, err = pcall(function()
+                selectedSkin = value
+                if enabled and player.Character then
+                    loadAnimObjects(selectedKiller, selectedSkin)
+                    stopAndClearTracks()
+                    updateMovementState()
+                else
+                    stopMusic()
+                end
+            end)
+            if not ok then warn("SkinDropdown callback error:", err) end
+        end
+    })
+
+    -- toggle fake killers
+    Tabs.Custom:AddToggle("FakeKillersToggle", {
+        Title = "Fake Killers",
+        Default = false,
+        Callback = function(state)
+            local ok, err = pcall(function()
+                enabled = state
+                if enabled then
+                    if player.Character then
+                        loadAnimObjects(selectedKiller, selectedSkin)
+                        onCharacterBound(player.Character)
+                    end
+                else
+                    stopAndClearTracks()
+                    disconnectListeners()
+                    stopMusic()
+                end
+            end)
+            if not ok then warn("FakeKillersToggle callback error:", err) end
+        end
+    })
+end
+
+
+
+    Tabs.Custom:AddSection("↳ Skill")
+
+
+do
+-- LocalScript (StarterPlayerScripts)
+
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+-- ⚡ Config
+local BUTTON_SIZE = 48
+local FramesLocked = true
+local screenGui
+local createdFrames = {}
+
+-- dữ liệu các nút
+local buttonsData = {
+    {Name = "Btn1", AnimationId = "135853087227453", PlayMusic = true, MusicId = "81361259756089", ImageId = "134210378382767"},
+    {Name = "Btn2", AnimationId = "99784586201997", PlayMusic = false, ImageId = "134210378382767"},
+    {Name = "Btn3", AnimationId = "121162477402224", PlayMusic = true, MusicId = "120185817748858", ImageId = "85785826985052"},
+    {Name = "Btn4", AnimationId = "101816924844805", PlayMusic = true, MusicId = "88406027536494", ImageId = "85785826985052"},
+}
+
+-- vị trí ban đầu
+local startPositions = {
+    UDim2.new(0, 80, 0, 200),
+    UDim2.new(0, 140, 0, 200),
+    UDim2.new(0, 200, 0, 200),
+    UDim2.new(0, 260, 0, 200),
+}
+
+-- 🌟 Drag Module
+local function makeDraggable(frame)
+    local dragging, dragStart, startPos
+
+    frame.InputBegan:Connect(function(input)
+        if not FramesLocked and (input.UserInputType == Enum.UserInputType.MouseButton1 
+            or input.UserInputType == Enum.UserInputType.Touch) then
+            dragging = true
+            dragStart = input.Position
+            startPos = frame.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if not FramesLocked and dragging and 
+            (input.UserInputType == Enum.UserInputType.MouseMovement 
+            or input.UserInputType == Enum.UserInputType.Touch) then
+            local delta = input.Position - dragStart
+            frame.Position = UDim2.new(
+                startPos.X.Scale,
+                startPos.X.Offset + delta.X,
+                startPos.Y.Scale,
+                startPos.Y.Offset + delta.Y
+            )
+        end
+    end)
+end
+
+-- 🔹 GUI container
+screenGui = Instance.new("ScreenGui")
+screenGui.Name = "CircleButtonsGUI"
+screenGui.ResetOnSpawn = false
+screenGui.IgnoreGuiInset = true
+screenGui.Enabled = false
+screenGui.Parent = playerGui
+
+-- 🔹 Hàm tạo frame + button
+local function createFrameWithButton(data, pos)
+    local frame = Instance.new("Frame")
+    frame.Name = data.Name .. "_Frame"
+    frame.Size = UDim2.new(0, BUTTON_SIZE, 0, BUTTON_SIZE)
+    frame.Position = pos
+    frame.BackgroundTransparency = 1
+    frame.ZIndex = 1
+    frame.Parent = screenGui
+    frame.Active = true
+
+    -- bo tròn frame
+    local frameCorner = Instance.new("UICorner")
+    frameCorner.CornerRadius = UDim.new(1, 0)
+    frameCorner.Parent = frame
+
+    local btn = Instance.new("ImageButton")
+    btn.Name = data.Name
+    btn.Size = UDim2.new(1, 0, 1, 0)
+    btn.BackgroundTransparency = 1
+    btn.Image = "rbxassetid://" .. data.ImageId
+    btn.ZIndex = 2
+    btn.Parent = frame
+    btn.ScaleType = Enum.ScaleType.Fit -- giữ tỉ lệ ảnh
+
+    -- bo tròn nút
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(1, 0)
+    corner.Parent = btn
+
+    -- click chạy animation/nhạc
+    btn.MouseButton1Click:Connect(function()
+        if FramesLocked then
+            local char = player.Character or player.CharacterAdded:Wait()
+            local humanoid = char:FindFirstChildOfClass("Humanoid")
+            if not humanoid then return end
+
+            local animator = humanoid:FindFirstChildOfClass("Animator") or Instance.new("Animator", humanoid)
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://" .. data.AnimationId
+            local track = animator:LoadAnimation(anim)
+            track:Play()
+
+            if data.PlayMusic and data.MusicId then
+                local sound = Instance.new("Sound")
+                sound.SoundId = "rbxassetid://" .. data.MusicId
+                sound.Volume = 1
+                sound.Parent = char:FindFirstChild("Head") or playerGui
+                sound:Play()
+                sound.Ended:Connect(function() sound:Destroy() end)
+            end
+        end
+    end)
+
+    makeDraggable(frame)
+
+    btn.Visible = FramesLocked
+    frame.BackgroundTransparency = FramesLocked and 1 or 0.3
+
+    table.insert(createdFrames, frame)
+end
+
+-- tạo nút
+for i, d in ipairs(buttonsData) do
+    createFrameWithButton(d, startPositions[i])
+end
+
+-- 🌟 Tích hợp Toggle + Input
+Tabs.Custom:AddToggle("SukunaSkill", {
+    Title = "Sukuna Skill",
+    Default = false
+}):OnChanged(function(state)
+    screenGui.Enabled = state
+end)
+
+Tabs.Custom:AddToggle("SukunaLockButton", {
+    Title = "Lock Buttons",
+    Default = true
+}):OnChanged(function(state)
+    FramesLocked = state
+    for _, frame in ipairs(createdFrames) do
+        local btn = frame:FindFirstChildOfClass("ImageButton")
+        if btn then
+            btn.Visible = FramesLocked
+        end
+        frame.BackgroundTransparency = FramesLocked and 1 or 0.3
+    end
+end)
+
+Tabs.Custom:AddInput("SkunaButtonSkill", {
+    Title = "Button Size",
+    Default = tostring(BUTTON_SIZE),
+    Placeholder = "Nhập số px",
+    Numeric = true,
+    Finished = true
+}):OnChanged(function(value)
+    local num = tonumber(value)
+    if num and num > 0 then
+        BUTTON_SIZE = num
+        for _, frame in ipairs(createdFrames) do
+            frame.Size = UDim2.new(0, BUTTON_SIZE, 0, BUTTON_SIZE)
+            local btn = frame:FindFirstChildOfClass("ImageButton")
+            if btn then
+                btn.Size = UDim2.new(1, 0, 1, 0)
+            end
+        end
+    end
+end)
+end
+
+
+
+do
+-- LocalScript (StarterPlayerScripts)
+
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+-- ⚡ Config
+local BUTTON_SIZE = 48
+local FramesLocked = true
+local screenGui
+local createdFrames = {}
+
+-- dữ liệu các nút
+local buttonsData = {
+    {Name = "Btn1", AnimationId = "72722244508749", PlayMusic = false, ImageId = "87293861183080"},
+    {Name = "Btn2", AnimationId = "96959123077498", PlayMusic = false, ImageId = "87293861183080"},
+}
+
+-- vị trí ban đầu
+local startPositions = {
+    UDim2.new(0, 80, 0, 200),
+    UDim2.new(0, 140, 0, 200),
+}
+
+-- 🌟 Drag Module
+local function makeDraggable(frame)
+    local dragging, dragStart, startPos
+
+    frame.InputBegan:Connect(function(input)
+        if not FramesLocked and (input.UserInputType == Enum.UserInputType.MouseButton1 
+            or input.UserInputType == Enum.UserInputType.Touch) then
+            dragging = true
+            dragStart = input.Position
+            startPos = frame.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if not FramesLocked and dragging and 
+            (input.UserInputType == Enum.UserInputType.MouseMovement 
+            or input.UserInputType == Enum.UserInputType.Touch) then
+            local delta = input.Position - dragStart
+            frame.Position = UDim2.new(
+                startPos.X.Scale,
+                startPos.X.Offset + delta.X,
+                startPos.Y.Scale,
+                startPos.Y.Offset + delta.Y
+            )
+        end
+    end)
+end
+
+-- 🔹 GUI container
+screenGui = Instance.new("ScreenGui")
+screenGui.Name = "CircleButtonsGUI"
+screenGui.ResetOnSpawn = false
+screenGui.IgnoreGuiInset = true
+screenGui.Enabled = false
+screenGui.Parent = playerGui
+
+-- 🔹 Hàm tạo frame + button
+local function createFrameWithButton(data, pos)
+    local frame = Instance.new("Frame")
+    frame.Name = data.Name .. "_Frame"
+    frame.Size = UDim2.new(0, BUTTON_SIZE, 0, BUTTON_SIZE)
+    frame.Position = pos
+    frame.BackgroundTransparency = 1
+    frame.ZIndex = 1
+    frame.Parent = screenGui
+    frame.Active = true
+
+    -- bo tròn frame
+    local frameCorner = Instance.new("UICorner")
+    frameCorner.CornerRadius = UDim.new(1, 0)
+    frameCorner.Parent = frame
+
+    local btn = Instance.new("ImageButton")
+    btn.Name = data.Name
+    btn.Size = UDim2.new(1, 0, 1, 0)
+    btn.BackgroundTransparency = 1
+    btn.Image = "rbxassetid://" .. data.ImageId
+    btn.ZIndex = 2
+    btn.Parent = frame
+    btn.ScaleType = Enum.ScaleType.Fit -- giữ tỉ lệ ảnh
+
+    -- bo tròn nút
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(1, 0)
+    corner.Parent = btn
+
+    -- click chạy animation/nhạc
+    btn.MouseButton1Click:Connect(function()
+        if FramesLocked then
+            local char = player.Character or player.CharacterAdded:Wait()
+            local humanoid = char:FindFirstChildOfClass("Humanoid")
+            if not humanoid then return end
+
+            local animator = humanoid:FindFirstChildOfClass("Animator") or Instance.new("Animator", humanoid)
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://" .. data.AnimationId
+            local track = animator:LoadAnimation(anim)
+            track:Play()
+
+            if data.PlayMusic and data.MusicId then
+                local sound = Instance.new("Sound")
+                sound.SoundId = "rbxassetid://" .. data.MusicId
+                sound.Volume = 1
+                sound.Parent = char:FindFirstChild("Head") or playerGui
+                sound:Play()
+                sound.Ended:Connect(function() sound:Destroy() end)
+            end
+        end
+    end)
+
+    makeDraggable(frame)
+
+    btn.Visible = FramesLocked
+    frame.BackgroundTransparency = FramesLocked and 1 or 0.3
+
+    table.insert(createdFrames, frame)
+end
+
+-- tạo nút
+for i, d in ipairs(buttonsData) do
+    createFrameWithButton(d, startPositions[i])
+end
+
+-- 🌟 Tích hợp Toggle + Input
+Tabs.Custom:AddToggle("Guest1337Skill", {
+    Title = "Guest1337 Skill",
+    Default = false
+}):OnChanged(function(state)
+    screenGui.Enabled = state
+end)
+
+Tabs.Custom:AddToggle("Guest1337LockButton", {
+    Title = "Lock Buttons",
+    Default = true
+}):OnChanged(function(state)
+    FramesLocked = state
+    for _, frame in ipairs(createdFrames) do
+        local btn = frame:FindFirstChildOfClass("ImageButton")
+        if btn then
+            btn.Visible = FramesLocked
+        end
+        frame.BackgroundTransparency = FramesLocked and 1 or 0.3
+    end
+end)
+
+Tabs.Custom:AddInput("Quest1337SkillSize", {
+    Title = "Button Size",
+    Default = tostring(BUTTON_SIZE),
+    Placeholder = "Nhập số px",
+    Numeric = true,
+    Finished = true
+}):OnChanged(function(value)
+    local num = tonumber(value)
+    if num and num > 0 then
+        BUTTON_SIZE = num
+        for _, frame in ipairs(createdFrames) do
+            frame.Size = UDim2.new(0, BUTTON_SIZE, 0, BUTTON_SIZE)
+            local btn = frame:FindFirstChildOfClass("ImageButton")
+            if btn then
+                btn.Size = UDim2.new(1, 0, 1, 0)
+            end
+        end
+    end
+end)
+end
+
+
+
+-- 🧠 Services
+getgenv().SoundService = game:GetService("SoundService")
+getgenv().RunService = game:GetService("RunService")
+
+-- 📁 Ensure folders exist
+local folderPath = "TzuanHub/Assets"
+if not isfolder("TzuanHub") then makefolder("TzuanHub") end
+if not isfolder(folderPath) then makefolder(folderPath) end
+
+-- 🎵 Track list (FULL)
+getgenv().tracks = {
+    ["None"] = "",
+    ["----------- UST -----------"] = nil,
+    ["A BRAVE SOUL (MS 4 Killer VS MS 4 Survivor)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/A%20BRAVE%20SOUL%20(MS%204%20Killer%20VS%20MS%204%20Survivor).mp3",
+    ["BEGGED (MS 4 Coolkidd vs MS 4 007n7)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/BEGGED%20(MS%204%20Coolkidd%20vs%20MS%204%20007n7).mp3",
+    ["DOOMSPIRE (HairyTwinkle VS Pedro.EXE)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/DOOMSPIRE%20-%20(HairyTwinkle%20VS%20Pedro.EXE).mp3",
+    ["ECLIPSE (xX4ce0fSpadesXx vs dragondudes3)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/ECLIPSE%20(xX4ce0fSpadesXx%20vs%20dragondudes3).mp3",
+    ["ERROR 264 (Noob Cosplay VS Yourself)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/ERROR%20264%20-%20(Noob%20Cosplay%20VS%20Yourself).mp3",
+    ["GODS SECOND COMING (NOLI VS. 007n7)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/GODS%20SECOND%20COMING%20(NOLI%20VS.%20007n7).mp3",
+    ["Entreat (Bluudude Vs 118o8)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Entreat%20(Bluudude%20Vs%20118o8).mp3",
+    ["Implore (Comic vs Savior)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Implore%20(Comic%20vs%20Savior)%20-%20YouTube.mp3",
+    ["Leftovers (Remix Vanity Jason Vs All)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Leftovers%20(Remix%20Vanity%20Jason%20Vs%20All).mp3",
+    ["ORDER UP (Elliot VS c00lkidd)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/ORDER%20UP%20-%20(Elliot%20VS%20c00lkidd).mp3",
+    ["PARADOX (Guest 666 Vs Guest 1337)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/PARADOX%20(Guest%20666%20Vs%20Guest%201337).mp3",
+    ["TRUE BEAUTY (PRETTYPRINCESS vs 226w6)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/TRUE%20BEAUTY%20(PRETTYPRINCESS%20vs%20226w6).mp3",
+    ["Fall of a Hero (SLASHER vs GUEST 1337)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/%5BSLASHER%20vs%20GUEST%201337%20-%20LAST%20MAN%20STANDING%5D%20Fall%20of%20a%20Hero%20-%20Forsaken%20UST.mp3",
+    ["21ST CENTURY HUMOR (MLG Chance vs Hood Irony Whistle Occurrence)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/21ST%20CENTURY%20HUMOR%20-%20Last%20Man%20Standing%20(MLG%20Chance%20vs%20Hood%20Irony%20Whistle%20Occurrence)%20%20Forsaken%20UST.mp3",
+    ["SHATTERED GRACE (GR1MX 1x1x1x1 vs. ANGEL SHEDLETSKY)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/SHATTERED%20GRACE%20%5BGR1MX%201x1x1x1%20vs.%20ANGEL%20SHEDLETSKY%20LAST%20MAN%20STANDING%5D%20(Roblox%20Forsaken%20UST).mp3",
+    ["----------- Scrapped LMS -----------"] = nil,
+    ["THE DARKNESS IN YOUR HEART (Old 1x4 Vs Shedletsky)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/THE%20DARKNESS%20IN%20YOUR%20HEART%20(Old%201x4%20Vs%20Shedletsky).mp3",
+    ["MEET YOUR MAKING (c00lkidd ~ 1x4 Vs 007n7 ~ Shedletsky)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/MEET%20YOUR%20MAKING%20(c00lkidd%20~%201x4%20Vs%20007n7%20~%20Shedletsky).mp3",
+    ["A Creation Of Sorrow (Hacklord vs The Heartbroken)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/A%20Creation%20Of%20Sorrow%20(Hacklord%20vs%20The%20Heartbroken).mp3",
+    ["Debth (Natrasha Vs Mafioso)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Debth%20(Natrasha%20Vs%20Mafioso).mp3",
+    ["ETERNAL HOPE, ETERNAL FIGHT (Old LMS)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/ETERNAL%20HOPE,%20ETERNAL%20FIGHT%20(Old%20LMS).mp3",
+    ["Receading Lifespan (Barber Jason Vs Bald Two Time)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Receading%20Lifespan%20(Barber%20Jason%20Vs%20Bald%20Two%20Time).mp3",
+    ["VIP Jason LMS (VIP Jason Vs All)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/VIP%20Jason%20LMS%20(VIP%20Jason%20Vs%20All).mp3",
+    ["Jason Hate This Song"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/California%20Gurls%20%20Audio%20Edit%20-%20Neonick.mp3",
+    ["----------- Official LMS -----------"] = nil,
+    ["A GRAVE SOUL (NOW, RUN) [All Killers Vs All Survivors]"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/A%20GRAVE%20SOUL%20(NOW,%20RUN)%20%5BAll%20Killers%20Vs%20All%20Survivors%5D.mp3",
+    ["Plead (c00lkidd Vs 007n7)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Plead%20(c00lkidd%20Vs%20007n7).mp3",
+    ["SMILE (Cupcakes Vs All)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/SMILE%20(Cupcakes%20Vs%20All)%20.mp3",
+    ["Vanity (Vanity Jason Vs All)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Vanity%20(Vanity%20Jason%20Vs%20All).mp3",
+    ["Obsession (Gasharpoon Vs All)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Obsession%20(Gasharpoon%20Vs%20All).MP3",
+    ["Burnout (Diva Vs Ghoul)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Burnout%20(Diva%20Vs%20Ghoul).mp3",
+    ["Close To Me (Annihilation Vs Friend)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Close%20To%20Me%20(Annihilation%20Vs%20Friend).mp3",
+    ["Creation Of Hatred (1X4 Vs Shedletsky)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Creation%20Of%20Hatred%20(1X4%20Vs%20Shedletsky).mp3",
+    ["Through Patches of Violet (Hacklord vs The Heartbroken)"] = "https://github.com/NyansakenHub/NyansakenHub/raw/refs/heads/main/Through%20Patches%20of%20Violet%20(Hacklord%20vs%20The%20Heartbroken).mp3"
+}
+
+-- 🔽 Dropdown options
+local options = {}
+for k, _ in pairs(getgenv().tracks) do
+    table.insert(options, k)
+end
+
+-- 🌐 Globals
+getgenv().selectedSong = "None"
+getgenv().customSongUrl = nil
+getgenv().originalSongId = nil
+getgenv().isPlaying = false
+getgenv().isToggleOn = false
+
+-- 💾 Download song (only one at a time)
+local function downloadTrack(name, url)
+    if not url or url == "" then return nil end
+    local path = folderPath .. "/" .. name:gsub("[^%w]", "_") .. ".mp3"
+    if not isfile(path) then
+        local req = http_request or syn.request or request
+        local res = req({Url = url, Method = "GET"})
+        local data = res.Body or res.BodyRaw
+        if data and #data > 0 then writefile(path, data) end
+    end
+    return path
+end
+
+-- 🔍 Find LastSurvivor
+local function getLastSurvivor()
+    local t = workspace:FindFirstChild("Themes")
+    if t then return t:FindFirstChild("LastSurvivor") end
+    return nil
+end
+
+-- ▶️ Set & play track
+local function setLastSurvivorSong(songName)
+    local ls = getLastSurvivor()
+    if not ls then return end
+    local url = getgenv().tracks[songName]
+    if not url or url == "" then return end
+    local path = downloadTrack(songName, url)
+    if not path then return end
+    local sound = getcustomasset(path)
+    if not getgenv().originalSongId then
+        getgenv().originalSongId = ls.SoundId
+    end
+    ls.SoundId = sound
+    ls:Play()
+    getgenv().isPlaying = true
+end
+
+-- 🎛️ GUI Section
+Tabs.Custom:AddSection("↳ Last Man Standing")
+
+Tabs.Custom:AddToggle("LMSReplacerSong", {
+    Title = "LMS Replacer Song",
+    Default = false,
+    Callback = function(Value)
+        getgenv().isToggleOn = Value
+        local ls = getLastSurvivor()
+        if not Value then
+            if ls and getgenv().originalSongId then
+                ls.SoundId = getgenv().originalSongId
+                ls:Play()
+            end
+            getgenv().isPlaying = false
+            getgenv().originalSongId = nil
+        else
+            if getgenv().selectedSong ~= "None" then
+                setLastSurvivorSong(getgenv().selectedSong)
+            elseif getgenv().customSongUrl then
+                local path = downloadTrack("Custom_LMS_Song", getgenv().customSongUrl)
+                if path then
+                    local sound = getcustomasset(path)
+                    if ls then
+                        getgenv().originalSongId = ls.SoundId
+                        ls.SoundId = sound
+                        ls:Play()
+                    end
+                end
+            end
+        end
+    end
+})
+
+local dropdown = Tabs.Custom:AddDropdown("CustomLMSSong", {
+    Title = "Seclect LMS Song",
+    Values = options,
+    Multi = false,
+    Default = "None",
+    Callback = function(Value)
+        getgenv().selectedSong = Value
+        -- ❌ Gỡ bỏ dòng gây lỗi
+        -- dropdown:SetValue(Value)
+    end
+})
+
+Tabs.Custom:AddInput("CustomLMSSongURL", {
+    Title = "Custom LMS",
+    Default = "",
+    Placeholder = "Enter raw MP3 URL",
+    Callback = function(input)
+        if input and input ~= "" then
+            getgenv().customSongUrl = input
+            if getgenv().isToggleOn then
+                local ls = getLastSurvivor()
+                if ls then
+                    local path = downloadTrack("Custom_LMS_Song", input)
+                    local sound = getcustomasset(path)
+                    if not getgenv().originalSongId then
+                        getgenv().originalSongId = ls.SoundId
+                    end
+                    ls.SoundId = sound
+                    ls:Play()
+                    getgenv().isPlaying = true
+                end
+            end
+        end
+    end
+})
+
+-- ♻️ Maintain playback
+RunService.Heartbeat:Connect(function()
+    local ls = getLastSurvivor()
+    if getgenv().isToggleOn and ls then
+        -- chỉ phát lại nếu chưa phát hoặc đã dừng
+        if not ls.IsPlaying then
+            setLastSurvivorSong(getgenv().selectedSong)
+        end
+    elseif not getgenv().isToggleOn and ls and getgenv().originalSongId and ls.SoundId ~= getgenv().originalSongId then
+        -- khi tắt toggle, khôi phục nhạc gốc
+        ls.SoundId = getgenv().originalSongId
+        ls:Play()
+        getgenv().isPlaying = false
+    end
+end)
+
+
+
+Tabs.Custom:AddSection("↳ Victim")
+
+-- HackerVibe_Toggle.lua
+-- Hiệu ứng hacker thật 3D, có nút bật/tắt (Fake H4CK3R)
+-- Bảo toàn sau khi chết, đổi character, không rung giật
+-- Hiệu ứng hacker 3D + animation tự bật/tắt
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- ⚙️ CONFIG
+local outlineColor = Color3.fromRGB(0, 255, 255)
+local binarySpawnInterval = 0.12
+local binaryLifetime = 1.8
+local binaryRiseDistance = 5
+local binaryMinScale = 0.6
+local binaryMaxScale = 1.1
+local maxSimultaneous = 40
+local spawnRadius = 3
+local animationId = "rbxassetid://86559211184601" -- 🧠 Animation Hacker
+
+math.randomseed(tick() + player.UserId)
+
+-- === Biến ===
+local active = 0
+local running = false
+local folderName = "HackerFX3D"
+local folder = nil
+local animTrack = nil
+
+-- === Danh sách part để spawn chữ ===
+local partNames = {
+	"Head","HumanoidRootPart",
+	"UpperTorso","LowerTorso","Torso",
+	"LeftUpperArm","RightUpperArm","LeftLowerArm","RightLowerArm",
+	"LeftUpperLeg","RightUpperLeg","LeftLowerLeg","RightLowerLeg",
+	"LeftHand","RightHand","LeftFoot","RightFoot"
+}
+
+local function getParts()
+	character = player.Character or player.CharacterAdded:Wait()
+	local list = {}
+	for _, name in ipairs(partNames) do
+		local part = character:FindFirstChild(name)
+		if part and part:IsA("BasePart") then
+			table.insert(list, part)
+		end
+	end
+	return list
+end
+
+-- === Highlight Hacker ===
+local function createHighlight()
+	local old = character:FindFirstChild("HackerHighlight")
+	if old then old:Destroy() end
+	local h = Instance.new("Highlight")
+	h.Name = "HackerHighlight"
+	h.Adornee = character
+	h.OutlineColor = outlineColor
+	h.FillTransparency = 1
+	h.OutlineTransparency = 0
+	h.Parent = character
+end
+
+-- === Folder hiệu ứng ===
+local function ensureFolder()
+	folder = player:WaitForChild("PlayerGui"):FindFirstChild(folderName)
+	if not folder then
+		folder = Instance.new("Folder")
+		folder.Name = folderName
+		folder.Parent = player:WaitForChild("PlayerGui")
+	end
+	return folder
+end
+
+-- === Hiệu ứng số bay ===
+local function spawnBinary()
+	if not running then return end
+	if active >= maxSimultaneous then return end
+
+	local parts = getParts()
+	if #parts == 0 then return end
+	local origin = parts[math.random(1, #parts)]
+	if not origin then return end
+
+	active += 1
+	local s = ""
+	for i = 1, math.random(1, 3) do
+		s ..= tostring(math.random(0, 1))
+	end
+
+	local attach = Instance.new("Part")
+	attach.Anchored = false
+	attach.CanCollide = false
+	attach.Transparency = 1
+	attach.Size = Vector3.new(0.2, 0.2, 0.2)
+	attach.Parent = ensureFolder()
+
+	local weld = Instance.new("WeldConstraint")
+	weld.Part0 = attach
+	weld.Part1 = origin
+	weld.Parent = attach
+
+	local xOff = (math.random() - 0.5) * spawnRadius
+	local yOff = (math.random() - 0.5) * spawnRadius
+	local zOff = (math.random() - 0.5) * spawnRadius
+	attach.CFrame = origin.CFrame * CFrame.new(xOff, yOff, zOff)
+
+	local bb = Instance.new("BillboardGui")
+	bb.Size = UDim2.new(0, 80, 0, 30)
+	bb.AlwaysOnTop = true
+	bb.Adornee = attach
+	bb.Parent = folder
+
+	local txt = Instance.new("TextLabel")
+	txt.BackgroundTransparency = 1
+	txt.BorderSizePixel = 0
+	txt.Size = UDim2.fromScale(1, 1)
+	txt.Font = Enum.Font.Code
+	txt.Text = s
+	txt.TextColor3 = Color3.fromRGB(0, 255, 200)
+	txt.TextScaled = true
+	txt.TextTransparency = 0
+	txt.Parent = bb
+	txt.TextSize = 20 * (math.random() * (binaryMaxScale - binaryMinScale) + binaryMinScale)
+
+	local goal = attach.Position + Vector3.new(0, binaryRiseDistance, 0)
+	local moveTween = TweenService:Create(attach, TweenInfo.new(binaryLifetime, Enum.EasingStyle.Linear), {Position = goal})
+	local fadeTween = TweenService:Create(txt, TweenInfo.new(binaryLifetime, Enum.EasingStyle.Linear), {TextTransparency = 1})
+	moveTween:Play()
+	fadeTween:Play()
+
+	task.delay(binaryLifetime + 0.05, function()
+		pcall(function()
+			bb:Destroy()
+			attach:Destroy()
+		end)
+		active = math.max(0, active - 1)
+	end)
+end
+
+-- === Loop spawn chữ ===
+task.spawn(function()
+	while true do
+		if running then
+			spawnBinary()
+		end
+		task.wait(binarySpawnInterval)
+	end
+end)
+
+-- === Khi respawn / đổi nhân vật ===
+player.CharacterAdded:Connect(function(char)
+	character = char
+	task.wait(0.25)
+	if running then
+		createHighlight()
+
+		-- 🔄 Phát lại animation nếu đang bật
+		local hum = character:FindFirstChildOfClass("Humanoid")
+		if hum then
+			local anim = Instance.new("Animation")
+			anim.AnimationId = animationId
+			animTrack = hum:LoadAnimation(anim)
+			animTrack:Play()
+			animTrack.Looped = true
+		end
+	end
+end)
+
+-- === HÀM CHÍNH BẬT / TẮT ===
+local function ToggleFakeHacker(state)
+	running = state
+
+	local highlight = character:FindFirstChild("HackerHighlight")
+	if not highlight and state then
+		createHighlight()
+	end
+
+	if highlight then
+		highlight.OutlineTransparency = state and 0 or 1
+	end
+
+	if state then
+		ensureFolder().Parent = player:WaitForChild("PlayerGui")
+
+		-- 🎬 Bắt đầu animation
+		local hum = character:FindFirstChildOfClass("Humanoid")
+		if hum then
+			local anim = Instance.new("Animation")
+			anim.AnimationId = animationId
+			animTrack = hum:LoadAnimation(anim)
+			animTrack.Looped = true
+			animTrack:Play()
+		end
+	else
+		-- 🛑 Dừng animation
+		if animTrack then
+			animTrack:Stop()
+			animTrack:Destroy()
+			animTrack = nil
+		end
+
+		-- 🧹 Xóa hiệu ứng chữ
+		local f = player.PlayerGui:FindFirstChild(folderName)
+		if f then
+			for _, v in ipairs(f:GetChildren()) do
+				v:Destroy()
+			end
+		end
+	end
+end
+
+-- === GẮN VÀO UI (ví dụ Fluent) ===
+Tabs.Custom:AddToggle("FakeH4CK3R", {
+	Title = "Fake H4CK3R",
+	Default = false,
+	Callback = function(Value)
+		ToggleFakeHacker(Value)
+	end
+})
+
+
+-- Tabs.Player
+
+
+
+-- ======= DỊCH VỤ =======
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+
+-- ======= WHITELIST =======
+local AllowedPlayers = {
+    ["Noob"] = true, ["Guest1337"] = true, ["Elliot"] = true,
+    ["Shedletsky"] = true, ["TwoTime"] = true, ["007n7"] = true,
+    ["Chance"] = true, ["Builderman"] = true, ["Taph"] = true,
+    ["Dusekkar"] = true, ["Veeronica"] = true,
+}
+
+local AllowedKillers = {
+    ["Slasher"] = true, ["1x1x1x1"] = true, ["c00lkidd"] = true,
+    ["Noli"] = true, ["JohnDoe"] = true, ["Guest 666"] = true,
+    ["Sixer"] = true,
+}
+
+-- ======= BIẾN TRẠNG THÁI =======
+local AimlockPlayerEnabled = false
+local AimlockKillerEnabled = false
+local CurrentTarget = nil
+local lastHumanoidAutoRotate = nil
+
+-- ======= HÀM HỖ TRỢ =======
+local function IsAllowed(model, list)
+    return list[model.Name] == true
+end
+
+local function GetModelFromPlayer(plr, list)
+    if not plr.Character then return nil end
+    if IsAllowed(plr.Character, list) and plr.Character:FindFirstChildWhichIsA("Humanoid") then
+        return plr.Character
+    end
+    for _, model in ipairs(workspace:GetChildren()) do
+        if model:IsA("Model") and model:FindFirstChildWhichIsA("Humanoid") then
+            if model:FindFirstChild("Owner") and model.Owner.Value == plr then
+                if IsAllowed(model, list) then
+                    return model
+                end
+            end
+        end
+    end
+    return nil
+end
+
+local function GetClosestTarget(list)
+    local myRoot = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    if not myRoot then return nil end
+    local closest, dist = nil, math.huge
+
+    for _, plr in ipairs(Players:GetPlayers()) do
+        if plr ~= LocalPlayer then
+            local model = GetModelFromPlayer(plr, list)
+            if model and model.PrimaryPart then
+                local humanoid = model:FindFirstChildWhichIsA("Humanoid")
+                if humanoid and humanoid.Health > 0 then
+                    local distance = (model.PrimaryPart.Position - myRoot.Position).Magnitude
+                    if distance < dist then
+                        dist = distance
+                        closest = model
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+local function ValidateTarget(target)
+    if not target then return false end
+    local humanoid = target:FindFirstChildWhichIsA("Humanoid")
+    return humanoid and humanoid.Health > 0 and target.PrimaryPart ~= nil
+end
+
+-- reset khi respawn
+LocalPlayer.CharacterAdded:Connect(function(char)
+    CurrentTarget = nil
+    if lastHumanoidAutoRotate ~= nil then
+        local hum = char:FindFirstChildWhichIsA("Humanoid")
+        if hum then
+            hum.AutoRotate = lastHumanoidAutoRotate
+        end
+        lastHumanoidAutoRotate = nil
+    end
+end)
+
+-- ======= AIMBOT LOOP (fix: hướng đúng, không bị đen màn hình) =======
+RunService.RenderStepped:Connect(function()
+    local myChar = LocalPlayer.Character
+    local myRoot = myChar and myChar:FindFirstChild("HumanoidRootPart")
+    local humanoid = myChar and myChar:FindFirstChildWhichIsA("Humanoid")
+
+    if not myRoot then return end
+
+    -- toggle AutoRotate
+    if (AimlockPlayerEnabled or AimlockKillerEnabled) and humanoid then
+        if lastHumanoidAutoRotate == nil then
+            lastHumanoidAutoRotate = humanoid.AutoRotate
+        end
+        humanoid.AutoRotate = false
+    elseif humanoid and lastHumanoidAutoRotate ~= nil then
+        humanoid.AutoRotate = lastHumanoidAutoRotate
+        lastHumanoidAutoRotate = nil
+    end
+
+    -- hàm xoay nhìn target (fix: dùng lookVector:Cross(up) để rightVector đúng)
+    local function faceTarget(target)
+        if not target or not target.PrimaryPart then return end
+        local pos = myRoot.Position
+        local targetPos = target.PrimaryPart.Position
+        local dir = Vector3.new(targetPos.X, pos.Y, targetPos.Z) - pos
+        if dir.Magnitude == 0 then return end
+
+        local lookVector = dir.Unit
+        local up = Vector3.yAxis
+        local rightVector = lookVector:Cross(up) -- CHỈNH: right = look x up (không ngược)
+        if rightVector.Magnitude == 0 then
+            rightVector = Vector3.new(1, 0, 0)
+        else
+            rightVector = rightVector.Unit
+        end
+
+        -- fromMatrix(position, rightVector, up) — chỉ thay orientation, giữ nguyên vị trí
+        myRoot.CFrame = CFrame.fromMatrix(pos, rightVector, up)
+    end
+
+    if AimlockPlayerEnabled then
+        if not ValidateTarget(CurrentTarget) then
+            CurrentTarget = GetClosestTarget(AllowedPlayers)
+        end
+        if ValidateTarget(CurrentTarget) then
+            faceTarget(CurrentTarget)
+        end
+    elseif AimlockKillerEnabled then
+        if not ValidateTarget(CurrentTarget) then
+            CurrentTarget = GetClosestTarget(AllowedKillers)
+        end
+        if ValidateTarget(CurrentTarget) then
+            faceTarget(CurrentTarget)
+        end
+    else
+        CurrentTarget = nil
+    end
+end)
+
+-- ======= FLUENT TOGGLES =======
+Tabs.Player:AddToggle("ForsakenAimbot", {
+    Title = "Aimbot Player",
+    Default = false
+}):OnChanged(function(v)
+    AimlockPlayerEnabled = v
+    if v then 
+        AimlockKillerEnabled = false
+        CurrentTarget = nil
+    end
+end)
+
+Tabs.Player:AddToggle("ForsakenAimbot1", {
+    Title = "Aimbot Killer",
+    Default = false
+}):OnChanged(function(v)
+    AimlockKillerEnabled = v
+    if v then 
+        AimlockPlayerEnabled = false
+        CurrentTarget = nil
+    end
+end)
+
+
+
+
+
+
+    Tabs.Player:AddSection("↳ Cheats")
+
+local ActiveNoStun = false
+local noStunLoop
+
+Tabs.Player:AddToggle("NoStunToggle", {
+    Title = "No Stun",
+    Default = false,
+}):OnChanged(function(value)
+    ActiveNoStun = value
+
+    if value then
+        -- Nếu có loop cũ thì dừng
+        if noStunLoop then
+            task.cancel(noStunLoop)
+            noStunLoop = nil
+        end
+
+        -- Tạo loop mới liên tục đảm bảo HumanoidRootPart không bị anchore
+        noStunLoop = task.spawn(function()
+            while ActiveNoStun do
+                local character = game.Players.LocalPlayer.Character
+                local hrp = character and character:FindFirstChild("HumanoidRootPart")
+                if hrp then
+                    hrp.Anchored = false
+                end
+                task.wait(0.1) -- Không cần quá nhanh, tránh lag
+            end
+        end)
+    else
+        -- Tắt loop khi toggle off
+        if noStunLoop then
+            task.cancel(noStunLoop)
+            noStunLoop = nil
+        end
+    end
+end)
+
+
+
+
+
+
+local InfStaminaEnabled = false  
+local staminaLoop  
+local StaminaModule  
+  
+-- Thử lấy module an toàn  
+pcall(function()  
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")  
+    local path = ReplicatedStorage:FindFirstChild("Systems")  
+        and ReplicatedStorage.Systems:FindFirstChild("Character")  
+        and ReplicatedStorage.Systems.Character:FindFirstChild("Game")  
+        and ReplicatedStorage.Systems.Character.Game:FindFirstChild("Sprinting")  
+  
+    if path then  
+        StaminaModule = require(path)  
+    end  
+end)  
+  
+-- Hàm hồi stamina an toàn  
+local function restoreStamina()  
+    if not StaminaModule then return end  
+
+    local maxStamina = StaminaModule.MaxStamina or 100  
+    if StaminaModule.Stamina then  
+        -- Nếu module có hàm "SetStamina" thì dùng  
+        if typeof(StaminaModule.SetStamina) == "function" then  
+            StaminaModule:SetStamina(maxStamina)  
+
+        -- Nếu có hàm "UpdateStamina" thì dùng  
+        elseif typeof(StaminaModule.UpdateStamina) == "function" then  
+            StaminaModule:UpdateStamina(maxStamina)  
+
+        -- Nếu không có thì set trực tiếp  
+        else  
+            StaminaModule.Stamina = maxStamina  
+        end  
+    end  
+end  
+  
+-- Chỉ tạo toggle nếu module tồn tại  
+if StaminaModule then  
+    Tabs.Player:AddToggle("InfStamina", {  
+        Title = "Infinite Stamina",  
+        Default = false  
+    }):OnChanged(function(value)  
+        -- luôn bọc trong pcall để Fluent không báo "Callback error"  
+        local ok = pcall(function()  
+            InfStaminaEnabled = value  
+            if StaminaModule.StaminaLossDisabled ~= nil then  
+                StaminaModule.StaminaLossDisabled = value  
+            end  
+  
+            if value then  
+                restoreStamina()  
+                if not staminaLoop then  
+                    staminaLoop = task.spawn(function()  
+                        while InfStaminaEnabled do  
+                            task.wait(0.01)  
+                            restoreStamina()  
+                        end  
+                        staminaLoop = nil  
+                    end)  
+                end  
+            end  
+        end)  
+    end)  
+else  
+    warn("[InfStamina] Sprinting module not found, toggle disabled.")  
+end
+
+
+
+
+Tabs.Player:AddToggle("InfiniteZoom", {
+    Title = "Infinite Zoom",
+    Default = false,
+    Callback = function(Value)
+        local player = game.Players.LocalPlayer
+        local camera = workspace.CurrentCamera
+
+        if Value then
+            -- Bật zoom vô hạn
+            player.CameraMaxZoomDistance = math.huge
+            player.CameraMinZoomDistance = 0.5
+            print("[ZoomCam] Infinite Zoom Enabled ✅")
+        else
+            -- Tắt zoom vô hạn, trở lại bình thường
+            player.CameraMaxZoomDistance = 128
+            player.CameraMinZoomDistance = 0.5
+            print("[ZoomCam] Infinite Zoom Disabled ❌")
+        end
+    end
+})
+
+
+
+    Tabs.Player:AddSection("↳ Troller")
+
+
+
+
+Tabs.Player:AddButton({
+    Title = "Fake Block",
+    Callback = function()
+        -- Tạo Animation object
+        local animation = Instance.new("Animation")
+        animation.AnimationId = "rbxassetid://72722244508749"
+
+        -- Lấy Humanoid của nhân vật
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+        if humanoid then
+            local animator = humanoid:FindFirstChildOfClass("Animator")
+            if not animator then
+                animator = Instance.new("Animator")
+                animator.Parent = humanoid
+            end
+
+            -- Load và Play animation
+            local animTrack = animator:LoadAnimation(animation)
+            animTrack:Play()
+        end
+    end
+})
+
+
+
+Tabs.Player:AddButton({
+    Title = "Fake Punch",
+    Callback = function()
+        -- Tạo Animation object
+        local animation = Instance.new("Animation")
+        animation.AnimationId = "rbxassetid://87259391926321"
+
+        -- Lấy Humanoid của nhân vật
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+        if humanoid then
+            local animator = humanoid:FindFirstChildOfClass("Animator")
+            if not animator then
+                animator = Instance.new("Animator")
+                animator.Parent = humanoid
+            end
+
+            -- Load và Play animation
+            local animTrack = animator:LoadAnimation(animation)
+            animTrack:Play()
+        end
+
+        -- Âm thanh đầu tiên
+        local sound1 = Instance.new("Sound")
+        sound1.SoundId = "rbxassetid://81976396729343"
+        sound1.Parent = character:FindFirstChild("Head") or character:FindFirstChild("HumanoidRootPart")
+        sound1:Play()
+
+        -- Sau 0.75 giây thì tắt sound1 và phát sound2
+        task.delay(0.75, function()
+            if sound1.IsPlaying then
+                sound1:Stop()
+            end
+            local sound2 = Instance.new("Sound")
+            sound2.SoundId = "rbxassetid://122560631718612"
+            sound2.Parent = character:FindFirstChild("Head") or character:FindFirstChild("HumanoidRootPart")
+            sound2:Play()
+        end)
+    end
+})
+
+
+
+
+Tabs.Player:AddButton({
+    Title = "Fake Punch v2",
+    Callback = function()
+        -- Tạo Animation object
+        local animation = Instance.new("Animation")
+        animation.AnimationId = "rbxassetid://86709774283672"
+
+        -- Lấy Humanoid của nhân vật
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+        if humanoid then
+            local animator = humanoid:FindFirstChildOfClass("Animator")
+            if not animator then
+                animator = Instance.new("Animator")
+                animator.Parent = humanoid
+            end
+
+            -- Load và Play animation
+            local animTrack = animator:LoadAnimation(animation)
+            animTrack:Play()
+        end
+
+        -- Âm thanh đầu tiên
+        local sound1 = Instance.new("Sound")
+        sound1.SoundId = "rbxassetid://81976396729343"
+        sound1.Parent = character:FindFirstChild("Head") or character:FindFirstChild("HumanoidRootPart")
+        sound1:Play()
+
+        -- Sau 0.5 giây thì tắt sound1 và phát sound2
+        task.delay(0.5, function()
+            if sound1.IsPlaying then
+                sound1:Stop()
+            end
+            local sound2 = Instance.new("Sound")
+            sound2.SoundId = "rbxassetid://122560631718612"
+            sound2.Parent = character:FindFirstChild("Head") or character:FindFirstChild("HumanoidRootPart")
+            sound2:Play()
+        end)
+    end
+})
+
+
+
+do
+-- Lưu callback Backflip để toggle gọi lại
+local function doBackflip()
+    local plr = game.Players.LocalPlayer
+    local char = plr and plr.Character
+    if not char then return end
+
+    local hum = char:FindFirstChild("Humanoid")
+    local hrp = char:FindFirstChild("HumanoidRootPart")
+    local animator = hum and hum:FindFirstChildOfClass("Animator")
+    if not (hum and hrp) then return end
+
+    if char:FindFirstChild("Animate") then
+        char.Animate.Disabled = true
+    end
+
+    if animator then
+        for _, v in ipairs(animator:GetPlayingAnimationTracks()) do
+            v:Stop()
+        end
+    end
+
+    for _, s in ipairs({
+        Enum.HumanoidStateType.FallingDown,
+        Enum.HumanoidStateType.Freefall,
+        Enum.HumanoidStateType.Running,
+        Enum.HumanoidStateType.Seated,
+        Enum.HumanoidStateType.Climbing
+    }) do
+        hum:SetStateEnabled(s, false)
+    end
+    hum:ChangeState(Enum.HumanoidStateType.Physics)
+
+    local d, s = 0.45, 120
+    local cf = hrp.CFrame
+    local dir = cf.LookVector -- ✅ bay theo hướng nhìn
+    local up = Vector3.yAxis
+
+    task.spawn(function()
+        local t0 = tick()
+        for i = 1, s do
+            local t = i / s
+            local y = 4 * (t - t ^ 2) * 10
+            local targetPos = cf.Position + dir * (35 * t) + up * y
+            local r = CFrame.Angles(math.rad(360 * t), 0, 0)
+
+            -- ✅ Raycast check trước khi PivotTo
+            local rayParams = RaycastParams.new()
+            rayParams.FilterDescendantsInstances = {char}
+            rayParams.FilterType = Enum.RaycastFilterType.Blacklist
+
+            local result = workspace:Raycast(hrp.Position, (targetPos - hrp.Position), rayParams)
+
+            if result then
+                -- Nếu có tường chặn → dừng tại vị trí va chạm
+                targetPos = result.Position + result.Normal * 2
+            end
+
+            char:PivotTo(CFrame.new(targetPos) * cf.Rotation * r)
+
+            local wt = (d / s) * i - (tick() - t0)
+            if wt > 0 then task.wait(wt) end
+        end
+
+        -- Kiểm tra va chạm tại điểm kết thúc
+        local finalTarget = cf.Position + dir * 35
+        local rayParams = RaycastParams.new()
+        rayParams.FilterDescendantsInstances = {char}
+        rayParams.FilterType = Enum.RaycastFilterType.Blacklist
+        local result = workspace:Raycast(hrp.Position, (finalTarget - hrp.Position), rayParams)
+        if result then
+            finalTarget = result.Position + result.Normal * 2
+        end
+
+        char:PivotTo(CFrame.new(finalTarget) * cf.Rotation)
+
+        for _, s in ipairs({
+            Enum.HumanoidStateType.FallingDown,
+            Enum.HumanoidStateType.Freefall,
+            Enum.HumanoidStateType.Running,
+            Enum.HumanoidStateType.Seated,
+            Enum.HumanoidStateType.Climbing
+        }) do
+            hum:SetStateEnabled(s, true)
+        end
+        hum:ChangeState(Enum.HumanoidStateType.Running)
+        char.Animate.Disabled = false
+    end)
+end
+
+-- Nút Backflip
+Tabs.Player:AddButton({
+    Title = "Backflip",
+    -- Description = "Perform a backflip",
+    Callback = doBackflip
+})
+
+-- Toggle Auto Backflip
+local autoFlip = false
+Tabs.Player:AddToggle("AutoBackflip", {
+    Title = "Auto Backflip",
+    Default = false,
+    Callback = function(Value)
+        autoFlip = Value
+        if autoFlip then
+            task.spawn(function()
+                while autoFlip do
+                    doBackflip()
+                    task.wait(1.25)
+                end
+            end)
+        end
+    end
+})
+end
+
+
+
+
+
+
+
+
+
+
+do
+    local Players = game:GetService("Players")
+    local player = Players.LocalPlayer
+
+    -- Animation object
+    local fakeFixAnim = Instance.new("Animation")
+    fakeFixAnim.AnimationId = "rbxassetid://82691533602949"
+
+    local animator, fakeFixTrack
+
+    -- Hàm tìm animator của nhân vật
+    local function getAnimator()
+        local char = player.Character
+        if not char then return nil end
+        local humanoid = char:FindFirstChildOfClass("Humanoid") or char:FindFirstChildOfClass("AnimationController")
+        if not humanoid then return nil end
+        local anim = humanoid:FindFirstChildOfClass("Animator")
+        if not anim then
+            anim = Instance.new("Animator")
+            anim.Parent = humanoid
+        end
+        return anim
+    end
+
+    -- Toggle UI
+    Tabs.Player:AddToggle("FakeFixGen", {
+        Title = "Fake Fix Gen",
+        Default = false,
+        Callback = function(state)
+            animator = getAnimator()
+            if not animator then return end
+
+            if state then
+                if not fakeFixTrack then
+                    local ok, track = pcall(function()
+                        return animator:LoadAnimation(fakeFixAnim)
+                    end)
+                    if ok and track then
+                        fakeFixTrack = track
+                        fakeFixTrack.Looped = true
+                        fakeFixTrack:Play()
+                    end
+                end
+            else
+                if fakeFixTrack then
+                    fakeFixTrack:Stop()
+                    fakeFixTrack = nil
+                end
+            end
+        end
+    })
+end
+
+
+
+
+do
+-- Fake Die Toggle (start at 50%, stop at 90%)
+Tabs.Player:AddToggle("FakeDieV2", {
+    Title = "Fake Die V2",
+    Default = false
+}):OnChanged(function(state)
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+
+    local plr = Players.LocalPlayer
+    local char = plr.Character or plr.CharacterAdded:Wait()
+    local hum = char:WaitForChild("Humanoid")
+
+    if not getgenv().FakeDieData then
+        getgenv().FakeDieData = {track=nil, conn=nil}
+    end
+
+    if state then
+        -- === BẬT Fake Die ===
+        local anim = Instance.new("Animation")
+        anim.AnimationId = "rbxassetid://118795597134269"
+
+        local track = hum:LoadAnimation(anim)
+        track:Play()
+
+        -- Nhảy thẳng đến 50%
+        if track.Length > 0 then
+            track.TimePosition = track.Length * 0.5
+        end
+
+        getgenv().FakeDieData.track = track
+
+        local stopped = false
+        local conn = RunService.Heartbeat:Connect(function()
+            if track.IsPlaying and not stopped and track.Length > 0 then
+                local percent = track.TimePosition / track.Length
+                if percent >= 0.9 then
+                    track:AdjustSpeed(0) -- pause ở 90%
+                    stopped = true
+                    print("FakeDie: Animation paused at 90%")
+                end
+            end
+        end)
+
+        getgenv().FakeDieData.conn = conn
+
+    else
+        -- === TẮT Fake Die ===
+        local data = getgenv().FakeDieData
+        if data.track then
+            data.track:Stop()
+            data.track = nil
+        end
+        if data.conn then
+            data.conn:Disconnect()
+            data.conn = nil
+        end
+
+        -- Khôi phục animation mặc định (idle)
+        pcall(function()
+            hum:PlayEmote("idle")
+        end)
+    end
+end)
+end
+
+
+
+
+
+    Tabs.Player:AddSection("↳ Hitbox")
+
+
+repeat task.wait() until game:IsLoaded()
+
+-- biến cấu hình
+local ForsakenReachEnabled = false
+local NearestDist = 120
+
+-- thêm toggle + slider vào Fluent (Tabs.Player bạn đã có sẵn)
+Tabs.Player:AddToggle("ForsakenReachToggle", {
+    Title = "Hitbox Devil",
+    Default = false,
+    Save = true
+}):OnChanged(function(Value)
+    ForsakenReachEnabled = Value
+end)
+
+Tabs.Player:AddSlider("ForsakenReachSlider", {
+    Title = "Distance",
+    Default = 120,
+    Min = 10,
+    Max = 300,
+    Rounding = 0,
+    Save = true,
+    Suffix = " studs"
+}):OnChanged(function(Value)
+    NearestDist = Value
+end)
+
+-- services & player setup
+local Players = game:GetService('Players')
+local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAdded:Wait()
+local Humanoid = Character:WaitForChild("Humanoid")
+local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+
+Player.CharacterAdded:Connect(function(NewCharacter)
+    Character = NewCharacter
+    Humanoid = Character:WaitForChild("Humanoid")
+    HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+end)
+
+local RNG = Random.new()
+
+-- full danh sách animations giữ nguyên từ code 1
+local AttackAnimations = {
+    'rbxassetid://131430497821198',
+    'rbxassetid://83829782357897',
+    'rbxassetid://126830014841198',
+    'rbxassetid://126355327951215',
+    'rbxassetid://121086746534252',
+    'rbxassetid://105458270463374',
+    'rbxassetid://127172483138092',
+    'rbxassetid://18885919947',
+    'rbxassetid://18885909645',
+    'rbxassetid://87259391926321',
+    'rbxassetid://106014898528300',
+    'rbxassetid://87259391926321',
+    'rbxassetid://86545133269813',
+    'rbxassetid://89448354637442',
+    'rbxassetid://90499469533503',
+    'rbxassetid://116618003477002',
+    'rbxassetid://106086955212611',
+    'rbxassetid://107640065977686',
+    'rbxassetid://77124578197357',
+    'rbxassetid://101771617803133',
+    'rbxassetid://134958187822107',
+    'rbxassetid://111313169447787',
+    'rbxassetid://71685573690338',
+    'rbxassetid://129843313690921',
+    'rbxassetid://97623143664485',
+    'rbxassetid://129843313690921',
+    'rbxassetid://136007065400978',
+    'rbxassetid://136007065400978',
+    'rbxassetid://86096387000557',
+    'rbxassetid://108807732150251',
+    'rbxassetid://138040001965654',
+    'rbxassetid://73502073176819',
+    'rbxassetid://129843313690921',
+    'rbxassetid://97623143664485',
+    'rbxassetid://129843313690921',
+    'rbxassetid://97623143664485',
+    'rbxassetid://86709774283672',
+    'rbxassetid://106014898528300',
+    'rbxassetid://87259391926321',
+    'rbxassetid://140703210927645',
+    'rbxassetid://96173857867228',
+    'rbxassetid://121255898612475',
+    'rbxassetid://98031287364865',
+    'rbxassetid://119462383658044',
+    'rbxassetid://77448521277146',
+    'rbxassetid://77448521277146',
+    'rbxassetid://103741352379819',
+    'rbxassetid://119462383658044',
+    'rbxassetid://131696603025265',
+    'rbxassetid://122503338277352',
+    'rbxassetid://97648548303678',
+    'rbxassetid://94162446513587',
+    'rbxassetid://84426150435898',
+    'rbxassetid://93069721274110',
+    'rbxassetid://114620047310688',
+    'rbxassetid://97433060861952',
+    'rbxassetid://82183356141401',
+    'rbxassetid://100592913030351',
+    'rbxassetid://121293883585738',
+    'rbxassetid://100592913030351',
+    'rbxassetid://121293883585738',
+    'rbxassetid://100592913030351',
+    'rbxassetid://121293883585738',
+    'rbxassetid://70447634862911',
+    'rbxassetid://92173139187970',
+    'rbxassetid://106847695270773',
+    'rbxassetid://125403313786645',
+    'rbxassetid://81639435858902',
+    'rbxassetid://137314737492715',
+    'rbxassetid://120112897026015',
+    'rbxassetid://82113744478546',
+    'rbxassetid://118298475669935',
+    'rbxassetid://82113744478546',
+    'rbxassetid://118298475669935',
+    'rbxassetid://126681776859538',
+    'rbxassetid://129976080405072',
+    'rbxassetid://109667959938617',
+    'rbxassetid://74707328554358',
+    'rbxassetid://133336594357903',
+    'rbxassetid://86204001129974',
+    'rbxassetid://82113744478546',
+    'rbxassetid://118298475669935',
+    'rbxassetid://124243639579224',
+    'rbxassetid://70371667919898',
+    'rbxassetid://131543461321709',
+    'rbxassetid://136323728355613',
+    'rbxassetid://109230267448394',
+    'rbxassetid://139835501033932',
+    'rbxassetid://106538427162796',
+    'rbxassetid://109667959938617',
+    'rbxassetid://126681776859538',
+    'rbxassetid://129976080405072',
+    'rbxassetid://110400453990786',
+    'rbxassetid://83685305553364',
+    'rbxassetid://126171487400618',
+    'rbxassetid://122709416391891',
+    'rbxassetid://87989533095285',
+    'rbxassetid://119326397274934',
+    'rbxassetid://140365014326125',
+    'rbxassetid://139309647473555',
+    'rbxassetid://133363345661032',
+    'rbxassetid://128414736976503',
+    'rbxassetid://121808371053483',
+    'rbxassetid://77375846492436',
+    'rbxassetid://92445608014276',
+    'rbxassetid://100358581940485',
+    'rbxassetid://91758760621955',
+    'rbxassetid://94634594529334',
+    'rbxassetid://101101433684051',
+    'rbxassetid://90620531468240',
+    'rbxassetid://94958041603347',
+    'rbxassetid://131642454238375',
+    'rbxassetid://110702884830060',
+    'rbxassetid://76312020299624',
+    'rbxassetid://126654961540956',
+    'rbxassetid://139613699193400',
+    'rbxassetid://91509234639766',
+    'rbxassetid://105458270463374'
+}
+
+-- danh sách model killers và survivors (theo yêu cầu của bạn)
+local Killers = {
+    ["Slasher"] = true, ["1x1x1x1"] = true, ["c00lkidd"] = true,
+    ["Noli"] = true, ["JohnDoe"] = true, ["Guest 666"] = true,
+    ["Sixer"] = true
+}
+
+local Survivors = {
+    ["Noob"] = true, ["Guest1337"] = true, ["Elliot"] = true,
+    ["Shedletsky"] = true, ["TwoTime"] = true, ["007n7"] = true,
+    ["Chance"] = true, ["Builderman"] = true, ["Taph"] = true,
+    ["Dusekkar"] = true, ["Veeronica"] = true
+}
+
+-- gom reach logic thành hàm (đã chỉnh để ưu tiên nhắm phe đối nghịch nếu bạn ở dạng model)
+local function ForsakenReachLogic()
+    if not ForsakenReachEnabled or not HumanoidRootPart then
+        return
+    end
+
+    -- kiểm tra animation attack (giữ nguyên)
+    local Playing = false
+    for _,v in Humanoid:GetPlayingAnimationTracks() do
+        if table.find(AttackAnimations, v.Animation.AnimationId) and (v.TimePosition / v.Length < 0.75) then
+            Playing = true
+        end
+    end
+
+    if not Playing then
+        return
+    end
+
+    -- xác định bạn đang là model thuộc phe nào (nếu có)
+    local PlayerRole = nil -- "Killer" | "Survivor" | nil
+    local myModelName = Character and Character.Name
+    if myModelName and Killers[myModelName] then
+        PlayerRole = "Killer"
+    elseif myModelName and Survivors[myModelName] then
+        PlayerRole = "Survivor"
+    end
+
+    local OppositeTable = nil
+    if PlayerRole == "Killer" then
+        OppositeTable = Survivors
+    elseif PlayerRole == "Survivor" then
+        OppositeTable = Killers
+    end
+
+    local Target = nil
+    local CurrentNearestDist = NearestDist
+
+    -- 1) Nếu bạn đang là model (có OppositeTable), ưu tiên tìm mục tiêu thuộc phe đối nghịch trước
+    local OppTarget = nil
+    local OppNearestDist = NearestDist
+
+    local function loopForOpp(t)
+        for _,v in pairs(t) do
+            if v == Character or not v:FindFirstChild("HumanoidRootPart") or not v:FindFirstChild("Humanoid") then
+                continue
+            end
+            local modelName = v.Name
+            if OppositeTable and OppositeTable[modelName] then
+                local Dist = (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude
+                if Dist < OppNearestDist then
+                    OppNearestDist = Dist
+                    OppTarget = v
+                end
+            end
+        end
+    end
+
+    if OppositeTable then
+        loopForOpp(workspace.Players:GetDescendants())
+        local npcsFolder = workspace.Map:FindFirstChild("NPCs", true)
+        if npcsFolder then
+            loopForOpp(npcsFolder:GetChildren())
+        end
+    end
+
+    -- 2) Nếu không tìm được phe đối nghịch thì fallback về logic gốc nhưng vẫn bỏ qua model cùng phe với bạn
+    local function loopAll(t)
+        for _,v in pairs(t) do
+            if v == Character or not v:FindFirstChild("HumanoidRootPart") or not v:FindFirstChild("Humanoid") then
+                continue
+            end
+            local modelName = v.Name
+            -- bỏ qua cùng phe nếu bạn đang ở dạng model
+            if PlayerRole == "Killer" and Killers[modelName] then
+                continue
+            end
+            if PlayerRole == "Survivor" and Survivors[modelName] then
+                continue
+            end
+            local Dist = (v.HumanoidRootPart.Position - HumanoidRootPart.Position).Magnitude
+            if Dist < CurrentNearestDist then
+                CurrentNearestDist = Dist
+                Target = v
+            end
+        end
+    end
+
+    -- nếu tìm thấy OppTarget thì dùng luôn, không cần tìm tiếp
+    local FinalTarget = nil
+    if OppTarget then
+        FinalTarget = OppTarget
+    else
+        -- fallback: quét players + npcs giống trước nhưng đã loại cùng phe
+        loopAll(workspace.Players:GetDescendants())
+        local npcsFolder2 = workspace.Map:FindFirstChild("NPCs", true)
+        if npcsFolder2 then
+            loopAll(npcsFolder2:GetChildren())
+        end
+        FinalTarget = Target
+    end
+
+    if not FinalTarget then
+        return
+    end
+
+    -- giữ nguyên phần tính velocity + áp dụng hit
+    local OldVelocity = HumanoidRootPart.Velocity
+    local NeededVelocity =
+        (FinalTarget.HumanoidRootPart.Position + Vector3.new(
+            RNG:NextNumber(-1.5, 1.5),
+            0,
+            RNG:NextNumber(-1.5, 1.5)
+        ) + (FinalTarget.HumanoidRootPart.Velocity * (Player:GetNetworkPing() * 1.25))
+            - HumanoidRootPart.Position
+        ) / (Player:GetNetworkPing() * 2)
+
+    HumanoidRootPart.Velocity = NeededVelocity
+    game:GetService('RunService').RenderStepped:Wait()
+    HumanoidRootPart.Velocity = OldVelocity
+end
+
+-- vòng lặp auto gọi lại mỗi 0s (giữ nguyên)
+task.spawn(function()
+    while true do
+        task.wait(0)
+        pcall(ForsakenReachLogic)
+    end
+end)
+
+
+
+
+    Tabs.Player:AddSection("↳ Walk Speed")
+
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local ValueSpeed = 16
+local ActiveSpeedBoost = false
+local speedLoop
+
+local function setSpeed(speed)
+    local character = LocalPlayer.Character
+    if not character then return end
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        humanoid.WalkSpeed = speed
+        humanoid:SetAttribute("BaseSpeed", speed)
+    end
+end
+
+-- Khi respawn áp dụng lại tốc độ nếu bật
+LocalPlayer.CharacterAdded:Connect(function()
+    task.wait(0.1)
+    if ActiveSpeedBoost then
+        setSpeed(ValueSpeed)
+    end
+end)
+
+-- Slider chỉnh tốc độ
+Tabs.Player:AddSlider("PlayerSpeedSlider", {
+    Title = "Set Speed",
+    Min = 0,
+    Max = 40,
+    Default = ValueSpeed,
+    Rounding = 1,
+}):OnChanged(function(value)
+    ValueSpeed = value
+    if ActiveSpeedBoost then
+        setSpeed(ValueSpeed)
+    end
+end)
+
+-- Toggle bật/tắt tốc độ và loop tăng tốc liên tục
+Tabs.Player:AddToggle("PlayerSpeedToggle", {
+    Title = "Walk Speed",
+    Default = false,
+}):OnChanged(function(value)
+    ActiveSpeedBoost = value
+    if value then
+        setSpeed(ValueSpeed)
+        -- Bắt đầu vòng lặp liên tục set tốc độ mỗi 0.5 giây
+        speedLoop = task.spawn(function()
+            while ActiveSpeedBoost do
+                setSpeed(ValueSpeed)
+                task.wait(0.5)
+            end
+        end)
+    else
+        -- Tắt vòng lặp và reset tốc độ về mặc định 16
+        if speedLoop then
+            speedLoop = nil
+        end
+        setSpeed(16)
+    end
+end)
+
+
+
+    Tabs.Player:AddSection("↳ Teleport Speed")
+
+
+-- === Teleport Speed Setup ===
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+
+local LocalPlayer = Players.LocalPlayer
+local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local Humanoid = Character:WaitForChild("Humanoid")
+local HRP = Character:WaitForChild("HumanoidRootPart")
+
+local defaultSpeed = 50
+local maxSpeed = 300
+local currentSpeed = defaultSpeed
+local teleportSpeedEnabled = false
+
+-- Cập nhật lại khi respawn
+LocalPlayer.CharacterAdded:Connect(function(char)
+    Character = char
+    Humanoid = Character:WaitForChild("Humanoid")
+    HRP = Character:WaitForChild("HumanoidRootPart")
+end)
+
+-- Loop để dịch chuyển (teleport speed)
+RunService.Heartbeat:Connect(function(dt)
+    if teleportSpeedEnabled and Humanoid and HRP then
+        if Humanoid.MoveDirection.Magnitude > 0 then
+            local moveDir = Humanoid.MoveDirection.Unit
+            HRP.CFrame = HRP.CFrame + (moveDir * (currentSpeed * dt))
+        end
+    end
+end)
+
+-- === GUI Bindings ===
+-- Slider Teleport Speed
+Tabs.Player:AddSlider("TeleportSpeedSlider", {
+    Title = "Set Speed",
+    Min = 1,
+    Max = maxSpeed,
+    Default = defaultSpeed,
+    Rounding = 1,
+}):OnChanged(function(value)
+    currentSpeed = value
+end)
+
+-- Toggle bật/tắt Teleport Speed
+Tabs.Player:AddToggle("TeleportSpeedToggle", {
+    Title = "Teleport Speed",
+    Default = false,
+}):OnChanged(function(enabled)
+    teleportSpeedEnabled = enabled
+end)
+
+     
+
+-- Tabs.Visual
+
+--// ⚙️ ESP Loại: Clone, Player, Survivors, Killers, Generator, Items, Buildman
+--// Tất cả đều dùng chung ESPManager (đã định nghĩa ở trên)
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-----------------------------------------------------
+-- 🟢 1. CLONE ESP
+-----------------------------------------------------
+local allowedModelsClone = {
+    ["1x1x1x1Zombie"] = true,
+    ["PizzaDeliveryRig"] = true,
+    ["Mafia1"] = true,
+    ["Mafia2"] = true,
+    ["Mafia3"] = true,
+    ["Mafia4"] = true,
+}
+
+_G.ESPManager:RegisterType("Clone", Color3.fromRGB(0, 255, 0), function(obj)
+    return obj:IsA("Model") and allowedModelsClone[obj.Name]
+end, false)
+
+Tabs.Visual:AddToggle("ESPCloneToggle", {
+    Title = "ESP Clone",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Clone", state)
+end)
+
+
+-----------------------------------------------------
+-- 🔵 2. PLAYER ESP
+-----------------------------------------------------
+
+    Tabs.Visual:AddSection("↳ Player")
+
+_G.ESPManager:RegisterType("Player", Color3.fromRGB(0, 255, 255), function(obj)
+    local plr = Players:GetPlayerFromCharacter(obj)
+    return plr and plr ~= LocalPlayer
+end, false)
+
+Tabs.Visual:AddToggle("ESPPlayerToggle", {
+    Title = "ESP Player",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Player", state)
+end)
+
+
+-----------------------------------------------------
+-- ⚪ 3. SURVIVORS ESP (có HP)
+-----------------------------------------------------
+local survivorsFolder = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+_G.ESPManager:RegisterType("Survivor", Color3.fromRGB(255, 255, 255), function(obj)
+    return obj:IsA("Model") and obj.Parent == survivorsFolder and obj:FindFirstChildOfClass("Humanoid")
+end, true)
+
+Tabs.Visual:AddToggle("ESPModelWhiteToggle", {
+    Title = "ESP Survivors",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Survivor", state)
+end)
+
+
+-----------------------------------------------------
+-- 🔴 4. KILLERS ESP (có HP)
+-----------------------------------------------------
+local killersFolder = workspace:WaitForChild("Players"):WaitForChild("Killers")
+_G.ESPManager:RegisterType("Killer", Color3.fromRGB(255, 0, 0), function(obj)
+    return obj:IsA("Model") and obj.Parent == killersFolder and obj:FindFirstChildOfClass("Humanoid")
+end, true)
+
+Tabs.Visual:AddToggle("ESPModelRedToggle", {
+    Title = "ESP Killers",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Killer", state)
+end)
+
+
+-----------------------------------------------------
+-- ⚙️ 5. GENERATOR ESP
+-----------------------------------------------------
+
+    Tabs.Visual:AddSection("↳ Other")
+
+_G.ESPManager:RegisterType("Generator", Color3.fromRGB(255,255,255), function(obj)
+    if not (obj and obj:IsA("Model") and obj.Name == "Generator") then
+        return false
+    end
+
+    local progress = obj:FindFirstChild("Progress", true)
+    if not progress or not progress:IsA("NumberValue") then
+        return false
+    end
+
+    -- Gắn kết một lần để theo dõi khi Progress.Value thay đổi
+    if not progress:GetAttribute("ESP_Watch") then
+        progress:SetAttribute("ESP_Watch", true)
+        progress:GetPropertyChangedSignal("Value"):Connect(function()
+            -- Nếu đạt 100% thì remove ESP ngay
+            if progress.Value >= 100 then
+                _G.ESPManager:Remove(obj)
+            else
+                -- Nếu ESP chưa có, tạo lại
+                if not _G.ESPManager.Objects[obj] then
+                    _G.ESPManager:_ScheduleCreate(obj, "Generator")
+                end
+            end
+        end)
+    end
+
+    -- Chỉ hiển thị khi chưa hoàn thành
+    return progress.Value < 100
+end, false)
+
+Tabs.Visual:AddToggle("ESPGeneratorToggle", {
+    Title = "ESP Generator",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Generator", state)
+end)
+
+
+-----------------------------------------------------
+-- 🟡 6. ITEMS ESP
+-----------------------------------------------------
+_G.ESPManager:RegisterType("Item", Color3.fromRGB(255,215,0), function(obj)
+    return obj:IsA("Tool") and obj.Parent and obj:IsDescendantOf(workspace:FindFirstChild("Map"))
+end, false)
+
+Tabs.Visual:AddToggle("ESPItemsToggle", {
+    Title = "ESP Items",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Item", state)
+end)
+
+
+-----------------------------------------------------
+-- 🟣 7. BUILDMAN ESP
+-----------------------------------------------------
+_G.ESPManager:RegisterType("Dispenser", Color3.fromRGB(0, 162, 255), function(obj)
+    return obj:IsA("Model") and obj.Name:lower():find("dispenser")
+end, false)
+
+_G.ESPManager:RegisterType("Sentry", Color3.fromRGB(128, 128, 128), function(obj)
+    return obj:IsA("Model") and obj.Name:lower():find("sentry")
+end, false)
+
+_G.ESPManager:RegisterType("Tripwire", Color3.fromRGB(255, 85, 0), function(obj)
+    return obj:IsA("Model") and obj.Name:find("TaphTripwire")
+end, false)
+
+_G.ESPManager:RegisterType("Subspace", Color3.fromRGB(160, 32, 240), function(obj)
+    return obj:IsA("Model") and obj.Name == "SubspaceTripmine"
+end, false)
+
+Tabs.Visual:AddSection("↳ Buildman")
+
+Tabs.Visual:AddToggle("DispenserESP_Toggle", {
+    Title = "ESP Dispenser",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Dispenser", state)
+end)
+
+Tabs.Visual:AddToggle("SentryESP_Toggle", {
+    Title = "ESP Sentry",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Sentry", state)
+end)
+
+Tabs.Visual:AddSection("↳ Tapt/Trap")
+
+Tabs.Visual:AddToggle("TripwireESP_Toggle", {
+    Title = "ESP Trip Wire",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Tripwire", state)
+end)
+
+Tabs.Visual:AddToggle("SubspaceESP_Toggle", {
+    Title = "ESP Bomb Trap",
+    Default = false,
+}):OnChanged(function(state)
+    _G.ESPManager:SetEnabled("Subspace", state)
+end)
+
+-- Tabs.Misc
+
+
+
+
+local Lighting = game:GetService("Lighting")
+local RunService = game:GetService("RunService")
+
+-- ✅ FullBright Settings
+local fullBrightEnabled = false
+local fullBrightLoop
+
+local function applyFullBright()
+    if not fullBrightEnabled then return end
+
+    Lighting.Ambient = Color3.fromRGB(200, 200, 200) -- sáng nhẹ
+    Lighting.Brightness = 4 -- giảm độ sáng từ 10 → 4
+    Lighting.GlobalShadows = false
+end
+
+local function enableFullBright()
+    if fullBrightLoop then fullBrightLoop:Disconnect() end
+    applyFullBright()
+    fullBrightLoop = Lighting:GetPropertyChangedSignal("ClockTime"):Connect(applyFullBright)
+end
+
+local function disableFullBright()
+    if fullBrightLoop then
+        fullBrightLoop:Disconnect()
+        fullBrightLoop = nil
+    end
+
+    Lighting.Ambient = Color3.fromRGB(128, 128, 128)
+    Lighting.Brightness = 1
+    Lighting.GlobalShadows = true
+end
+
+-- ✅ Toggle: FullBright
+local FbToggle = Tabs.Misc:AddToggle("FbToggle", {
+    Title = "Auto Full Bright",
+    Default = false
+})
+FbToggle:OnChanged(function(Value)
+    fullBrightEnabled = Value
+    if fullBrightEnabled then
+        enableFullBright()
+    else
+        disableFullBright()
+    end
+end)
+
+-- ✅ Remove Fog Settings
+local fogEnabled = false
+local fogLoop
+
+local function removeFog()
+    Lighting.FogStart = 0
+    Lighting.FogEnd = 1000000
+
+    local atmosphere = Lighting:FindFirstChild("Atmosphere")
+    if atmosphere then
+        atmosphere.Density = 0
+        atmosphere.Offset = 0
+        atmosphere.Haze = 0
+        atmosphere.Color = Color3.new(1, 1, 1)
+    end
+end
+
+local function restoreFog()
+    Lighting.FogStart = 200
+    Lighting.FogEnd = 1000
+
+    local atmosphere = Lighting:FindFirstChild("Atmosphere")
+    if atmosphere then
+        atmosphere.Density = 0.3
+        atmosphere.Offset = 0
+        atmosphere.Haze = 0.5
+        atmosphere.Color = Color3.fromRGB(200, 200, 200)
+    end
+end
+
+-- ✅ Toggle: Remove Fog
+local FogToggle = Tabs.Misc:AddToggle("FogToggle", {
+    Title = "Remove Fog",
+    Default = false
+})
+FogToggle:OnChanged(function(Value)
+    fogEnabled = Value
+    if fogEnabled then
+        removeFog()
+        fogLoop = RunService.Heartbeat:Connect(removeFog)
+    else
+        if fogLoop then fogLoop:Disconnect() fogLoop = nil end
+        restoreFog()
+    end
+end)
+
+
+
+local Lighting = game:GetService("Lighting")
+local Players = game:GetService("Players")
+local LP = Players.LocalPlayer
+local PlayerGui = LP:WaitForChild("PlayerGui")
+
+-- Flag bật/tắt
+local ActiveRemoveAll = false
+
+-- Danh sách tên hiệu ứng thường gặp
+local effectNames = {
+    "BlurEffect", "ColorCorrectionEffect", "BloomEffect", "SunRaysEffect", 
+    "DepthOfFieldEffect", "ScreenFlash", "HitEffect", "DamageOverlay", 
+    "BloodEffect", "Vignette", "BlackScreen", "WhiteScreen", "ShockEffect",
+    "Darkness", "JumpScare", "LowHealthOverlay", "Flashbang", "FadeEffect"
+}
+
+-- Danh sách class hiệu ứng trong Lighting
+local effectClasses = {
+    "BlurEffect",
+    "BloomEffect",
+    "SunRaysEffect",
+    "DepthOfFieldEffect",
+    "ColorCorrectionEffect"
+}
+
+-- 🌟 Hàm xoá tất cả (effects + popups)
+local function removeAll()
+    -- Xoá hiệu ứng trong Lighting
+    for _, obj in pairs(Lighting:GetDescendants()) do
+        if table.find(effectNames, obj.Name) or table.find(effectClasses, obj.ClassName) then
+            obj:Destroy()
+        end
+    end
+
+    -- Xoá GUI overlay
+    for _, obj in pairs(PlayerGui:GetDescendants()) do
+        if table.find(effectNames, obj.Name) then
+            obj:Destroy()
+        elseif obj:IsA("ScreenGui") or obj:IsA("BillboardGui") or obj:IsA("SurfaceGui") then
+            if obj:FindFirstChildWhichIsA("ImageLabel") or obj:FindFirstChildWhichIsA("Frame") then
+                if table.find(effectNames, obj.Name) or obj.Name:lower():find("overlay") or obj.Name:lower():find("effect") then
+                    obj:Destroy()
+                end
+            end
+        end
+    end
+
+    -- Xoá popup 1x1x1x1
+    local temp = PlayerGui:FindFirstChild("TemporaryUI")
+    if temp then
+        local popup = temp:FindFirstChild("1x1x1x1Popup")
+        if popup then
+            popup:Destroy()
+            warn("[Remover] 1x1x1x1Popup removed")
+        end
+    end
+end
+
+-- Toggle Fluent - chỉ 1 cái
+Tabs.Misc:AddToggle("RemoveAllBadStuff", {
+    Title = "Remove Effects V2",
+    Default = true,
+    Callback = function(state)
+        ActiveRemoveAll = state
+        if state then
+            task.spawn(function()
+                while ActiveRemoveAll do
+                    removeAll()
+                    task.wait(0.5)
+                end
+            end)
+        end
+    end
+})
+
+
+
+    Tabs.Misc:AddSection("↳ Server")
+
+
+------------------------------------------------------------
+-- ⚡ SERVER HOP (Mobile-friendly + Fluent Button)
+------------------------------------------------------------
+
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- 🌀 Hàm thực hiện teleport sang server mới
+local function ServerHop()
+    local placeId = game.PlaceId
+    local jobId = game.JobId
+    print("[ServerHop] Đang rời server hiện tại...")
+
+    -- pcall để tránh lỗi Teleport crash
+    local success, err = pcall(function()
+        TeleportService:Teleport(placeId, LocalPlayer)
+    end)
+
+    if success then
+        if Fluent and Fluent.Notify then
+            Fluent:Notify({
+                Title = "Rejoin Starting",
+                Content = "Bắt Đầu Vào Máy Chủ Đã Fix Lag",
+                Duration = 3
+            })
+        else
+            print("[ServerHop] Đang chuyển server...")
+        end
+    else
+        warn("[ServerHop] Lỗi khi Teleport:", err)
+        if Fluent and Fluent.Notify then
+            Fluent:Notify({
+                Title = "Lỗi Teleport",
+                Content = tostring(err),
+                Duration = 4
+            })
+        end
+    end
+end
+
+
+------------------------------------------------------------
+-- 🧩 THÊM NÚT TRONG FLUENT UI
+------------------------------------------------------------
+
+-- Giả sử bạn có tab Dev sẵn, tương tự ví dụ của bạn:
+-- Tabs.Dev:AddButton(...)
+
+Tabs.Misc:AddButton({
+    Title = "Rejoin To Fix Lag",
+    Description = "Tham Gia Lại Máy Chủ Để Giảm Lag",
+    Callback = function()
+        -- Hiện thông báo chuẩn bị
+        if Fluent and Fluent.Notify then
+            Fluent:Notify({
+                Title = "Rejoin Settings",
+                Content = "Đang Giảm Lag Cho Các Máy Chủ...",
+                Duration = 2
+            })
+        end
+
+        task.wait(0.3)
+        ServerHop()
+    end
+})
+
+
+
+-- 🌐 Server Hop Button
+Tabs.Misc:AddButton({
+    Title = "Server Hop To Low Player",
+    Description = "Dùng Để Đổi Server Có Thể Vào Server Ít Player",
+    Callback = function()
+        local PlaceID = game.PlaceId
+        local AllIDs = {}
+        local foundAnything = ""
+        local actualHour = os.date("!*t").hour
+
+        -- Đọc file nếu có
+        local File = pcall(function()
+            AllIDs = game:GetService("HttpService"):JSONDecode(readfile("NotSameServers.json"))
+        end)
+
+        if not File then
+            table.insert(AllIDs, actualHour)
+            writefile("NotSameServers.json", game:GetService("HttpService"):JSONEncode(AllIDs))
+        end
+
+        local function TPReturner()
+            local Site
+            if foundAnything == "" then
+                Site = game.HttpService:JSONDecode(game:HttpGet(
+                    "https://games.roblox.com/v1/games/" .. PlaceID .. "/servers/Public?sortOrder=Asc&limit=100"
+                ))
+            else
+                Site = game.HttpService:JSONDecode(game:HttpGet(
+                    "https://games.roblox.com/v1/games/" .. PlaceID .. "/servers/Public?sortOrder=Asc&limit=100&cursor=" .. foundAnything
+                ))
+            end
+
+            if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+                foundAnything = Site.nextPageCursor
+            end
+
+            local num = 0
+            for _, v in pairs(Site.data) do
+                local Possible, ID = true, tostring(v.id)
+                if tonumber(v.maxPlayers) > tonumber(v.playing) then
+                    for _, Existing in pairs(AllIDs) do
+                        if num ~= 0 then
+                            if ID == tostring(Existing) then
+                                Possible = false
+                            end
+                        else
+                            if tonumber(actualHour) ~= tonumber(Existing) then
+                                pcall(function()
+                                    delfile("NotSameServers.json")
+                                    AllIDs = {}
+                                    table.insert(AllIDs, actualHour)
+                                end)
+                            end
+                        end
+                        num = num + 1
+                    end
+                    if Possible then
+                        table.insert(AllIDs, ID)
+                        pcall(function()
+                            writefile("NotSameServers.json", game:GetService("HttpService"):JSONEncode(AllIDs))
+                            game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                        end)
+                        task.wait(4)
+                    end
+                end
+            end
+        end
+
+        local function Teleport()
+            while task.wait() do
+                pcall(function()
+                    TPReturner()
+                    if foundAnything ~= "" then
+                        TPReturner()
+                    end
+                end)
+            end
+        end
+
+        -- Gọi để bắt đầu Server Hop
+        Teleport()
+    end
+})
+
+
+
+
+    Tabs.Misc:AddSection("↳ Bypass")
+
+local antiAFKCons = {}
+
+-- Chỉ tạo toggle nếu executor có getconnections
+if getconnections then
+    Tabs.Misc:AddToggle("AntiAFK", {
+        Title = "Anti-AFK",
+        Default = true
+    }):OnChanged(function(state)
+        local idleCons = getconnections(game.Players.LocalPlayer.Idled)
+        
+        if state then
+            -- Lưu & disable
+            for _, c in ipairs(idleCons) do
+                antiAFKCons[c] = true
+                c:Disable()
+            end
+            print("[AntiAFK] Đã bật, bạn sẽ không bị kick AFK.")
+        else
+            -- Enable lại
+            for c,_ in pairs(antiAFKCons) do
+                if c and c.Enable then
+                    pcall(function() c:Enable() end)
+                end
+            end
+            antiAFKCons = {}
+            print("[AntiAFK] Đã tắt, Roblox sẽ xử lý AFK bình thường.")
+        end
+    end)
+else
+    warn("[AntiAFK] Executor không hỗ trợ getconnections, toggle bị vô hiệu.")
+end
+
+
+
+
+
+
+do
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    local LocalizationService = game:GetService("LocalizationService")
+
+    shared.AntiBanSafe = shared.AntiBanSafe or {running = false, hooks = {}}
+    local data = shared.AntiBanSafe
+
+    local oldNamecall, oldIndex
+    local protectionThread
+
+    local function safe(func, ...)
+        local ok, res = pcall(func, ...)
+        if ok then return res end
+    end
+
+    -- Disable screenshot/video flags khi bật protection
+    local function disableReportFlags()
+        if typeof(setfflag) == "function" then
+            pcall(function()
+                setfflag("AbuseReportScreenshot", "False")
+                setfflag("AbuseReportScreenshotPercentage", "0") -- chỉnh về 0
+                setfflag("AbuseReportEnabled", "False")
+                setfflag("ReportAbuseMenu", "False")
+                setfflag("EnableAbuseReportScreenshot", "False")
+                setfflag("AbuseReportVideo", "False")
+                setfflag("AbuseReportVideoPercentage", "0")
+                setfflag("VideoCaptureEnabled", "False")
+                setfflag("RecordVideo", "False")
+            end)
+        end
+    end
+
+    -- Restore flag về bình thường khi tắt protection
+    local function setFlagsOn()
+        if typeof(setfflag) == "function" then
+            pcall(function()
+                setfflag("AbuseReportScreenshot", "True")
+                setfflag("AbuseReportScreenshotPercentage", "100")
+            end)
+        end
+    end
+
+    -- Hook requests (block report)
+    local function hookRequests()
+        if data.hooks.requestHooked then return end
+        local oldRequest = (syn and syn.request) or request or http_request
+        if typeof(oldRequest) == "function" and typeof(hookfunction) == "function" then
+            hookfunction(oldRequest, function(req)
+                if req and req.Url and tostring(req.Url):lower():find("abuse") then
+                    return {StatusCode = 200, Body = "Blocked"}
+                end
+                return oldRequest(req)
+            end)
+            data.hooks.requestHooked = true
+        end
+    end
+
+    -- Hook FindFirstChild (block GUI video/screenshot)
+    local function hookFindFirstChild()
+        if data.hooks.findHooked then return end
+        local oldFind = workspace.FindFirstChild
+        if typeof(oldFind) == "function" and typeof(hookfunction) == "function" then
+            hookfunction(oldFind, function(self, name, ...)
+                if name and tostring(name):lower():find("screenshot") then return nil end
+                if name and tostring(name):lower():find("video") then return nil end
+                return oldFind(self, name, ...)
+            end)
+            data.hooks.findHooked = true
+        end
+    end
+
+    -- Safe bypass (__namecall)
+    local function safeBypass()
+        if getrawmetatable and hookmetamethod and newcclosure then
+            local mt = getrawmetatable(game)
+            setreadonly(mt, false)
+            oldNamecall = oldNamecall or mt.__namecall
+            oldIndex = oldIndex or mt.__index
+
+            mt.__namecall = newcclosure(function(self, ...)
+                local method = getnamecallmethod()
+                local args = {...}
+
+                -- Block LocalPlayer kick/ban
+                if (method == "Kick" or method == "Ban") and self == LocalPlayer then return nil end
+
+                -- Block remote kick/ban
+                if (method == "FireServer" or method == "InvokeServer") and args[1] then
+                    local msg = tostring(args[1]):lower()
+                    if msg:find("kick") or msg:find("ban") then return nil end
+                end
+
+                -- Block LocalizationService
+                if self == LocalizationService and method == "GetCountryRegionForPlayerAsync" then
+                    local success, result = pcall(function()
+                        return LocalizationService:GetCountryRegionForPlayerAsync(LocalPlayer)
+                    end)
+                    if success then return result else return "US" end
+                end
+
+                return oldNamecall(self, ...)
+            end)
+
+            mt.__index = newcclosure(function(t, k)
+                local key = tostring(k):lower()
+                if key:find("kick") or key:find("ban") then return function() return nil end end
+                return oldIndex(t, k)
+            end)
+
+            setreadonly(mt, true)
+        end
+    end
+
+    -- Restore hooks
+    local function restoreHooks()
+        if getrawmetatable then
+            local mt = getrawmetatable(game)
+            setreadonly(mt, false)
+            if oldNamecall then mt.__namecall = oldNamecall end
+            if oldIndex then mt.__index = oldIndex end
+            setreadonly(mt, true)
+            oldNamecall, oldIndex = nil, nil
+        end
+    end
+
+    -- Start protection
+    local function startAntiBanSafe()
+        if data.running then return end
+        data.running = true
+
+        safe(hookRequests)
+        safe(hookFindFirstChild)
+        safe(safeBypass)
+
+        -- Disable screenshot/video
+        protectionThread = task.spawn(function()
+            while data.running do
+                safe(disableReportFlags)
+                task.wait(0.2)
+            end
+        end)
+
+        print("[Anti-Ban Safe] 🛡️ ENABLED!")
+    end
+
+    -- Stop protection
+    local function stopAntiBanSafe()
+        data.running = false
+        protectionThread = nil
+        restoreHooks()
+        setFlagsOn() -- phục hồi flag về bình thường
+        print("[Anti-Ban Safe] ⚠️ DISABLED!")
+    end
+
+    -- Toggle
+    Tabs.Misc:AddToggle("AntiBanV3", {
+        Title = "Anti Ban V3.5",
+        Default = true,
+        Callback = function(state)
+            if state then
+                startAntiBanSafe()
+            else
+                stopAntiBanSafe()
+            end
+        end
+    })
+end
+
+
+
+
+
+
+do
+-- === SafeGenTeleport (Anti: ALL Moving Models/Parts/Effects) ===
+local Players = game:GetService("Players")
+local LP = Players.LocalPlayer
+
+local SafeGenRunning = false
+local SafeGenThread
+local DetectRadius = 20 -- mặc định 20, có thể chỉnh bằng ô input
+
+-- Danh sách account thật dùng V2
+local AllowedPlayers = {
+    ["Hu1a0_Hu9"] = true,
+    ["hdksakst"] = true
+}
+
+-- Danh sách Killers
+local DangerousKillers = {
+    Slasher = true, ["1x1x1x1"] = true, c00lkidd = true,
+    Noli = true, JohnDoe = true, ["Guest 666"] = true,
+    PizzaDeliveryRig = true, Mafia1 = true, Mafia2 = true,
+    ["1x1x1x1Zombie"] = true, ["Sixer"] = true
+}
+
+-- Danh sách Clones (coi như Killers)
+local DangerousClones = {
+    PizzaDeliveryRig = true, Mafia1 = true, Mafia2 = true,
+    ["1x1x1x1Zombie"] = true
+}
+
+-- Danh sách Survivors (bạn có thể biến thành)
+local Survivors = {
+    Noob = true, Guest1337 = true, Elliot = true, Shedletsky = true,
+    TwoTime = true, ["007n7"] = true, Chance = true,
+    Builderman = true, Taph = true, Dusekkar = true
+}
+
+-- Whitelist
+local SafeObjects = {Pet=true, Decoration=true, Terrain=true, Map=true}
+
+-- Cấu hình detect
+local MOVE_THRESHOLD = 0.5
+local VEL_THRESHOLD  = 1
+local SCAN_DELAY     = 0.12
+
+local lastPositions = {}
+
+local function findOwningCharacter(inst)
+    local cur = inst
+    while cur and cur ~= workspace and cur.Parent do
+        if cur:IsA("Model") then
+            local p = Players:GetPlayerFromCharacter(cur)
+            if p then return cur, p end
+        end
+        cur = cur.Parent
+    end
+    return nil, nil
+end
+
+local function hasForceOnPart(part)
+    if not part then return false end
+    if part:FindFirstChildOfClass("BodyVelocity")
+    or part:FindFirstChildOfClass("BodyPosition")
+    or part:FindFirstChildOfClass("BodyForce")
+    or part:FindFirstChildOfClass("BodyGyro")
+    or part:FindFirstChildOfClass("LinearVelocity")
+    or part:FindFirstChildOfClass("VectorForce")
+    or part:FindFirstChildOfClass("AlignPosition")
+    or part:FindFirstChildOfClass("AlignOrientation") then
+        return true
+    end
+    return false
+end
+
+local function isPartMoving(part)
+    if not part or not part:IsA("BasePart") then return false end
+    local ok, asmVel = pcall(function() return part.AssemblyLinearVelocity end)
+    local velMag = (ok and asmVel) and asmVel.Magnitude or 0
+    if velMag == 0 then
+        local ok2, v2 = pcall(function() return part.Velocity end)
+        if ok2 and v2 then velMag = v2.Magnitude end
+    end
+    local last = lastPositions[part]
+    local pos = part.Position
+    local moved = false
+    if last then
+        if (pos - last).Magnitude >= MOVE_THRESHOLD then moved = true end
+    else
+        if velMag >= VEL_THRESHOLD or hasForceOnPart(part) then moved = true end
+    end
+    lastPositions[part] = pos
+    if velMag >= VEL_THRESHOLD or hasForceOnPart(part) then moved = true end
+    return moved
+end
+
+local function pruneLastPositions()
+    for inst,_ in pairs(lastPositions) do
+        if not inst or not inst.Parent then lastPositions[inst] = nil end
+    end
+end
+
+-- 🔎 Phát hiện nguy hiểm gần
+local function isDangerNear(position, radius)
+    local killersFolder = workspace:FindFirstChild("Players") and workspace.Players:FindFirstChild("Killers")
+    if killersFolder then
+        for _, killer in ipairs(killersFolder:GetChildren()) do
+            local hrp = killer:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                local dist = (hrp.Position - position).Magnitude
+                if (DangerousKillers[killer.Name] or DangerousClones[killer.Name]) and dist <= radius then
+                    return true, hrp.Position
+                end
+            end
+        end
+    end
+    for _, inst in ipairs(workspace:GetDescendants()) do
+        if inst:IsA("BasePart") and not SafeObjects[inst.Name] then
+            local dist = (inst.Position - position).Magnitude
+            if dist <= radius and isPartMoving(inst) then
+                local charModel, playerOwner = findOwningCharacter(inst)
+                if playerOwner then
+                    local charName = charModel and charModel.Name or ""
+                    if DangerousKillers[charName] or DangerousClones[charName] then
+                        return true, inst.Position
+                    end
+                else
+                    return true, inst.Position
+                end
+            end
+        end
+    end
+    pruneLastPositions()
+    return false, nil
+end
+
+-- 📌 Tìm vị trí an toàn cách xa danger 7 stud
+local function getSafePosFromDanger(myPos, dangerPos, safeDist)
+    local dir = (myPos - dangerPos).Unit
+    local target = myPos + dir * safeDist
+    local rayParams = RaycastParams.new()
+    rayParams.FilterDescendantsInstances = {LP.Character}
+    rayParams.FilterType = Enum.RaycastFilterType.Blacklist
+    local rayResult = workspace:Raycast(myPos + Vector3.new(0,3,0), dir*safeDist, rayParams)
+    if rayResult then
+        local perp1 = Vector3.new(-dir.Z,0,dir.X).Unit
+        local perp2 = -perp1
+        if not workspace:Raycast(myPos+Vector3.new(0,3,0), perp1*safeDist, rayParams) then
+            return myPos + perp1*safeDist
+        elseif not workspace:Raycast(myPos+Vector3.new(0,3,0), perp2*safeDist, rayParams) then
+            return myPos + perp2*safeDist
+        else
+            return myPos + Vector3.new(0,0,safeDist)
+        end
+    end
+    return target
+end
+
+-- 🚀 Lùi ra xa 7 stud khỏi nguy hiểm (giữ hướng nhìn, bước nhỏ siêu nhanh)
+local function teleportAwayFromDanger()
+    local character = LP.Character
+    local hrp = character and character:FindFirstChild("HumanoidRootPart")
+    if not hrp then return end
+
+    local myPos = hrp.Position
+    local isNear, dangerPos = isDangerNear(myPos, DetectRadius)
+    if isNear and dangerPos then
+        local safePos = getSafePosFromDanger(myPos, dangerPos, 7)
+
+        local dir = (safePos - myPos).Unit
+        local totalDist = (safePos - myPos).Magnitude
+        local stepSize = 1.2
+        local stepDelay = 0.01
+        local steps = math.ceil(totalDist / stepSize)
+
+        for i = 1, steps do
+            local stepPos = myPos + dir * (i * stepSize)
+            hrp.CFrame = CFrame.new(stepPos, stepPos + hrp.CFrame.LookVector)
+            task.wait(stepDelay)
+        end
+
+        print("⚠️ Né nguy hiểm bằng nhiều bước nhỏ (giữ hướng nhìn)!")
+    end
+end
+
+-- === GUI Control ===
+Tabs.Misc:AddToggle("SafeGenTeleport", {
+    Title = "Anti Killers V7",
+    Default = false
+}):OnChanged(function(state)
+    SafeGenRunning = state
+    if state then
+        SafeGenThread = task.spawn(function()
+            local delayTime = SCAN_DELAY
+            if AllowedPlayers[LP.Name] then
+                print("🚀 V2 Mode enabled for:", LP.Name)
+                delayTime = 0.000000000001
+            else
+                print("🐢 V1 Mode enabled for:", LP.Name)
+            end
+            while SafeGenRunning do
+                local character = LP.Character
+                local hrp = character and character:FindFirstChild("HumanoidRootPart")
+                if hrp then
+                    local charName = character.Name
+                    if DangerousKillers[charName] or DangerousClones[charName] then
+                        -- bạn là killer → không né
+                    elseif Survivors[charName] or charName == LP.Name then
+                        teleportAwayFromDanger()
+                    end
+                end
+                task.wait(delayTime)
+            end
+        end)
+    else
+        SafeGenRunning = false
+        SafeGenThread = nil
+        print("[SafeGenTeleport] Đã tắt.")
+    end
+end)
+
+-- 📝 Input box chỉnh khoảng cách DetectRadius (1 - 100, mặc định 20)
+Tabs.Misc:AddInput("DetectRadiusInput", {
+    Title = "Detect Radius",
+    Default = "20",
+    Placeholder = "1 - 100"
+}):OnChanged(function(value)
+    local num = tonumber(value)
+    if num then
+        num = math.clamp(num, 1, 100)
+        DetectRadius = num
+        print("🔧 DetectRadius set to:", DetectRadius)
+    end
+end)
+
+end
+
+
+
+    Tabs.Misc:AddSection("↳ Game Play")
+
+
+
+do
+    --== ⚙️ Setup ==--
+    local Players = game:GetService("Players")
+    local RunService = game:GetService("RunService")
+    local LocalPlayer = Players.LocalPlayer
+    local Survivors = workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+    --== 💡 Cấu hình các loại Anti-Slow ==--
+    local AntiSlowConfigs = {
+        Slowness = {Values = {"SlowedStatus"}, Connection = nil, Enabled = false},
+        Skills = {
+            Values = {
+                "StunningKiller", "EatFriedChicken", "GuestBlocking", "PunchAbility", "SubspaceTripmine",
+                "TaphTripwire", "PlasmaBeam", "SpawnProtection", "c00lgui", "ShootingGun", 
+                "TwoTimeStab", "TwoTimeCrouching", "DrinkingCola", "DrinkingSlateskin", 
+                "SlateskinStatus", "EatingGhostburger"
+            },
+            Connection = nil, Enabled = false
+        },
+        Items = {Values = {"BloxyColaItem", "Medkit"}, Connection = nil, Enabled = false},
+        Emotes = {Values = {"Emoting"}, Connection = nil, Enabled = false},
+        Builderman = {Values = {"DispenserConstruction", "SentryConstruction"}, Connection = nil, Enabled = false}
+    }
+
+    --== 🧩 Hàm ẩn UI báo slow ==--
+    local function hideSlownessUI()
+        local mainUI = LocalPlayer:FindFirstChild("PlayerGui") and LocalPlayer.PlayerGui:FindFirstChild("MainUI")
+        if not mainUI then return end
+        local statusContainer = mainUI:FindFirstChild("StatusContainer")
+        if not statusContainer then return end
+        local slownessUI = statusContainer:FindFirstChild("Slowness")
+        if slownessUI then
+            slownessUI.Visible = false
+        end
+    end
+
+    --== 🔧 Hàm xử lý Anti-Slow ==--
+    local function handleAntiSlow(survivor, config)
+        if survivor:GetAttribute("Username") ~= LocalPlayer.Name then return end
+
+        local function onRenderStep()
+            if not survivor.Parent or not config.Enabled then return end
+            local speedMultipliers = survivor:FindFirstChild("SpeedMultipliers")
+            if speedMultipliers then
+                for _, valName in ipairs(config.Values) do
+                    local val = speedMultipliers:FindFirstChild(valName)
+                    if val and val:IsA("NumberValue") and val.Value ~= 1 then
+                        val.Value = 1
+                    end
+                end
+            end
+            hideSlownessUI()
+        end
+
+        config.Connection = RunService.RenderStepped:Connect(onRenderStep)
+    end
+
+    --== ▶️ Bật tất cả Anti-Slow ==--
+    local function startAllAntiSlow()
+        for _, config in pairs(AntiSlowConfigs) do
+            config.Enabled = true
+            for _, survivor in pairs(Survivors:GetChildren()) do
+                handleAntiSlow(survivor, config)
+            end
+            Survivors.ChildAdded:Connect(function(child)
+                task.wait(0.1)
+                handleAntiSlow(child, config)
+            end)
+        end
+    end
+
+    --== ⏹️ Tắt tất cả Anti-Slow ==--
+    local function stopAllAntiSlow()
+        for _, config in pairs(AntiSlowConfigs) do
+            config.Enabled = false
+            if config.Connection then
+                config.Connection:Disconnect()
+                config.Connection = nil
+            end
+        end
+    end
+
+    --== 🧩 Tạo Toggle Fluent UI (chỉ 1 nút tổng) ==--
+    Tabs.Misc:AddToggle("AntiSlow_All", {
+        Title = "Anti-Slow",
+        Default = false
+    }):OnChanged(function(Value)
+        if Value then
+            startAllAntiSlow()
+        else
+            stopAllAntiSlow()
+        end
+    end)
+end
+
+
+
+
+do
+    --== ⚙️ Auto Close 1x1x1x1 Popups + Anti Slow/FOV ==--
+    local DoLoop = false
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    local Workspace = game:GetService("Workspace")
+
+    Tabs.Misc:AddToggle("AutoClosePopupV2", {
+        Title = "Detele 1x Popups",
+        Default = true
+    }):OnChanged(function(Value)
+        DoLoop = Value
+
+        task.spawn(function()
+            local Survivors = Workspace:WaitForChild("Players"):WaitForChild("Survivors")
+
+            while DoLoop and task.wait() do
+                -- 🔹 Auto Close 1x1x1x1 Popups
+                local temp = LocalPlayer:FindFirstChild("PlayerGui") and LocalPlayer.PlayerGui:FindFirstChild("TemporaryUI")
+                if temp and temp:FindFirstChild("1x1x1x1Popup") then
+                    temp["1x1x1x1Popup"]:Destroy()
+                end
+
+                -- 🔹 Anti Slow + Anti FOV Slow
+                for _, survivor in pairs(Survivors:GetChildren()) do
+                    if survivor:GetAttribute("Username") == LocalPlayer.Name then
+                        -- SpeedMultipliers
+                        local speedMultipliers = survivor:FindFirstChild("SpeedMultipliers")
+                        if speedMultipliers then
+                            local val = speedMultipliers:FindFirstChild("SlowedStatus")
+                            if val and val:IsA("NumberValue") then
+                                val.Value = 1
+                            end
+                        end
+
+                        -- FOVMultipliers
+                        local fovMultipliers = survivor:FindFirstChild("FOVMultipliers")
+                        if fovMultipliers then
+                            local val = fovMultipliers:FindFirstChild("SlowedStatus")
+                            if val and val:IsA("NumberValue") then
+                                val.Value = 1
+                            end
+                        end
+                    end
+                end
+            end
+        end)
+    end)
+end
+
+
+
+    Tabs.Misc:AddSection("↳ Fix Lag")
+
+-- SCRIPT GIẢM ĐỒ HỌA TỰ ĐỘNG MỖI 10 GIÂY (CÓ TOGGLE + RESTORE)
+-- Dán vào LocalScript (StarterPlayerScripts hoặc executor)
+-- Siêu Fix Lag cực mạnh giúp máy bạn mượt hơn 25% khi bật
+
+-- Lưu dữ liệu gốc
+local originalLighting = {}
+local originalParts = {}
+
+-- Hàm lưu Lighting gốc
+local function saveLighting()
+    originalLighting.QualityLevel = settings().Rendering.QualityLevel
+    originalLighting.GlobalShadows = game.Lighting.GlobalShadows
+    originalLighting.FogEnd = game.Lighting.FogEnd
+    originalLighting.Brightness = game.Lighting.Brightness
+    originalLighting.PostEffects = {}
+    for _, v in ipairs(game.Lighting:GetChildren()) do
+        if v:IsA("PostEffect") then
+            originalLighting.PostEffects[v] = v.Enabled
+        end
+    end
+end
+
+-- Hàm khôi phục Lighting
+local function restoreLighting()
+    if not originalLighting.QualityLevel then return end
+    settings().Rendering.QualityLevel = originalLighting.QualityLevel
+    game.Lighting.GlobalShadows = originalLighting.GlobalShadows
+    game.Lighting.FogEnd = originalLighting.FogEnd
+    game.Lighting.Brightness = originalLighting.Brightness
+    for effect, state in pairs(originalLighting.PostEffects) do
+        if effect and effect.Parent == game.Lighting then
+            effect.Enabled = state
+        end
+    end
+end
+
+-- Hàm giảm đồ họa triệt để
+local function simplifyModel(obj)
+    if obj:IsA("BasePart") then
+        if not originalParts[obj] then
+            originalParts[obj] = {
+                Material = obj.Material,
+                Color = obj.Color,
+                Reflectance = obj.Reflectance,
+                CastShadow = obj.CastShadow
+            }
+        end
+        obj.Material = Enum.Material.SmoothPlastic
+        obj.Color = Color3.fromRGB(163, 162, 165)
+        obj.Reflectance = 0
+        obj.CastShadow = false
+    elseif obj:IsA("Decal") or obj:IsA("Texture") or obj:IsA("SurfaceAppearance") then
+        obj:Destroy()
+    elseif obj:IsA("ParticleEmitter") or obj:IsA("Trail") or obj:IsA("Beam") or obj:IsA("Fire") or obj:IsA("Smoke") or obj:IsA("Sparkles") then
+        obj.Enabled = false
+    end
+end
+
+-- Hàm khôi phục BasePart
+local function restoreParts()
+    for part, data in pairs(originalParts) do
+        if part and part.Parent then
+            part.Material = data.Material
+            part.Color = data.Color
+            part.Reflectance = data.Reflectance
+            part.CastShadow = data.CastShadow
+        end
+    end
+    originalParts = {} -- reset
+end
+
+-- ==============================
+-- Toggle Auto Reduce (10s)
+-- ==============================
+local autoThread
+local connection
+
+local AutoReduceToggle = Tabs.Misc:AddToggle("AutoReduce", {
+    Title = "FPS Boost",
+    Default = false,
+    Callback = function(state)
+        if state then
+            print("🔄 Auto Reduce ON")
+
+            -- Lưu lighting gốc
+            saveLighting()
+
+            -- Giảm đồ họa lighting khi bật
+            settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+            game.Lighting.GlobalShadows = false
+            game.Lighting.FogEnd = 9e9
+            game.Lighting.Brightness = 1
+            for _, v in ipairs(game.Lighting:GetChildren()) do
+                if v:IsA("PostEffect") then
+                    v.Enabled = false
+                end
+            end
+
+            -- 🔥 Giảm ngay 1 lần đầu tiên
+            for _, obj in ipairs(workspace:GetDescendants()) do
+                simplifyModel(obj)
+            end
+
+            -- Nếu có object spawn thêm thì cũng xử lý
+            connection = workspace.DescendantAdded:Connect(simplifyModel)
+
+            -- Sau đó auto lặp mỗi 10s
+            autoThread = task.spawn(function()
+                while AutoReduceToggle.Value do
+                    task.wait(10)
+                    for _, obj in ipairs(workspace:GetDescendants()) do
+                        simplifyModel(obj)
+                    end
+                end
+            end)
+
+        else
+            print("⏹ Auto Reduce OFF")
+            if connection then
+                connection:Disconnect()
+                connection = nil
+            end
+
+            -- Khôi phục đồ họa gốc
+            restoreLighting()
+            restoreParts()
+            print("✅ Đã khôi phục đồ họa gốc")
+        end
+    end
+})
+
+
+
+-- 🧠 Anti-FPS Spike (Cưỡng chế 60FPS + Tự chống tăng bất thường)
+-- Giữ FPS luôn ổn định ở 60, ngăn vọt FPS gây đơ / giật game
+
+local RunService = game:GetService("RunService")
+
+Tabs.Misc:AddToggle("AntiFPSSpike", {
+    Title = "Unlock FPS V2",
+    Default = false
+}):OnChanged(function(Value)
+    _G.AntiFPSSpike = Value
+
+    if Value then
+        warn("[Anti-FPS Spike] ✅ Hệ thống cưỡng chế FPS = 60 đã bật.")
+
+        task.spawn(function()
+            local FORCE_FPS = 60          -- Luôn giữ 60 FPS
+            local SPIKE_THRESHOLD = 120   -- Nếu FPS vượt ngưỡng này thì chống spike
+            local MONITOR_INTERVAL = 1    -- Kiểm tra mỗi 1 giây
+
+            local frameCount = 0
+            local fps = 60
+
+            -- Hàm cưỡng chế FPS
+            local function forceCap()
+                if typeof(setfpscap) == "function" then
+                    setfpscap(FORCE_FPS)
+                end
+            end
+
+            -- Khóa ban đầu
+            forceCap()
+
+            -- Đếm FPS thực tế
+            RunService.RenderStepped:Connect(function()
+                if not _G.AntiFPSSpike then return end
+                frameCount += 1
+            end)
+
+            while _G.AntiFPSSpike and task.wait(MONITOR_INTERVAL) do
+                fps = frameCount / MONITOR_INTERVAL
+                frameCount = 0
+
+                -- Phát hiện FPS tăng bất thường
+                if fps > SPIKE_THRESHOLD then
+                    warn(string.format("[⚠️ Anti-FPS Spike]: FPS tăng bất thường (%d) → ổn định lại!", math.floor(fps)))
+                    forceCap()
+                    task.wait(0.5)
+                end
+
+                -- Bảo vệ tránh script khác đổi cap
+                if typeof(getfpscap) == "function" then
+                    local currentCap = getfpscap()
+                    if currentCap ~= FORCE_FPS then
+                        warn("[Anti-FPS Spike]: Phát hiện thay đổi FPS cap ngoài ý muốn → ép lại 60FPS.")
+                        forceCap()
+                    end
+                end
+            end
+
+            warn("[Anti-FPS Spike] ⛔ Hệ thống cưỡng chế FPS đã tắt.")
+        end)
+    else
+        warn("[Anti-FPS Spike] ❌ Đã tắt.")
+    end
+end)
+
+
+
+-- ======= DỊCH VỤ =======
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- ======= DANH SÁCH BLOCK ANIMATION =======
+local blockedAnimations = {
+    ["127802146383565"] = true,
+    ["82691533602949"] = true,
+    ["123764169071995"] = true,
+}
+
+-- ======= BIẾN TRẠNG THÁI =======
+local BlockAnimEnabled = false
+local blockConnections = {}
+
+-- ======= HÀM =======
+local function hookHumanoid(humanoid)
+    if not humanoid then return end
+    local conn = humanoid.AnimationPlayed:Connect(function(track)
+        local id = track.Animation.AnimationId:match("%d+")
+        if BlockAnimEnabled and blockedAnimations[id] then
+            track:Stop()
+        end
+    end)
+    table.insert(blockConnections, conn)
+end
+
+local function setBlockAnimations(enabled)
+    BlockAnimEnabled = enabled
+
+    -- clear cũ
+    for _, conn in pairs(blockConnections) do
+        conn:Disconnect()
+    end
+    table.clear(blockConnections)
+
+    if enabled then
+        -- nhân vật hiện tại
+        if LocalPlayer.Character then
+            hookHumanoid(LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid"))
+        end
+        -- respawn
+        local connChar = LocalPlayer.CharacterAdded:Connect(function(char)
+            char:WaitForChild("Humanoid")
+            hookHumanoid(char:FindFirstChildWhichIsA("Humanoid"))
+        end)
+        table.insert(blockConnections, connChar)
+    end
+end
+
+-- ======= TOGGLE FLUENT =======
+Tabs.Misc:AddToggle("BlockBadAnims", {
+    Title = "Block Animations",
+    Default = false
+}):OnChanged(function(v)
+    setBlockAnimations(v)
+end)
+
+
+
+    Tabs.Misc:AddSection("↳ Show")
+
+
+
+--// FPS + Ping Display (Safe BillboardGui Version)
+local RunService = game:GetService("RunService")
+local Stats = game:GetService("Stats")
+local Camera = workspace.CurrentCamera
+
+--// UI Container
+local ui = Instance.new("ScreenGui")
+ui.Name = "FPS_Ping_Display"
+ui.ResetOnSpawn = false
+ui.IgnoreGuiInset = true
+ui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ui.Parent = game:GetService("CoreGui")
+
+--// FPS Label
+local fpsLabel = Instance.new("TextLabel")
+fpsLabel.Size = UDim2.new(0, 120, 0, 20)
+fpsLabel.Position = UDim2.new(1, -130, 0, 5)
+fpsLabel.BackgroundTransparency = 1
+fpsLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+fpsLabel.TextStrokeTransparency = 0
+fpsLabel.TextSize = 16
+fpsLabel.Font = Enum.Font.Code
+fpsLabel.TextXAlignment = Enum.TextXAlignment.Left
+fpsLabel.Text = "FPS: ..."
+fpsLabel.Parent = ui
+
+--// Ping Label
+local pingLabel = fpsLabel:Clone()
+pingLabel.Position = UDim2.new(1, -130, 0, 25)
+pingLabel.Text = "Ping: ..."
+pingLabel.Parent = ui
+
+--// Variables
+local showFPS = true
+local showPing = true
+local fpsCounter, lastUpdate = 0, tick()
+
+--// Update Loop
+RunService.RenderStepped:Connect(function()
+    fpsCounter += 1
+    if tick() - lastUpdate >= 1 then
+        if showFPS then
+            fpsLabel.Visible = true
+            fpsLabel.Text = "FPS: " .. tostring(fpsCounter)
+        else
+            fpsLabel.Visible = false
+        end
+
+        if showPing then
+            local pingStat = Stats.Network.ServerStatsItem["Data Ping"]
+            local ping = pingStat and math.floor(pingStat:GetValue()) or 0
+            pingLabel.Text = "Ping: " .. ping .. " ms"
+            if ping <= 60 then
+                pingLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+            elseif ping <= 120 then
+                pingLabel.TextColor3 = Color3.fromRGB(255, 165, 0)
+            else
+                pingLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+            end
+            pingLabel.Visible = true
+        else
+            pingLabel.Visible = false
+        end
+
+        fpsCounter = 0
+        lastUpdate = tick()
+    end
+end)
+
+--// Fluent UI Toggles
+local fpsToggle = Tabs.Misc:AddToggle("ShowFPSToggle", {
+    Title = "Show FPS",
+    Default = true
+})
+fpsToggle:OnChanged(function(val)
+    showFPS = val
+    fpsLabel.Visible = val
+end)
+
+local pingToggle = Tabs.Misc:AddToggle("ShowPingToggle", {
+    Title = "Show Ping",
+    Default = true
+})
+pingToggle:OnChanged(function(val)
+    showPing = val
+    pingLabel.Visible = val
+end)
+
+
+
+
+do
+    --== 💬 Chat Visibility Controller ==--
+    getgenv().chatWindow = game:GetService("TextChatService"):WaitForChild("ChatWindowConfiguration")
+    getgenv().chatEnabled = false
+    getgenv().chatConnection = nil
+
+    Tabs.Misc:AddToggle("ChatVisibilityToggle", {
+        Title = "Show Chat",
+        Default = false
+    }):OnChanged(function(Value)
+        getgenv().chatEnabled = Value
+
+        -- Nếu bật → bật chat và kết nối Heartbeat
+        if Value then
+            if not getgenv().chatConnection then
+                getgenv().chatConnection = game:GetService("RunService").Heartbeat:Connect(function()
+                    if getgenv().chatWindow then
+                        getgenv().chatWindow.Enabled = true
+                    end
+                end)
+            end
+        else
+            -- Nếu tắt → ngắt kết nối và ẩn chat
+            if getgenv().chatConnection then
+                getgenv().chatConnection:Disconnect()
+                getgenv().chatConnection = nil
+            end
+            if getgenv().chatWindow then
+                getgenv().chatWindow.Enabled = false
+            end
+        end
+    end)
+end
+
+
+
+
+-- Tabs.Settings
+
+
+local AexecToggle = Tabs.Settings:AddToggle("AexecToggle", {Title = "Auto Execute", Default = false })
+AexecToggle:OnChanged(function(Value)
+    if Value then
+        task.spawn(function()
+            pcall(function()
+                if queue_on_teleport then
+                    local TzuanHubScript1 = [[
+task.wait(3)
+loadstring(game:HttpGet("https://hst.sh/raw/uhuhatusop"))()
+]]
+                    queue_on_teleport(TzuanHubScript1)
+                end
+            end)
+        end)
+        Fluent:Notify({
+            Title = "Tzuan HUB",
+            Content = "Auto execute is enabled!",
+            Duration = 5
+        })
+    else
+        Fluent:Notify({
+            Title = "Tzuan HUB",
+            Content = "Auto execute is disabled!",
+            Duration = 5
+        })
+    end
+end)
+
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+-- Ignore keys that are used by ThemeManager.
+-- (we dont want configs to save themes, do we?)
+SaveManager:IgnoreThemeSettings()
+
+-- You can add indexes of elements the save manager should ignore
+SaveManager:SetIgnoreIndexes({})
+
+-- use case for doing it this way:
+-- a script hub could have themes in a global folder
+-- and game configs in a separate folder per game
+InterfaceManager:SetFolder("Tzuan HUB")
+SaveManager:SetFolder("Tzuan HUB/Forsaken")
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+
+-- Select First Tab By Default
+Window:SelectTab(1)
+
+Fluent:Notify({ Title = "Tzuan HUB", Content = "forsaken script loaded successfully!", Duration = 5 })
+SaveManager:LoadAutoloadConfig()
